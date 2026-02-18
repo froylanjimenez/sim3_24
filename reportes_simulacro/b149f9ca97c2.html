@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte Simulacro - DIDIER ESNEIDER CASTILLO CAMARGO</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 4px solid #667eea;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .header .institucion {
+            color: #7f8c8d;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .header .tipo-prueba {
+            color: #667eea;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .student-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .student-card h2 {
+            font-size: 26px;
+            margin-bottom: 15px;
+        }
+
+        .student-info {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .info-item {
+            text-align: center;
+        }
+
+        .info-label {
+            font-size: 12px;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+
+        .info-value {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .info-value.grande {
+            font-size: 32px;
+        }
+
+        .grupo-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+
+        .chart-section {
+            margin: 30px 0;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin: 20px 0;
+        }
+
+        h3 {
+            color: #2c3e50;
+            font-size: 20px;
+            margin: 25px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        .areas-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .area-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 5px solid #667eea;
+        }
+
+        .area-card h4 {
+            color: #2c3e50;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .puntaje-display {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .puntaje-numero {
+            font-size: 32px;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .correctas {
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+
+        .progreso-bar {
+            background: #ecf0f1;
+            height: 12px;
+            border-radius: 6px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .progreso-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.5s ease;
+        }
+
+        .comentario {
+            background: #e8f4f8;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 13px;
+            line-height: 1.6;
+            color: #2c3e50;
+            margin-top: 10px;
+        }
+
+        .comparacion {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-top: 8px;
+        }
+
+        .comparacion span {
+            font-weight: 600;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            color: #7f8c8d;
+            font-size: 12px;
+        }
+
+        .footer .creditos {
+            margin-top: 10px;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .btn-print {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            margin: 20px auto;
+            display: block;
+            transition: all 0.3s;
+        }
+
+        .btn-print:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .btn-print {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .student-info {
+                grid-template-columns: 1fr;
+            }
+            .areas-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="institucion">CONCENTRACIÓN EDUCATIVA DEL SUR DE MONTELÍBANO</div>
+            <h1>Reporte Individual de Simulacro</h1>
+            <div class="tipo-prueba">Simulacro Diagnóstico - Prueba Saber 11°</div>
+        </div>
+
+        <button class="btn-print" onclick="window.print()">🖨️ Imprimir Reporte</button>
+
+        <div class="student-card">
+            <h2>DIDIER ESNEIDER CASTILLO CAMARGO</h2>
+            <div class="student-info">
+                <div class="info-item">
+                    <div class="info-label">Puntaje Total</div>
+                    <div class="info-value grande">154</div>
+                    <div class="info-label">de 500 puntos</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Posición</div>
+                    <div class="info-value grande">45°</div>
+                    <div class="info-label">de 172 estudiantes</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Grupo de Rendimiento</div>
+                    <div class="grupo-badge">Grupo 2 🦁</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chart-section">
+            <h3>📊 Tu Rendimiento por Áreas</h3>
+            <div class="chart-container">
+                <canvas id="chartRadar"></canvas>
+            </div>
+        </div>
+
+        <div class="chart-section">
+            <h3>📈 Comparación con el Promedio General</h3>
+            <div class="chart-container">
+                <canvas id="chartComparativo"></canvas>
+            </div>
+        </div>
+
+        <h3>📚 Análisis Detallado por Área</h3>
+        <div class="areas-grid">
+            <div class="area-card">
+                <h4>Matemáticas</h4>
+                <div class="puntaje-display">
+                    <div class="puntaje-numero">30.0</div>
+                    <div class="correctas">6/20 correctas</div>
+                </div>
+                <div class="progreso-bar">
+                    <div class="progreso-fill" style="width: 30.0%"></div>
+                </div>
+                <div class="comparacion">
+                    <span>Tu puntaje: 30.0</span>
+                    <span>Promedio: 23.2</span>
+                </div>
+                <div class="comentario">
+                    💬 Nivel básico en matemáticas, se recomienda reforzar operaciones y razonamiento lógico. Estás por encima del promedio (+6.8 puntos)
+                </div>
+            </div>
+            <div class="area-card">
+                <h4>Lectura Crítica</h4>
+                <div class="puntaje-display">
+                    <div class="puntaje-numero">45.0</div>
+                    <div class="correctas">9/20 correctas</div>
+                </div>
+                <div class="progreso-bar">
+                    <div class="progreso-fill" style="width: 45.0%"></div>
+                </div>
+                <div class="comparacion">
+                    <span>Tu puntaje: 45.0</span>
+                    <span>Promedio: 28.2</span>
+                </div>
+                <div class="comentario">
+                    💬 Comprensión lectora básica, practica análisis de diferentes tipos de textos. Te destacas significativamente (+16.8 puntos sobre el promedio)
+                </div>
+            </div>
+            <div class="area-card">
+                <h4>Inglés</h4>
+                <div class="puntaje-display">
+                    <div class="puntaje-numero">24.0</div>
+                    <div class="correctas">6/25 correctas</div>
+                </div>
+                <div class="progreso-bar">
+                    <div class="progreso-fill" style="width: 24.0%"></div>
+                </div>
+                <div class="comparacion">
+                    <span>Tu puntaje: 24.0</span>
+                    <span>Promedio: 29.7</span>
+                </div>
+                <div class="comentario">
+                    💬 Requiere refuerzo en fundamentos del idioma inglés. Estás cerca del promedio (-5.7 puntos)
+                </div>
+            </div>
+            <div class="area-card">
+                <h4>Ciencias Naturales</h4>
+                <div class="puntaje-display">
+                    <div class="puntaje-numero">20.0</div>
+                    <div class="correctas">4/20 correctas</div>
+                </div>
+                <div class="progreso-bar">
+                    <div class="progreso-fill" style="width: 20.0%"></div>
+                </div>
+                <div class="comparacion">
+                    <span>Tu puntaje: 20.0</span>
+                    <span>Promedio: 33.0</span>
+                </div>
+                <div class="comentario">
+                    💬 Necesitas fortalecer conceptos básicos de ciencias naturales. Es importante mejorar (-13.0 puntos bajo el promedio)
+                </div>
+            </div>
+            <div class="area-card">
+                <h4>Ciencias Sociales</h4>
+                <div class="puntaje-display">
+                    <div class="puntaje-numero">35.0</div>
+                    <div class="correctas">7/20 correctas</div>
+                </div>
+                <div class="progreso-bar">
+                    <div class="progreso-fill" style="width: 35.0%"></div>
+                </div>
+                <div class="comparacion">
+                    <span>Tu puntaje: 35.0</span>
+                    <span>Promedio: 27.1</span>
+                </div>
+                <div class="comentario">
+                    💬 Conocimiento básico en sociales, estudia más contextos históricos. Estás por encima del promedio (+7.9 puntos)
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Este reporte refleja tu desempeño en el simulacro diagnóstico. Úsalo como guía para identificar tus fortalezas y áreas de mejora.</p>
+            <p style="margin-top: 10px;">Promedio general del grupo: 141.2 | Tu promedio: 154.0</p>
+            <div class="creditos">Diseñado por Froylan Jiménez</div>
+        </div>
+    </div>
+
+    <script>
+        // Gráfico Radar
+        const ctxRadar = document.getElementById('chartRadar').getContext('2d');
+        new Chart(ctxRadar, {
+            type: 'radar',
+            data: {
+                labels: ['Matemáticas', 'Lectura Crítica', 'Inglés', 'Ciencias Naturales', 'Ciencias Sociales'],
+                datasets: [{
+                    label: 'Tu Rendimiento',
+                    data: [30.0, 45.0, 24.0, 20.0, 35.0],
+                    borderColor: '#667eea',
+                    backgroundColor: 'rgba(102, 126, 234, 0.2)',
+                    pointBackgroundColor: '#667eea',
+                    pointRadius: 6,
+                    pointHoverRadius: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    r: {
+                        beginAtZero: true,
+                        max: 100,
+                        ticks: {
+                            stepSize: 20
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+
+        // Gráfico Comparativo
+        const ctxComp = document.getElementById('chartComparativo').getContext('2d');
+        new Chart(ctxComp, {
+            type: 'bar',
+            data: {
+                labels: ['Matemáticas', 'Lectura Crítica', 'Inglés', 'Ciencias Naturales', 'Ciencias Sociales'],
+                datasets: [
+                    {
+                        label: 'Tu Puntaje',
+                        data: [30.0, 45.0, 24.0, 20.0, 35.0],
+                        backgroundColor: '#667eea'
+                    },
+                    {
+                        label: 'Promedio del Grupo',
+                        data: [23.23, 28.17, 29.67, 33.02, 27.12],
+                        backgroundColor: '#e74c3c'
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100
+                    }
+                },
+                plugins: {
+                    legend: {
+                        position: 'top'
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

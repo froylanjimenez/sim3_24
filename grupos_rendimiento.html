@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupos de Rendimiento - Simulacro</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 4px solid #667eea;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .header .institucion {
+            color: #7f8c8d;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .header .tipo-prueba {
+            color: #667eea;
+            font-size: 15px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .stats-general {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+            margin-bottom: 8px;
+        }
+
+        .stat-value {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .grupo-section {
+            margin-bottom: 40px;
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        .grupo-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        .grupo-1 { background: linear-gradient(135deg, #f39c12 0%, #f1c40f 100%); color: white; }
+        .grupo-2 { background: linear-gradient(135deg, #e67e22 0%, #d35400 100%); color: white; }
+        .grupo-3 { background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); color: white; }
+        .grupo-4 { background: linear-gradient(135deg, #27ae60 0%, #229954 100%); color: white; }
+        .grupo-5 { background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); color: white; }
+        .grupo-6 { background: linear-gradient(135deg, #95a5a6 0%, #7f8c8d 100%); color: white; }
+
+        .grupo-title {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .grupo-stats {
+            text-align: right;
+        }
+
+        .grupo-stats div {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .grupo-stats .promedio {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        thead {
+            background: #34495e;
+            color: white;
+        }
+
+        th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+        tbody tr:hover {
+            background: #f8f9fa;
+        }
+
+        .posicion {
+            font-weight: bold;
+            color: #667eea;
+            font-size: 16px;
+        }
+
+        .puntaje {
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .puntaje.alto {
+            color: #27ae60;
+        }
+
+        .puntaje.medio {
+            color: #f39c12;
+        }
+
+        .puntaje.bajo {
+            color: #e74c3c;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            color: #7f8c8d;
+            font-size: 12px;
+        }
+
+        .footer .creditos {
+            margin-top: 10px;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .btn-print {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            margin: 20px auto;
+            display: block;
+            transition: all 0.3s;
+        }
+
+        .btn-print:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .btn-print {
+                display: none;
+            }
+            .grupo-section {
+                page-break-inside: avoid;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .stats-general {
+                grid-template-columns: 1fr;
+            }
+            .grupo-header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .grupo-stats {
+                text-align: center;
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="institucion">CONCENTRACIÓN EDUCATIVA DEL SUR DE MONTELÍBANO</div>
+            <h1>Grupos de Rendimiento - Simulacro Saber 11°</h1>
+            <div class="tipo-prueba">Clasificación por Desempeño</div>
+        </div>
+
+        <button class="btn-print" onclick="window.print()">🖨️ Imprimir Listado</button>
+
+        <div class="stats-general">
+            <div class="stat-item">
+                <div class="stat-label">Total Estudiantes</div>
+                <div class="stat-value">{datos['total_estudiantes']}</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Promedio General</div>
+                <div class="stat-value">{datos['promedio_total']:.1f}</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Puntaje Más Alto</div>
+                <div class="stat-value">{datos['estudiantes'][0]['puntaje_total']:.0f}</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">Puntaje Más Bajo</div>
+                <div class="stat-value">{datos['estudiantes'][-1]['puntaje_total']:.0f}</div>
+            </div>
+        </div>
+
+
+        <div class="grupo-section">
+            <div class="grupo-header grupo-1">
+                <div class="grupo-title">Grupo 1 🦅</div>
+                <div class="grupo-stats">
+                    <div>29 estudiantes</div>
+                    <div class="promedio">173.4</div>
+                    <div>Promedio del grupo</div>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 80px;">Posición</th>
+                        <th>Nombre Completo</th>
+                        <th style="width: 120px; text-align: center;">Puntaje Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="posicion">1°</td>
+                        <td>SAMUEL ALEAN ZAPATA</td>
+                        <td style="text-align: center;" class="puntaje alto">203</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">2°</td>
+                        <td>YEHIDER ENMANUEL VILLORINA DÍAZ</td>
+                        <td style="text-align: center;" class="puntaje alto">200</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">3°</td>
+                        <td>JESÚS ORLANDO FINO RICARDO</td>
+                        <td style="text-align: center;" class="puntaje alto">196</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">4°</td>
+                        <td>JULIANA PEREZ VERGARA</td>
+                        <td style="text-align: center;" class="puntaje alto">187</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">5°</td>
+                        <td>YERMAN YAIR RUIZ GRANADOS</td>
+                        <td style="text-align: center;" class="puntaje alto">184</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">6°</td>
+                        <td>CAMILO ANDRES MURILLO BUELVAS</td>
+                        <td style="text-align: center;" class="puntaje alto">183</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">7°</td>
+                        <td>SAMUEL ALEXANDER RODRIGUEZ VELASQUEZ</td>
+                        <td style="text-align: center;" class="puntaje alto">180</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">8°</td>
+                        <td>YONIER ANDRES SALA SOLIS</td>
+                        <td style="text-align: center;" class="puntaje alto">180</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">9°</td>
+                        <td>ANDREA CAROLINA DIAZ MEDINA</td>
+                        <td style="text-align: center;" class="puntaje alto">179</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">10°</td>
+                        <td>STEVEN ANDRES HOYOS NAVARRO</td>
+                        <td style="text-align: center;" class="puntaje alto">177</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">11°</td>
+                        <td>LUIS FERNANDO TEJADA GUERRERO</td>
+                        <td style="text-align: center;" class="puntaje alto">176</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">12°</td>
+                        <td>DAYLIS PEREZ PADILLA</td>
+                        <td style="text-align: center;" class="puntaje alto">174</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">13°</td>
+                        <td>JOHN ESTEBAN FLOREZ LONDOÑO</td>
+                        <td style="text-align: center;" class="puntaje alto">172</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">14°</td>
+                        <td>GABRIELA HERNANDEZ DIAZ</td>
+                        <td style="text-align: center;" class="puntaje alto">169</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">15°</td>
+                        <td>LEONEL ANDRES RIVERA SILVA</td>
+                        <td style="text-align: center;" class="puntaje alto">168</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">16°</td>
+                        <td>JUSTIN TIRADO GARAY</td>
+                        <td style="text-align: center;" class="puntaje alto">168</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">17°</td>
+                        <td>ESTEBAN DAVID CORONADO PALENCIA</td>
+                        <td style="text-align: center;" class="puntaje alto">167</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">18°</td>
+                        <td>OSSA POLO ALEX JOSE DE LA</td>
+                        <td style="text-align: center;" class="puntaje alto">166</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">19°</td>
+                        <td>LIZ EMILY ZUÑIGA OSORIO</td>
+                        <td style="text-align: center;" class="puntaje alto">166</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">20°</td>
+                        <td>TALIANA CORREA OVIEDO</td>
+                        <td style="text-align: center;" class="puntaje alto">165</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">21°</td>
+                        <td>SAMAHARA FLOREZ OVIEDO</td>
+                        <td style="text-align: center;" class="puntaje alto">165</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">22°</td>
+                        <td>ELEMI HERNANDEZ ALVAREZ</td>
+                        <td style="text-align: center;" class="puntaje alto">165</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">23°</td>
+                        <td>MICHELL ANDREA PEREZ CHOLES</td>
+                        <td style="text-align: center;" class="puntaje alto">165</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">24°</td>
+                        <td>PAMELA DENISE RUIZ VILLADIEGO</td>
+                        <td style="text-align: center;" class="puntaje alto">165</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">25°</td>
+                        <td>SKARLIT YHIRET HERRERA GIL</td>
+                        <td style="text-align: center;" class="puntaje alto">163</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">26°</td>
+                        <td>JUNIOR ENRIQUE MERCADO ROHENES</td>
+                        <td style="text-align: center;" class="puntaje alto">163</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">27°</td>
+                        <td>JUAN ESTEBAN FLOREZ MARTINEZ</td>
+                        <td style="text-align: center;" class="puntaje alto">161</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">28°</td>
+                        <td>ANGELICA MARTINEZ BALBERA</td>
+                        <td style="text-align: center;" class="puntaje alto">161</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">29°</td>
+                        <td>DAVID MENDOZA HOYOS</td>
+                        <td style="text-align: center;" class="puntaje alto">161</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="grupo-section">
+            <div class="grupo-header grupo-2">
+                <div class="grupo-title">Grupo 2 🦁</div>
+                <div class="grupo-stats">
+                    <div>29 estudiantes</div>
+                    <div class="promedio">154.7</div>
+                    <div>Promedio del grupo</div>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 80px;">Posición</th>
+                        <th>Nombre Completo</th>
+                        <th style="width: 120px; text-align: center;">Puntaje Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="posicion">30°</td>
+                        <td>PATRICIA DEL CARMEN RODRIGUEZ VERTEL</td>
+                        <td style="text-align: center;" class="puntaje alto">161</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">31°</td>
+                        <td>VALERI CORREA DOMINGUEZ</td>
+                        <td style="text-align: center;" class="puntaje alto">160</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">32°</td>
+                        <td>YISEL  KAROLINA RAMOS BELEÑO</td>
+                        <td style="text-align: center;" class="puntaje medio">159</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">33°</td>
+                        <td>DIEGO ARMANDO CAMPO SALAZAR</td>
+                        <td style="text-align: center;" class="puntaje medio">158</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">34°</td>
+                        <td>LUISA FERNANDA COLON SERRANO</td>
+                        <td style="text-align: center;" class="puntaje medio">158</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">35°</td>
+                        <td>SARAY CAMILA PIMIENTA SOTO</td>
+                        <td style="text-align: center;" class="puntaje medio">158</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">36°</td>
+                        <td>BIANA LICETH CASTRO RIVERA</td>
+                        <td style="text-align: center;" class="puntaje medio">157</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">37°</td>
+                        <td>SARA IBAÑEZ CAUSIL</td>
+                        <td style="text-align: center;" class="puntaje medio">157</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">38°</td>
+                        <td>MARIA DE LOS ANGELES PASOS SOTELO</td>
+                        <td style="text-align: center;" class="puntaje medio">156</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">39°</td>
+                        <td>MARIA JOSE VILLEGAS HERRERA</td>
+                        <td style="text-align: center;" class="puntaje medio">156</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">40°</td>
+                        <td>SYARA SOFIA DIAZ HERNANDEZ</td>
+                        <td style="text-align: center;" class="puntaje medio">155</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">41°</td>
+                        <td>DIEGO DAVID DUQUE HERRERA</td>
+                        <td style="text-align: center;" class="puntaje medio">155</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">42°</td>
+                        <td>CARLOS ENRIQUE MENDOZA FERIA</td>
+                        <td style="text-align: center;" class="puntaje medio">155</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">43°</td>
+                        <td>NICOLAS ELIAS CANOLE VASQUEZ</td>
+                        <td style="text-align: center;" class="puntaje medio">154</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">44°</td>
+                        <td>TALIANA CARDENAS MANSILLA</td>
+                        <td style="text-align: center;" class="puntaje medio">154</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">45°</td>
+                        <td>DIDIER ESNEIDER CASTILLO CAMARGO</td>
+                        <td style="text-align: center;" class="puntaje medio">154</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">46°</td>
+                        <td>GABRIELA CORONADO OJEDA</td>
+                        <td style="text-align: center;" class="puntaje medio">154</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">47°</td>
+                        <td>FREDY JOSE RODIÑO VALLEJO</td>
+                        <td style="text-align: center;" class="puntaje medio">154</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">48°</td>
+                        <td>VALENTINA ARRIETA SIERRA</td>
+                        <td style="text-align: center;" class="puntaje medio">153</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">49°</td>
+                        <td>STEFANIA GUERRA VILLA</td>
+                        <td style="text-align: center;" class="puntaje medio">153</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">50°</td>
+                        <td>JHONEIDER LONDOÑO VASQUEZ</td>
+                        <td style="text-align: center;" class="puntaje medio">153</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">51°</td>
+                        <td>SHARON LISHELL RODRIGUEZ OSORIO</td>
+                        <td style="text-align: center;" class="puntaje medio">153</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">52°</td>
+                        <td>NIKOL MICHELL AVILA GARCIA</td>
+                        <td style="text-align: center;" class="puntaje medio">152</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">53°</td>
+                        <td>VICTOR ANDRES ESPITIA MORALES</td>
+                        <td style="text-align: center;" class="puntaje medio">152</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">54°</td>
+                        <td>JUAN ANDRES CARVAJAL DIAZ</td>
+                        <td style="text-align: center;" class="puntaje medio">151</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">55°</td>
+                        <td>ANYS ANDREA GUTIERREZ ARRIETA</td>
+                        <td style="text-align: center;" class="puntaje medio">151</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">56°</td>
+                        <td>CRISTIAN DAVID MONTALVO PACHECO</td>
+                        <td style="text-align: center;" class="puntaje medio">151</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">57°</td>
+                        <td>LORENA LORETH MONTES CORDERO</td>
+                        <td style="text-align: center;" class="puntaje medio">151</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">58°</td>
+                        <td>EVERNEY CALLE SOTELO</td>
+                        <td style="text-align: center;" class="puntaje medio">150</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="grupo-section">
+            <div class="grupo-header grupo-3">
+                <div class="grupo-title">Grupo 3 🐺</div>
+                <div class="grupo-stats">
+                    <div>29 estudiantes</div>
+                    <div class="promedio">145.4</div>
+                    <div>Promedio del grupo</div>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 80px;">Posición</th>
+                        <th>Nombre Completo</th>
+                        <th style="width: 120px; text-align: center;">Puntaje Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="posicion">59°</td>
+                        <td>IVAN DAVID MARCELO SERPA</td>
+                        <td style="text-align: center;" class="puntaje medio">150</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">60°</td>
+                        <td>CRISTIANO RONALDO ROMERO ZUÑIGA</td>
+                        <td style="text-align: center;" class="puntaje medio">150</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">61°</td>
+                        <td>ISABELLA VALENTINA HERRERA CAMAÑO</td>
+                        <td style="text-align: center;" class="puntaje medio">149</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">62°</td>
+                        <td>RICARDO ISABEL CASTILLO</td>
+                        <td style="text-align: center;" class="puntaje medio">149</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">63°</td>
+                        <td>JUAN FELIPE MERCADO PEREZ</td>
+                        <td style="text-align: center;" class="puntaje medio">149</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">64°</td>
+                        <td>EDITH NATALIA MADERA PEREIRA</td>
+                        <td style="text-align: center;" class="puntaje medio">148</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">65°</td>
+                        <td>GENESIS ROMERO ACOSTA</td>
+                        <td style="text-align: center;" class="puntaje medio">148</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">66°</td>
+                        <td>YALENA SOFIA SALAZAR OYOLA</td>
+                        <td style="text-align: center;" class="puntaje medio">148</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">67°</td>
+                        <td>KEVIN DAVID CARRASCO MONTIEL</td>
+                        <td style="text-align: center;" class="puntaje medio">147</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">68°</td>
+                        <td>PERTUZ ELIECER DE JESUS DE LEON</td>
+                        <td style="text-align: center;" class="puntaje medio">147</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">69°</td>
+                        <td>JUAN DAVID MESTRA AVILA</td>
+                        <td style="text-align: center;" class="puntaje medio">147</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">70°</td>
+                        <td>JHONATAN DAVID CHITAN LOPEZ</td>
+                        <td style="text-align: center;" class="puntaje medio">146</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">71°</td>
+                        <td>ANDRES FELIPE MARTINEZ PACHECO</td>
+                        <td style="text-align: center;" class="puntaje medio">146</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">72°</td>
+                        <td>NATALIA SANCHEZ MONTERROZA</td>
+                        <td style="text-align: center;" class="puntaje medio">146</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">73°</td>
+                        <td>MADELINE CAMPO RIVERA</td>
+                        <td style="text-align: center;" class="puntaje medio">145</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">74°</td>
+                        <td>LAUREN VANESSA ESTRADA GARCES</td>
+                        <td style="text-align: center;" class="puntaje medio">145</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">75°</td>
+                        <td>ANDY PAOLA MANTILLA ESPITIA</td>
+                        <td style="text-align: center;" class="puntaje medio">145</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">76°</td>
+                        <td>KEVIN ANDRES RUIZ PEREZ</td>
+                        <td style="text-align: center;" class="puntaje medio">145</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">77°</td>
+                        <td>KELLY JOHANA MONTERROZA CASARRUBIA</td>
+                        <td style="text-align: center;" class="puntaje medio">144</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">78°</td>
+                        <td>SAMARA ARIZA ECHAVARRIA</td>
+                        <td style="text-align: center;" class="puntaje medio">143</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">79°</td>
+                        <td>JULIANA BANQUET MENDOZA</td>
+                        <td style="text-align: center;" class="puntaje medio">143</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">80°</td>
+                        <td>ANDREA LISETH CAMARGO URANGO</td>
+                        <td style="text-align: center;" class="puntaje medio">143</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">81°</td>
+                        <td>HOYOS LUZ ELENA PEREZ DE</td>
+                        <td style="text-align: center;" class="puntaje medio">143</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">82°</td>
+                        <td>NICOLAS ELIAS AGAMEZ ZABALA</td>
+                        <td style="text-align: center;" class="puntaje medio">142</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">83°</td>
+                        <td>MARIA CAROLINA GOMEZ MUÑOZ</td>
+                        <td style="text-align: center;" class="puntaje medio">142</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">84°</td>
+                        <td>YADY ISABEL RAMIREZ MORALES</td>
+                        <td style="text-align: center;" class="puntaje medio">142</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">85°</td>
+                        <td>VICTOR MANUEL TEJADA ZUÑIGA</td>
+                        <td style="text-align: center;" class="puntaje medio">142</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">86°</td>
+                        <td>KEINER ACOSTA BUENO</td>
+                        <td style="text-align: center;" class="puntaje medio">141</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">87°</td>
+                        <td>NICOL STEFANY BAQUERO DIAZ</td>
+                        <td style="text-align: center;" class="puntaje medio">141</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="grupo-section">
+            <div class="grupo-header grupo-4">
+                <div class="grupo-title">Grupo 4 🐯</div>
+                <div class="grupo-stats">
+                    <div>29 estudiantes</div>
+                    <div class="promedio">135.7</div>
+                    <div>Promedio del grupo</div>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 80px;">Posición</th>
+                        <th>Nombre Completo</th>
+                        <th style="width: 120px; text-align: center;">Puntaje Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="posicion">88°</td>
+                        <td>JUAN CAMILO RICARDO VEGA</td>
+                        <td style="text-align: center;" class="puntaje medio">141</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">89°</td>
+                        <td>SEBASTIAN RUIZ MONTERROZA</td>
+                        <td style="text-align: center;" class="puntaje medio">141</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">90°</td>
+                        <td>DAILY ALEJANDRA ARGUMEDO SALAS</td>
+                        <td style="text-align: center;" class="puntaje medio">140</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">91°</td>
+                        <td>ISABELLA FLOREZ CANO</td>
+                        <td style="text-align: center;" class="puntaje medio">140</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">92°</td>
+                        <td>YESID ANDRES ZEA CAMAÑO</td>
+                        <td style="text-align: center;" class="puntaje medio">140</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">93°</td>
+                        <td>MICHELL ANDREA MESA RIVERA</td>
+                        <td style="text-align: center;" class="puntaje medio">139</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">94°</td>
+                        <td>JULIANA CASTAÑEDA MEJIA</td>
+                        <td style="text-align: center;" class="puntaje medio">138</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">95°</td>
+                        <td>SAMUEL VARGAS VIDES</td>
+                        <td style="text-align: center;" class="puntaje medio">138</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">96°</td>
+                        <td>JESUS DAVID VERGARA OCAMPO</td>
+                        <td style="text-align: center;" class="puntaje medio">138</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">97°</td>
+                        <td>JHOJAN STIVEN ALZATE CARMONA</td>
+                        <td style="text-align: center;" class="puntaje medio">137</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">98°</td>
+                        <td>SOFIA MARTINEZ HERNANDEZ</td>
+                        <td style="text-align: center;" class="puntaje medio">136</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">99°</td>
+                        <td>KATALINA PEREZ MORENO</td>
+                        <td style="text-align: center;" class="puntaje medio">136</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">100°</td>
+                        <td>CAMILA ANDREA SOTELO TORRES</td>
+                        <td style="text-align: center;" class="puntaje medio">136</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">101°</td>
+                        <td>KAROL DAYANA ESCOBAR VARGAS</td>
+                        <td style="text-align: center;" class="puntaje medio">135</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">102°</td>
+                        <td>MELANI ALEJANDRA MALDONADO VILLALBA</td>
+                        <td style="text-align: center;" class="puntaje medio">135</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">103°</td>
+                        <td>JUAN PABLO PATERNINA HINCAPIE</td>
+                        <td style="text-align: center;" class="puntaje medio">135</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">104°</td>
+                        <td>SARA MARCELA TORREZ MENDOZA</td>
+                        <td style="text-align: center;" class="puntaje medio">135</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">105°</td>
+                        <td>MATIAS ANDRES BARRIOS SOTELO</td>
+                        <td style="text-align: center;" class="puntaje medio">134</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">106°</td>
+                        <td>ANGELICA MADRID SIERRA</td>
+                        <td style="text-align: center;" class="puntaje medio">134</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">107°</td>
+                        <td>JULIANA ANDREA PASTRANA ROMERO</td>
+                        <td style="text-align: center;" class="puntaje medio">134</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">108°</td>
+                        <td>DIDIEN MATIAS ROMERO SIERRA</td>
+                        <td style="text-align: center;" class="puntaje medio">134</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">109°</td>
+                        <td>ANA SOFIA VERGARA MARTINEZ</td>
+                        <td style="text-align: center;" class="puntaje medio">134</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">110°</td>
+                        <td>SHERYL ANDREA FUENTES MENDEZ</td>
+                        <td style="text-align: center;" class="puntaje medio">133</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">111°</td>
+                        <td>ENIS YULISA HERNÁNDEZ PEÑATE</td>
+                        <td style="text-align: center;" class="puntaje medio">133</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">112°</td>
+                        <td>BRESLY QUINTERO ROSARIO</td>
+                        <td style="text-align: center;" class="puntaje medio">133</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">113°</td>
+                        <td>JULIANA CONTRERAS GARCIA</td>
+                        <td style="text-align: center;" class="puntaje medio">132</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">114°</td>
+                        <td>HECTOR LUIS FUENTES MENDOZA</td>
+                        <td style="text-align: center;" class="puntaje medio">132</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">115°</td>
+                        <td>NAIDERLIN ESPITIA CASTRO</td>
+                        <td style="text-align: center;" class="puntaje medio">131</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">116°</td>
+                        <td>KEILLY MICHELLE HERNANDEZ HOYOS</td>
+                        <td style="text-align: center;" class="puntaje medio">131</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="grupo-section">
+            <div class="grupo-header grupo-5">
+                <div class="grupo-title">Grupo 5 🐻</div>
+                <div class="grupo-stats">
+                    <div>28 estudiantes</div>
+                    <div class="promedio">126.0</div>
+                    <div>Promedio del grupo</div>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 80px;">Posición</th>
+                        <th>Nombre Completo</th>
+                        <th style="width: 120px; text-align: center;">Puntaje Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="posicion">117°</td>
+                        <td>ESTHER MARIA LONDOÑO BARRIOS</td>
+                        <td style="text-align: center;" class="puntaje medio">130</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">118°</td>
+                        <td>YASMILA MENDEZ HERNANDEZ</td>
+                        <td style="text-align: center;" class="puntaje medio">130</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">119°</td>
+                        <td>VALENTINA ESTREMOR PEREZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">129</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">120°</td>
+                        <td>MARÍA ANGEL HERNÁNDEZ HOYOS</td>
+                        <td style="text-align: center;" class="puntaje bajo">129</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">121°</td>
+                        <td>MARIA ANGELICA PASTRANA RODRIGUEZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">129</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">122°</td>
+                        <td>RONALD SAMPAYO ALVIS</td>
+                        <td style="text-align: center;" class="puntaje bajo">129</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">123°</td>
+                        <td>VALENTINA AGUAS ATENCIA</td>
+                        <td style="text-align: center;" class="puntaje bajo">128</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">124°</td>
+                        <td>YOINER ARRIETA JARAMILLO</td>
+                        <td style="text-align: center;" class="puntaje bajo">128</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">125°</td>
+                        <td>YAIRA ANDREA TORRES CADRASCO</td>
+                        <td style="text-align: center;" class="puntaje bajo">128</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">126°</td>
+                        <td>JUAN DAVID JULIO VILLORINA</td>
+                        <td style="text-align: center;" class="puntaje bajo">127</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">127°</td>
+                        <td>KEVIN DAVID MEJIA HEREDIA</td>
+                        <td style="text-align: center;" class="puntaje bajo">127</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">128°</td>
+                        <td>GARAVITO MELANI PEÑATES</td>
+                        <td style="text-align: center;" class="puntaje bajo">127</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">129°</td>
+                        <td>SAMUEL DAVID FABRA VAZQUEZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">126</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">130°</td>
+                        <td>HITA FERNANDA REYES CÓRDOBA</td>
+                        <td style="text-align: center;" class="puntaje bajo">126</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">131°</td>
+                        <td>KELLY JOHANA ROMERO CASARRUBIA</td>
+                        <td style="text-align: center;" class="puntaje bajo">126</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">132°</td>
+                        <td>KATY MILENA SALGADO VERONA</td>
+                        <td style="text-align: center;" class="puntaje bajo">126</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">133°</td>
+                        <td>DIONI SOLA MARTINEZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">126</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">134°</td>
+                        <td>SANTIAGO CEBALLOS ZABALA</td>
+                        <td style="text-align: center;" class="puntaje bajo">125</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">135°</td>
+                        <td>MARIA ANGEL JULIO HERNANDEZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">125</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">136°</td>
+                        <td>MARISOL MARTINEZ SALAS</td>
+                        <td style="text-align: center;" class="puntaje bajo">125</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">137°</td>
+                        <td>ARIATHNA MESTRA ARDILA</td>
+                        <td style="text-align: center;" class="puntaje bajo">125</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">138°</td>
+                        <td>LUISA FERNANDA BENITEZ BALTAZAR</td>
+                        <td style="text-align: center;" class="puntaje bajo">124</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">139°</td>
+                        <td>JOSE ALBEIRO CALLE MORENO</td>
+                        <td style="text-align: center;" class="puntaje bajo">123</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">140°</td>
+                        <td>JUAN CAMILO GAMARRA LOPEZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">123</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">141°</td>
+                        <td>DANILSA MERCADO TIRADO</td>
+                        <td style="text-align: center;" class="puntaje bajo">123</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">142°</td>
+                        <td>JULIANA ARRIETA GOMEZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">121</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">143°</td>
+                        <td>YOJAN DAVID BENITEZ BARRIOS</td>
+                        <td style="text-align: center;" class="puntaje bajo">121</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">144°</td>
+                        <td>KEINER GONZALEZ RAMOS</td>
+                        <td style="text-align: center;" class="puntaje bajo">121</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="grupo-section">
+            <div class="grupo-header grupo-6">
+                <div class="grupo-title">Grupo 6 🐼</div>
+                <div class="grupo-stats">
+                    <div>28 estudiantes</div>
+                    <div class="promedio">110.6</div>
+                    <div>Promedio del grupo</div>
+                </div>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 80px;">Posición</th>
+                        <th>Nombre Completo</th>
+                        <th style="width: 120px; text-align: center;">Puntaje Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="posicion">145°</td>
+                        <td>MARIA ALEJANDRA RAMOS CALLE</td>
+                        <td style="text-align: center;" class="puntaje bajo">121</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">146°</td>
+                        <td>ANA SOFIA GONZALEZ CALAO</td>
+                        <td style="text-align: center;" class="puntaje bajo">120</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">147°</td>
+                        <td>ELIZABETH PEREIRA LOPEZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">120</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">148°</td>
+                        <td>TALIANA BERRIO MENDOZA</td>
+                        <td style="text-align: center;" class="puntaje bajo">119</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">149°</td>
+                        <td>STEFANY RUIZ MARTINEZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">119</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">150°</td>
+                        <td>MARIANGEL SALGADO MAZO</td>
+                        <td style="text-align: center;" class="puntaje bajo">119</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">151°</td>
+                        <td>JULIANA ALVARADO MARTINEZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">118</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">152°</td>
+                        <td>MARIANA FLOREZ HERNANDEZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">117</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">153°</td>
+                        <td>JIMENA ANDREA HOLGUÍN CARDEÑO</td>
+                        <td style="text-align: center;" class="puntaje bajo">117</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">154°</td>
+                        <td>DIEGO PADILLA MORA</td>
+                        <td style="text-align: center;" class="puntaje bajo">117</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">155°</td>
+                        <td>ENAN JOAQUIN TUIRAN MORENO</td>
+                        <td style="text-align: center;" class="puntaje bajo">117</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">156°</td>
+                        <td>ANA SOFIA FERNANDEZ MADRID</td>
+                        <td style="text-align: center;" class="puntaje bajo">116</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">157°</td>
+                        <td>ELISEO LUNA PEREZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">115</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">158°</td>
+                        <td>ORNELLA HEREDIA MORENO</td>
+                        <td style="text-align: center;" class="puntaje bajo">114</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">159°</td>
+                        <td>CARLOS DANIEL MARCHENA BARRETO</td>
+                        <td style="text-align: center;" class="puntaje bajo">114</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">160°</td>
+                        <td>JOSE JULIAN PATERNINA ARCIA</td>
+                        <td style="text-align: center;" class="puntaje bajo">114</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">161°</td>
+                        <td>YENNIFER CASTILLO SUAREZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">112</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">162°</td>
+                        <td>TALIN MARÍA GOMEZ HOYOS</td>
+                        <td style="text-align: center;" class="puntaje bajo">111</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">163°</td>
+                        <td>MARÍA JOSÉ PÉREZ CANTERO</td>
+                        <td style="text-align: center;" class="puntaje bajo">108</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">164°</td>
+                        <td>YURIS PAOLA RODRIGUEZ FLOREZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">105</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">165°</td>
+                        <td>MARIA JOSE GARCIA GUERRA</td>
+                        <td style="text-align: center;" class="puntaje bajo">103</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">166°</td>
+                        <td>LUIS EDUARDO SALGADO QUINTERO</td>
+                        <td style="text-align: center;" class="puntaje bajo">102</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">167°</td>
+                        <td>JAIVER VILLADIEGO JIMENEZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">102</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">168°</td>
+                        <td>MONICA PAOLA MONTALVO SOTO</td>
+                        <td style="text-align: center;" class="puntaje bajo">101</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">169°</td>
+                        <td>JOSE DANIEL ORTEGA JIMENEZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">96</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">170°</td>
+                        <td>ANGIE PAOLA ALARCON MENDEZ</td>
+                        <td style="text-align: center;" class="puntaje bajo">95</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">171°</td>
+                        <td>JAIDER DAVID MEZA AVILES</td>
+                        <td style="text-align: center;" class="puntaje bajo">94</td>
+                    </tr>
+                    <tr>
+                        <td class="posicion">172°</td>
+                        <td>DANNA CAROLINA SCHELEGUEL CORREA</td>
+                        <td style="text-align: center;" class="puntaje bajo">91</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="footer">
+            <p>Este listado muestra la clasificación de estudiantes en grupos de rendimiento basados en el puntaje total del simulacro (0-500 puntos).</p>
+            <p style="margin-top: 10px;">Los grupos facilitan estrategias de acompañamiento diferenciado según el nivel de desempeño.</p>
+            <div class="creditos">Diseñado por Froylan Jiménez</div>
+        </div>
+    </div>
+</body>
+</html>
