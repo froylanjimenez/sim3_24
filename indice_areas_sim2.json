@@ -1,0 +1,1577 @@
+[
+  {
+    "nombre": "JUSTIN TIRADO GARAY",
+    "icfes": 378.1,
+    "matematicas": 60.0,
+    "lectura_critica": 95.0,
+    "ciencias_naturales": 64.5,
+    "ingles": 63.6,
+    "sociales": 95.0
+  },
+  {
+    "nombre": "YEHIDER VILLORINA",
+    "icfes": 365.1,
+    "matematicas": 35.0,
+    "lectura_critica": 100.0,
+    "ciencias_naturales": 71.0,
+    "ingles": 59.1,
+    "sociales": 100.0
+  },
+  {
+    "nombre": "ANA SOFIA FERNANDEZ MADRID",
+    "icfes": 362.2,
+    "matematicas": 65.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 67.7,
+    "ingles": 54.5,
+    "sociales": 95.0
+  },
+  {
+    "nombre": "STEVEN ANDRES HOYOS NAVARRO",
+    "icfes": 361.5,
+    "matematicas": 35.0,
+    "lectura_critica": 95.0,
+    "ciencias_naturales": 77.4,
+    "ingles": 59.1,
+    "sociales": 95.0
+  },
+  {
+    "nombre": "MICHELL ANDREA PEREZ CHOLES",
+    "icfes": 358.1,
+    "matematicas": 60.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 64.5,
+    "ingles": 63.6,
+    "sociales": 100.0
+  },
+  {
+    "nombre": "JUAN PABLO PATERNINA HINCAPIE",
+    "icfes": 357.4,
+    "matematicas": 40.0,
+    "lectura_critica": 90.0,
+    "ciencias_naturales": 74.2,
+    "ingles": 68.2,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "SAMUEL VARGAS VIDES",
+    "icfes": 357.4,
+    "matematicas": 65.0,
+    "lectura_critica": 90.0,
+    "ciencias_naturales": 71.0,
+    "ingles": 36.4,
+    "sociales": 95.0
+  },
+  {
+    "nombre": "IVAN DAVID MARCELO SERPA",
+    "icfes": 356.9,
+    "matematicas": 85.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 50.0,
+    "sociales": 100.0
+  },
+  {
+    "nombre": "DAYLIS PEREZ PADILLA",
+    "icfes": 351.3,
+    "matematicas": 50.0,
+    "lectura_critica": 85.0,
+    "ciencias_naturales": 58.1,
+    "ingles": 68.2,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "SEBASTIAN RUIZ MONTERROZA",
+    "icfes": 351.0,
+    "matematicas": 60.0,
+    "lectura_critica": 95.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 59.1,
+    "sociales": 95.0
+  },
+  {
+    "nombre": "ANGELICA MADRID SIERRA",
+    "icfes": 349.3,
+    "matematicas": 55.0,
+    "lectura_critica": 90.0,
+    "ciencias_naturales": 54.8,
+    "ingles": 54.5,
+    "sociales": 95.0
+  },
+  {
+    "nombre": "SAMUEL ALEAN ZAPATA",
+    "icfes": 341.3,
+    "matematicas": 35.0,
+    "lectura_critica": 95.0,
+    "ciencias_naturales": 58.1,
+    "ingles": 68.2,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "VALENTINA AGUAS ATENCIA",
+    "icfes": 340.0,
+    "matematicas": 60.0,
+    "lectura_critica": 95.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 54.5,
+    "sociales": 95.0
+  },
+  {
+    "nombre": "JULIANA CASTAÑEDA MEJIA",
+    "icfes": 335.9,
+    "matematicas": 25.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 64.5,
+    "ingles": 86.4,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "JULIANA BANQUET MENDOZA",
+    "icfes": 334.9,
+    "matematicas": 55.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 61.3,
+    "ingles": 63.6,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "YERMAN YAIR RUIZ GRANADOS",
+    "icfes": 326.6,
+    "matematicas": 60.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 48.4,
+    "ingles": 68.2,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "DIEGO DAVID DUQUE HERRERA",
+    "icfes": 323.4,
+    "matematicas": 35.0,
+    "lectura_critica": 90.0,
+    "ciencias_naturales": 54.8,
+    "ingles": 63.6,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "SANTIAGO CEBALLOS ZABALA",
+    "icfes": 320.7,
+    "matematicas": 45.0,
+    "lectura_critica": 95.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 45.5,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "SAMAHARA FLOREZ OVIEDO",
+    "icfes": 320.1,
+    "matematicas": 40.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 71.0,
+    "ingles": 59.1,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "JULIANA ARRIETA GOMEZ",
+    "icfes": 319.8,
+    "matematicas": 45.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 51.6,
+    "ingles": 68.2,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "YOJAN DAVID BENITEZ BARRIOS",
+    "icfes": 319.3,
+    "matematicas": 50.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 59.1,
+    "sociales": 95.0
+  },
+  {
+    "nombre": "MELANI ALEJANDRA MALDONADO VILLALBA",
+    "icfes": 319.3,
+    "matematicas": 35.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 51.6,
+    "ingles": 72.7,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "KEINER ACOSTA BUENO",
+    "icfes": 318.3,
+    "matematicas": 65.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 36.4,
+    "sociales": 95.0
+  },
+  {
+    "nombre": "DAILY ALEJANDRA ARGUMEDO SALAS",
+    "icfes": 317.8,
+    "matematicas": 40.0,
+    "lectura_critica": 90.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 59.1,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "SYARA SOFIA DIAZ HERNANDEZ",
+    "icfes": 313.6,
+    "matematicas": 50.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 58.1,
+    "ingles": 45.5,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "NATALIA SANCHEZ MONTERROZA",
+    "icfes": 312.4,
+    "matematicas": 55.0,
+    "lectura_critica": 90.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 45.5,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "KEVIN DAVID MEJIA HEREDIA",
+    "icfes": 309.9,
+    "matematicas": 40.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 61.3,
+    "ingles": 63.6,
+    "sociales": 65.0
+  },
+  {
+    "nombre": "KAROL DAYANA ESCOBAR VARGAS",
+    "icfes": 308.6,
+    "matematicas": 50.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 58.1,
+    "ingles": 45.5,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "MARIA JOSE VILLEGAS HERRERA",
+    "icfes": 306.3,
+    "matematicas": 35.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 61.3,
+    "ingles": 50.0,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "ESTEBAN DAVID CORONADO PALENCIA",
+    "icfes": 305.5,
+    "matematicas": 35.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 63.6,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "VALENTINA ESTREMOR PEREZ",
+    "icfes": 304.5,
+    "matematicas": 40.0,
+    "lectura_critica": 85.0,
+    "ciencias_naturales": 58.1,
+    "ingles": 36.4,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "JUAN ANDRES CARVAJAL DIAZ",
+    "icfes": 304.3,
+    "matematicas": 70.0,
+    "lectura_critica": 60.0,
+    "ciencias_naturales": 48.4,
+    "ingles": 40.9,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "MARIA DE LOS ANGELES PASOS SOTELO",
+    "icfes": 304.3,
+    "matematicas": 40.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 59.1,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "SARAY CAMILA PIMIENTA SOTO",
+    "icfes": 304.0,
+    "matematicas": 45.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 64.5,
+    "ingles": 54.5,
+    "sociales": 65.0
+  },
+  {
+    "nombre": "ARIATHNA MESTRA ARDILA",
+    "icfes": 302.7,
+    "matematicas": 70.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 61.3,
+    "ingles": 36.4,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "DIEGO ARMANDO CAMPO SALAZAR",
+    "icfes": 301.8,
+    "matematicas": 35.0,
+    "lectura_critica": 85.0,
+    "ciencias_naturales": 61.3,
+    "ingles": 45.5,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "LAUREN VANESSA ESTRADA GARCES",
+    "icfes": 300.7,
+    "matematicas": 35.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 51.6,
+    "ingles": 59.1,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "SHARON LISHELL RODRIGUEZ OSORIO",
+    "icfes": 300.0,
+    "matematicas": 40.0,
+    "lectura_critica": 85.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 54.5,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "STIVEN DARIO CALI ESTRADA",
+    "icfes": 299.0,
+    "matematicas": 55.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 58.1,
+    "ingles": 40.9,
+    "sociales": 65.0
+  },
+  {
+    "nombre": "JULIANA CONTRERAS GARCIA",
+    "icfes": 298.7,
+    "matematicas": 45.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 50.0,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "PAMELA DENISE RUIZ VILLADIEGO",
+    "icfes": 298.1,
+    "matematicas": 30.0,
+    "lectura_critica": 60.0,
+    "ciencias_naturales": 64.5,
+    "ingles": 63.6,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "LUIS FERNANDO TEJADA GUERRERO",
+    "icfes": 297.5,
+    "matematicas": 55.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 51.6,
+    "ingles": 40.9,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "KEVIN DAVID CARRASCO MONTIEL",
+    "icfes": 296.7,
+    "matematicas": 60.0,
+    "lectura_critica": 40.0,
+    "ciencias_naturales": 58.1,
+    "ingles": 63.6,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "ANGELICA MARTINEZ BALBERA",
+    "icfes": 295.8,
+    "matematicas": 30.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 61.3,
+    "ingles": 54.5,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "MADELINE CAMPO RIVERA",
+    "icfes": 295.4,
+    "matematicas": 35.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 64.5,
+    "ingles": 40.9,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "JULIANA ALVARADO MARTINEZ",
+    "icfes": 295.1,
+    "matematicas": 40.0,
+    "lectura_critica": 60.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 68.2,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "ISABEL CASTILLO RICARDO",
+    "icfes": 294.7,
+    "matematicas": 35.0,
+    "lectura_critica": 85.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 54.5,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "CARLOS ENRIQUE MENDOZA FERIA",
+    "icfes": 294.3,
+    "matematicas": 40.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 54.8,
+    "ingles": 54.5,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "JUAN ESTEBAN FLOREZ MARTINEZ",
+    "icfes": 294.0,
+    "matematicas": 35.0,
+    "lectura_critica": 85.0,
+    "ciencias_naturales": 58.1,
+    "ingles": 40.9,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "JAIDER DAVID MEZA AVILES",
+    "icfes": 292.4,
+    "matematicas": 45.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 45.5,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "JUAN CAMILO RICARDO VEGA",
+    "icfes": 292.1,
+    "matematicas": 30.0,
+    "lectura_critica": 90.0,
+    "ciencias_naturales": 51.6,
+    "ingles": 45.5,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "YESID ANDRES ZEA CAMAÑO",
+    "icfes": 290.9,
+    "matematicas": 60.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 64.5,
+    "ingles": 36.4,
+    "sociales": 55.0
+  },
+  {
+    "nombre": "ELISEO LUNA PEREZ",
+    "icfes": 290.5,
+    "matematicas": 60.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 50.0,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "MARISOL MARTINEZ SALAS",
+    "icfes": 289.8,
+    "matematicas": 40.0,
+    "lectura_critica": 90.0,
+    "ciencias_naturales": 48.4,
+    "ingles": 36.4,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "SARA MARCELA TORREZ MENDOZA",
+    "icfes": 289.8,
+    "matematicas": 35.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 54.8,
+    "ingles": 50.0,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "YALENA SOFIA SALAZAR OYOLA",
+    "icfes": 289.4,
+    "matematicas": 55.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 25.8,
+    "ingles": 63.6,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "LUISA FERNANDA BENITEZ BALTAZAR",
+    "icfes": 289.3,
+    "matematicas": 35.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 59.1,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "JUAN FELIPE MERCADO PEREZ",
+    "icfes": 288.4,
+    "matematicas": 55.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 68.2,
+    "sociales": 65.0
+  },
+  {
+    "nombre": "LIZ EMILY ZUÑIGA OSORIO",
+    "icfes": 287.6,
+    "matematicas": 25.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 63.6,
+    "sociales": 100.0
+  },
+  {
+    "nombre": "DIONI SOLA MARTINEZ",
+    "icfes": 286.6,
+    "matematicas": 35.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 36.4,
+    "sociales": 95.0
+  },
+  {
+    "nombre": "ALEJANDRO ZARZA HOYOS",
+    "icfes": 286.3,
+    "matematicas": 50.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 58.1,
+    "ingles": 18.2,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "ANDY PAOLA MANTILLA ESPITIA",
+    "icfes": 284.7,
+    "matematicas": 50.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 54.5,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "DIDIER ESNEIDER CASTILLO CAMARGO",
+    "icfes": 281.9,
+    "matematicas": 35.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 50.0,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "PATRICIA DEL CARMEN RODRIGUEZ VERTEL",
+    "icfes": 281.4,
+    "matematicas": 40.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 54.5,
+    "sociales": 65.0
+  },
+  {
+    "nombre": "ANDREA LISETH CAMARGO URANGO",
+    "icfes": 280.7,
+    "matematicas": 45.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 54.8,
+    "ingles": 40.9,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "JUNIOR ENRIQUE MERCADO ROHENES",
+    "icfes": 278.5,
+    "matematicas": 35.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 19.4,
+    "ingles": 59.1,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "YENNIFER CASTILLO SUAREZ",
+    "icfes": 277.1,
+    "matematicas": 65.0,
+    "lectura_critica": 50.0,
+    "ciencias_naturales": 51.6,
+    "ingles": 45.5,
+    "sociales": 65.0
+  },
+  {
+    "nombre": "VICTOR ANDRES ESPITIA MORALES",
+    "icfes": 275.2,
+    "matematicas": 50.0,
+    "lectura_critica": 60.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 50.0,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "MELANI PEÑATES GARAVITO",
+    "icfes": 274.8,
+    "matematicas": 50.0,
+    "lectura_critica": 50.0,
+    "ciencias_naturales": 54.8,
+    "ingles": 50.0,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "VALENTINA ARRIETA SIERRA",
+    "icfes": 272.4,
+    "matematicas": 25.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 45.5,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "TALIANA BERRIO MENDOZA",
+    "icfes": 271.6,
+    "matematicas": 40.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 36.4,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "ANGIE PAOLA ALARCON MENDEZ",
+    "icfes": 271.4,
+    "matematicas": 35.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 40.9,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "JOSE ALBEIRO CALLE MORENO",
+    "icfes": 271.1,
+    "matematicas": 50.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 40.9,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "MARIA ALEJANDRA RAMOS CALLE",
+    "icfes": 271.1,
+    "matematicas": 25.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 40.9,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "STEFANIA GUERRA VILLA",
+    "icfes": 270.9,
+    "matematicas": 30.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 32.3,
+    "ingles": 63.6,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "JULIANA PEREZ VERGARA",
+    "icfes": 270.7,
+    "matematicas": 35.0,
+    "lectura_critica": 60.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 45.5,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "OSSA POLO ALEX JOSE DE LA",
+    "icfes": 270.5,
+    "matematicas": 45.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 50.0,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "ALYS PATRICIA HERNANDEZ PASTRANA",
+    "icfes": 269.8,
+    "matematicas": 25.0,
+    "lectura_critica": 90.0,
+    "ciencias_naturales": 48.4,
+    "ingles": 36.4,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "ANA SOFIA GONZALEZ CALAO",
+    "icfes": 268.9,
+    "matematicas": 25.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 48.4,
+    "ingles": 45.5,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "VALERI CORREA DOMINGUEZ",
+    "icfes": 268.7,
+    "matematicas": 20.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 50.0,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "NICOLAS ELIAS AGAMEZ ZABALA",
+    "icfes": 266.4,
+    "matematicas": 20.0,
+    "lectura_critica": 85.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 40.9,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "DANILSA MERCADO TIRADO",
+    "icfes": 265.7,
+    "matematicas": 30.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 51.6,
+    "ingles": 59.1,
+    "sociales": 60.0
+  },
+  {
+    "nombre": "CAMILO ANDRES MURILLO BUELVAS",
+    "icfes": 265.3,
+    "matematicas": 60.0,
+    "lectura_critica": 30.0,
+    "ciencias_naturales": 54.8,
+    "ingles": 45.5,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "JESUS ORLANDO FINO RICARDO",
+    "icfes": 265.2,
+    "matematicas": 50.0,
+    "lectura_critica": 60.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 50.0,
+    "sociales": 60.0
+  },
+  {
+    "nombre": "ANDRES FELIPE MARTINEZ PACHECO",
+    "icfes": 264.2,
+    "matematicas": 15.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 45.5,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "ELIZABETH PEREIRA LOPEZ",
+    "icfes": 263.7,
+    "matematicas": 30.0,
+    "lectura_critica": 85.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 31.8,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "NAIDERLIN ESPITIA CASTRO",
+    "icfes": 263.4,
+    "matematicas": 30.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 51.6,
+    "ingles": 31.8,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "MARIA ANGEL JULIO HERNANDEZ",
+    "icfes": 261.9,
+    "matematicas": 40.0,
+    "lectura_critica": 50.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 36.4,
+    "sociales": 100.0
+  },
+  {
+    "nombre": "ISABELLA FLOREZ CANO",
+    "icfes": 259.9,
+    "matematicas": 50.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 40.9,
+    "sociales": 65.0
+  },
+  {
+    "nombre": "MARIA JOSE PEREZ CANTERO",
+    "icfes": 259.5,
+    "matematicas": 40.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 45.5,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "CRISTIANO RONALDO ROMERO ZUÑIGA",
+    "icfes": 258.7,
+    "matematicas": 70.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 68.2,
+    "sociales": 30.0
+  },
+  {
+    "nombre": "SHERYL ANDREA FUENTES MENDEZ",
+    "icfes": 257.6,
+    "matematicas": 30.0,
+    "lectura_critica": 60.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 63.6,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "SOFIA MARTINEZ HERNANDEZ",
+    "icfes": 257.5,
+    "matematicas": 40.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 51.6,
+    "ingles": 40.9,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "YADY ISABEL RAMIREZ MORALES",
+    "icfes": 255.4,
+    "matematicas": 40.0,
+    "lectura_critica": 90.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 36.4,
+    "sociales": 60.0
+  },
+  {
+    "nombre": "ANYS ANDREA GUTIERREZ ARRIETA",
+    "icfes": 254.0,
+    "matematicas": 35.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 22.6,
+    "ingles": 36.4,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "KEILLY MICHELLE HERNANDEZ HOYOS",
+    "icfes": 253.7,
+    "matematicas": 40.0,
+    "lectura_critica": 50.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 50.0,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "HITA FERNANDA REYES CORDOBA",
+    "icfes": 253.3,
+    "matematicas": 40.0,
+    "lectura_critica": 45.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 36.4,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "JULIANA ANDREA PASTRANA ROMERO",
+    "icfes": 251.3,
+    "matematicas": 50.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 25.8,
+    "ingles": 45.5,
+    "sociales": 50.0
+  },
+  {
+    "nombre": "EVERNEY CALLE SOTELO",
+    "icfes": 248.8,
+    "matematicas": 40.0,
+    "lectura_critica": 30.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 63.6,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "YISEL KAROLINA RAMOS BELEÑO",
+    "icfes": 247.5,
+    "matematicas": 30.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 27.3,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "MARIA ANGELICA PASTRANA RODRIGUEZ",
+    "icfes": 247.4,
+    "matematicas": 30.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 45.5,
+    "sociales": 60.0
+  },
+  {
+    "nombre": "ENAN JOAQUIN TUIRAN MORENO",
+    "icfes": 247.3,
+    "matematicas": 55.0,
+    "lectura_critica": 85.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 31.8,
+    "sociales": 40.0
+  },
+  {
+    "nombre": "SKARLIT YHIRET HERRERA GIL",
+    "icfes": 247.2,
+    "matematicas": 40.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 58.1,
+    "ingles": 59.1,
+    "sociales": 35.0
+  },
+  {
+    "nombre": "ELEMI HERNANDEZ ALVAREZ",
+    "icfes": 245.7,
+    "matematicas": 35.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 45.5,
+    "sociales": 65.0
+  },
+  {
+    "nombre": "JHOJAN STIVEN ALZATE CARMONA",
+    "icfes": 245.4,
+    "matematicas": 45.0,
+    "lectura_critica": 40.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 36.4,
+    "sociales": 95.0
+  },
+  {
+    "nombre": "VICTOR MANUEL TEJADA ZUÑIGA",
+    "icfes": 243.7,
+    "matematicas": 45.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 31.8,
+    "sociales": 55.0
+  },
+  {
+    "nombre": "NICOLAS ELIAS CANOLE VASQUEZ",
+    "icfes": 241.9,
+    "matematicas": 40.0,
+    "lectura_critica": 20.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 50.0,
+    "sociales": 90.0
+  },
+  {
+    "nombre": "NICOL STEFANY BAQUERO DIAZ",
+    "icfes": 239.9,
+    "matematicas": 30.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 40.9,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "DIEGO PADILLA MORA",
+    "icfes": 239.6,
+    "matematicas": 45.0,
+    "lectura_critica": 60.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 40.9,
+    "sociales": 55.0
+  },
+  {
+    "nombre": "MATIAS ANDRES BARRIOS SOTELO",
+    "icfes": 239.0,
+    "matematicas": 30.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 50.0,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "YOINER ARRIETA JARAMILLO",
+    "icfes": 238.8,
+    "matematicas": 30.0,
+    "lectura_critica": 30.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 63.6,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "MARIA ANGEL HERNANDEZ HOYOS",
+    "icfes": 238.5,
+    "matematicas": 30.0,
+    "lectura_critica": 60.0,
+    "ciencias_naturales": 22.6,
+    "ingles": 40.9,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "ISABELLA VALENTINA HERRERA CAMAÑO",
+    "icfes": 236.1,
+    "matematicas": 50.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 51.6,
+    "ingles": 54.5,
+    "sociales": 25.0
+  },
+  {
+    "nombre": "ANA SOFIA VERGARA MARTINEZ",
+    "icfes": 234.6,
+    "matematicas": 45.0,
+    "lectura_critica": 35.0,
+    "ciencias_naturales": 32.3,
+    "ingles": 27.3,
+    "sociales": 95.0
+  },
+  {
+    "nombre": "JHONEIDER LONDOÑO VASQUEZ",
+    "icfes": 231.8,
+    "matematicas": 30.0,
+    "lectura_critica": 60.0,
+    "ciencias_naturales": 32.3,
+    "ingles": 54.5,
+    "sociales": 55.0
+  },
+  {
+    "nombre": "MARIANGEL SALGADO MAZO",
+    "icfes": 229.9,
+    "matematicas": 20.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 40.9,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "ORNELLA HEREDIA MORENO",
+    "icfes": 229.5,
+    "matematicas": 50.0,
+    "lectura_critica": 45.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 45.5,
+    "sociales": 60.0
+  },
+  {
+    "nombre": "YURIS PAOLA RODRIGUEZ FLOREZ",
+    "icfes": 228.9,
+    "matematicas": 20.0,
+    "lectura_critica": 75.0,
+    "ciencias_naturales": 48.4,
+    "ingles": 45.5,
+    "sociales": 40.0
+  },
+  {
+    "nombre": "ESTHER MARIA LONDOÑO BARRIOS",
+    "icfes": 228.2,
+    "matematicas": 30.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 54.5,
+    "sociales": 40.0
+  },
+  {
+    "nombre": "CARLOS DANIEL MARCHENA BARRERO",
+    "icfes": 225.3,
+    "matematicas": 45.0,
+    "lectura_critica": 25.0,
+    "ciencias_naturales": 54.8,
+    "ingles": 45.5,
+    "sociales": 55.0
+  },
+  {
+    "nombre": "GABRIELA HERNANDEZ DIAZ",
+    "icfes": 224.3,
+    "matematicas": 30.0,
+    "lectura_critica": 80.0,
+    "ciencias_naturales": 12.9,
+    "ingles": 36.4,
+    "sociales": 65.0
+  },
+  {
+    "nombre": "KELLY JOHANA MONTERROZA CASARRUBIA",
+    "icfes": 224.2,
+    "matematicas": 25.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 45.5,
+    "sociales": 50.0
+  },
+  {
+    "nombre": "KATALINA PEREZ MORENO",
+    "icfes": 223.1,
+    "matematicas": 20.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 59.1,
+    "sociales": 45.0
+  },
+  {
+    "nombre": "JAIVER VILLADIEGO JIMENEZ",
+    "icfes": 223.1,
+    "matematicas": 55.0,
+    "lectura_critica": 70.0,
+    "ciencias_naturales": 25.8,
+    "ingles": 27.3,
+    "sociales": 45.0
+  },
+  {
+    "nombre": "LUISA FERNANDA COLON SERRANO",
+    "icfes": 220.7,
+    "matematicas": 30.0,
+    "lectura_critica": 45.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 45.5,
+    "sociales": 55.0
+  },
+  {
+    "nombre": "STEFANY RUIZ MARTINEZ",
+    "icfes": 218.2,
+    "matematicas": 30.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 54.5,
+    "sociales": 40.0
+  },
+  {
+    "nombre": "GABRIELA CORONADO OJEDA",
+    "icfes": 218.1,
+    "matematicas": 25.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 25.8,
+    "ingles": 27.3,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "TALIANA CORREA OVIEDO",
+    "icfes": 218.1,
+    "matematicas": 30.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 22.6,
+    "ingles": 45.5,
+    "sociales": 65.0
+  },
+  {
+    "nombre": "KELLY JOHANA ROMERO CASARRUBIA",
+    "icfes": 217.8,
+    "matematicas": 40.0,
+    "lectura_critica": 50.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 40.9,
+    "sociales": 45.0
+  },
+  {
+    "nombre": "DAVID MENDOZA HOYOS",
+    "icfes": 216.4,
+    "matematicas": 45.0,
+    "lectura_critica": 40.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 40.9,
+    "sociales": 55.0
+  },
+  {
+    "nombre": "SAMARA ARIZA ECHAVARRIA",
+    "icfes": 216.0,
+    "matematicas": 20.0,
+    "lectura_critica": 50.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 27.3,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "ENIS YULISA HERNANDEZ PEÑATES",
+    "icfes": 214.9,
+    "matematicas": 20.0,
+    "lectura_critica": 60.0,
+    "ciencias_naturales": 22.6,
+    "ingles": 27.3,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "JESUS DAVID VERGARA OCAMPO",
+    "icfes": 214.9,
+    "matematicas": 40.0,
+    "lectura_critica": 45.0,
+    "ciencias_naturales": 58.1,
+    "ingles": 31.8,
+    "sociales": 40.0
+  },
+  {
+    "nombre": "TALIANA CARDENAS MANSILLA",
+    "icfes": 214.5,
+    "matematicas": 35.0,
+    "lectura_critica": 40.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 45.5,
+    "sociales": 65.0
+  },
+  {
+    "nombre": "JIMENA ANDREA HOLGUIN CARDEÑO",
+    "icfes": 213.1,
+    "matematicas": 35.0,
+    "lectura_critica": 40.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 59.1,
+    "sociales": 50.0
+  },
+  {
+    "nombre": "JUAN DAVID MESTRA AVILA",
+    "icfes": 212.8,
+    "matematicas": 25.0,
+    "lectura_critica": 35.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 59.1,
+    "sociales": 55.0
+  },
+  {
+    "nombre": "MARIA JOSE GARCIA GUERRA",
+    "icfes": 211.3,
+    "matematicas": 35.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 25.8,
+    "ingles": 45.5,
+    "sociales": 40.0
+  },
+  {
+    "nombre": "SAMUEL DAVID FABRA VAZQUEZ",
+    "icfes": 210.8,
+    "matematicas": 35.0,
+    "lectura_critica": 40.0,
+    "ciencias_naturales": 19.4,
+    "ingles": 36.4,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "YONIER ANDRES SALA SOLIS",
+    "icfes": 210.2,
+    "matematicas": 45.0,
+    "lectura_critica": 50.0,
+    "ciencias_naturales": 16.1,
+    "ingles": 59.1,
+    "sociales": 40.0
+  },
+  {
+    "nombre": "LORENA LORETH MONTES CORDERO",
+    "icfes": 209.9,
+    "matematicas": 40.0,
+    "lectura_critica": 50.0,
+    "ciencias_naturales": 25.8,
+    "ingles": 59.1,
+    "sociales": 35.0
+  },
+  {
+    "nombre": "CAMILA ANDREA SOTELO TORRES",
+    "icfes": 209.6,
+    "matematicas": 20.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 40.9,
+    "sociales": 45.0
+  },
+  {
+    "nombre": "MONICA PAOLA MONTALVO SOTO",
+    "icfes": 208.2,
+    "matematicas": 15.0,
+    "lectura_critica": 45.0,
+    "ciencias_naturales": 32.3,
+    "ingles": 40.9,
+    "sociales": 75.0
+  },
+  {
+    "nombre": "PERTUZ ELIECER DE JESUS DE LEON",
+    "icfes": 206.2,
+    "matematicas": 40.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 19.4,
+    "ingles": 31.8,
+    "sociales": 50.0
+  },
+  {
+    "nombre": "GENESIS ROMERO ACOSTA",
+    "icfes": 205.7,
+    "matematicas": 20.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 48.4,
+    "ingles": 27.3,
+    "sociales": 55.0
+  },
+  {
+    "nombre": "KATY MILENA SALGADO VERONA",
+    "icfes": 204.6,
+    "matematicas": 40.0,
+    "lectura_critica": 40.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 40.9,
+    "sociales": 45.0
+  },
+  {
+    "nombre": "MICHELL ANDREA MESA RIVERA",
+    "icfes": 204.4,
+    "matematicas": 45.0,
+    "lectura_critica": 35.0,
+    "ciencias_naturales": 22.6,
+    "ingles": 31.8,
+    "sociales": 70.0
+  },
+  {
+    "nombre": "EDITH NATALIA MADERA PEREIRA",
+    "icfes": 204.2,
+    "matematicas": 30.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 45.5,
+    "sociales": 35.0
+  },
+  {
+    "nombre": "ANDRES DIAZ CASTRO",
+    "icfes": 203.3,
+    "matematicas": 30.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 36.4,
+    "sociales": 40.0
+  },
+  {
+    "nombre": "HOYOS LUZ ELENA PEREZ DE",
+    "icfes": 202.8,
+    "matematicas": 35.0,
+    "lectura_critica": 0.0,
+    "ciencias_naturales": 41.9,
+    "ingles": 40.9,
+    "sociales": 85.0
+  },
+  {
+    "nombre": "JUAN CAMILO GAMARRA LOPEZ",
+    "icfes": 200.5,
+    "matematicas": 20.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 50.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre": "FREDY JOSE RODIÑO VALLEJO",
+    "icfes": 200.2,
+    "matematicas": 25.0,
+    "lectura_critica": 45.0,
+    "ciencias_naturales": 48.4,
+    "ingles": 31.8,
+    "sociales": 50.0
+  },
+  {
+    "nombre": "BIANA LICETH CASTRO RIVERA",
+    "icfes": 200.1,
+    "matematicas": 35.0,
+    "lectura_critica": 25.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 36.4,
+    "sociales": 65.0
+  },
+  {
+    "nombre": "LEONEL ANDRES RIVERA SILVA",
+    "icfes": 197.0,
+    "matematicas": 35.0,
+    "lectura_critica": 40.0,
+    "ciencias_naturales": 45.2,
+    "ingles": 31.8,
+    "sociales": 45.0
+  },
+  {
+    "nombre": "YASMILA MENDEZ HERNANDEZ",
+    "icfes": 191.4,
+    "matematicas": 50.0,
+    "lectura_critica": 45.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 40.9,
+    "sociales": 20.0
+  },
+  {
+    "nombre": "HECTOR LUIS FUENTES MENDOZA",
+    "icfes": 191.3,
+    "matematicas": 40.0,
+    "lectura_critica": 45.0,
+    "ciencias_naturales": 25.8,
+    "ingles": 45.5,
+    "sociales": 35.0
+  },
+  {
+    "nombre": "DIDIEN MATIAS ROMERO SIERRA",
+    "icfes": 186.4,
+    "matematicas": 15.0,
+    "lectura_critica": 65.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 40.9,
+    "sociales": 30.0
+  },
+  {
+    "nombre": "KEVIN ANDRES RUIZ PEREZ",
+    "icfes": 185.5,
+    "matematicas": 45.0,
+    "lectura_critica": 25.0,
+    "ciencias_naturales": 38.7,
+    "ingles": 31.8,
+    "sociales": 45.0
+  },
+  {
+    "nombre": "NIKOL MICHELL AVILA GARCIA",
+    "icfes": 180.8,
+    "matematicas": 15.0,
+    "lectura_critica": 25.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 31.8,
+    "sociales": 80.0
+  },
+  {
+    "nombre": "MARIA CAROLINA GOMEZ MUÑOZ",
+    "icfes": 179.9,
+    "matematicas": 35.0,
+    "lectura_critica": 50.0,
+    "ciencias_naturales": 19.4,
+    "ingles": 45.5,
+    "sociales": 30.0
+  },
+  {
+    "nombre": "RONALD SAMPAYO ALVIS",
+    "icfes": 178.8,
+    "matematicas": 35.0,
+    "lectura_critica": 60.0,
+    "ciencias_naturales": 16.1,
+    "ingles": 22.7,
+    "sociales": 45.0
+  },
+  {
+    "nombre": "SAMUEL ALEXANDER RODRIGUEZ VELASQUEZ",
+    "icfes": 178.5,
+    "matematicas": 20.0,
+    "lectura_critica": 45.0,
+    "ciencias_naturales": 22.6,
+    "ingles": 40.9,
+    "sociales": 50.0
+  },
+  {
+    "nombre": "JOHN ESTEBAN FLOREZ LONDOÑO",
+    "icfes": 178.4,
+    "matematicas": 30.0,
+    "lectura_critica": 40.0,
+    "ciencias_naturales": 12.9,
+    "ingles": 45.5,
+    "sociales": 50.0
+  },
+  {
+    "nombre": "SARA IBAÑEZ CAUSIL",
+    "icfes": 177.3,
+    "matematicas": 25.0,
+    "lectura_critica": 30.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 31.8,
+    "sociales": 55.0
+  },
+  {
+    "nombre": "JUAN DAVID JULIO VILLORINA",
+    "icfes": 176.7,
+    "matematicas": 50.0,
+    "lectura_critica": 50.0,
+    "ciencias_naturales": 19.4,
+    "ingles": 27.3,
+    "sociales": 30.0
+  },
+  {
+    "nombre": "JHON FREED QUINTERO SUAREZ",
+    "icfes": 175.8,
+    "matematicas": 25.0,
+    "lectura_critica": 45.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 31.8,
+    "sociales": 45.0
+  },
+  {
+    "nombre": "LUIS EDUARDO SALGADO QUINTERO",
+    "icfes": 175.3,
+    "matematicas": 20.0,
+    "lectura_critica": 55.0,
+    "ciencias_naturales": 19.4,
+    "ingles": 40.9,
+    "sociales": 40.0
+  },
+  {
+    "nombre": "JOSE JULIAN PATERNINA ARCIA",
+    "icfes": 170.8,
+    "matematicas": 30.0,
+    "lectura_critica": 30.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 31.8,
+    "sociales": 50.0
+  },
+  {
+    "nombre": "MARIANA FLOREZ HERNANDEZ",
+    "icfes": 168.1,
+    "matematicas": 25.0,
+    "lectura_critica": 45.0,
+    "ciencias_naturales": 22.6,
+    "ingles": 45.5,
+    "sociales": 30.0
+  },
+  {
+    "nombre": "KEINER GONZALEZ RAMOS",
+    "icfes": 167.2,
+    "matematicas": 40.0,
+    "lectura_critica": 25.0,
+    "ciencias_naturales": 25.8,
+    "ingles": 36.4,
+    "sociales": 40.0
+  },
+  {
+    "nombre": "DANNA CAROLINA SCHELEGUEL CORREA",
+    "icfes": 166.0,
+    "matematicas": 30.0,
+    "lectura_critica": 15.0,
+    "ciencias_naturales": 35.5,
+    "ingles": 45.5,
+    "sociales": 40.0
+  },
+  {
+    "nombre": "CRISTIAN DAVID MONTALVO PACHECO",
+    "icfes": 151.1,
+    "matematicas": 15.0,
+    "lectura_critica": 30.0,
+    "ciencias_naturales": 9.7,
+    "ingles": 36.4,
+    "sociales": 60.0
+  },
+  {
+    "nombre": "TAILIN MARIA GOMEZ HOYOS",
+    "icfes": 143.5,
+    "matematicas": 40.0,
+    "lectura_critica": 15.0,
+    "ciencias_naturales": 25.8,
+    "ingles": 22.7,
+    "sociales": 40.0
+  },
+  {
+    "nombre": "YAIRA ANDREA TORRES CADRASCO",
+    "icfes": 135.4,
+    "matematicas": 15.0,
+    "lectura_critica": 25.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 36.4,
+    "sociales": 30.0
+  },
+  {
+    "nombre": "BRESLY QUINTERO ROSARIO",
+    "icfes": 133.5,
+    "matematicas": 25.0,
+    "lectura_critica": 40.0,
+    "ciencias_naturales": 19.4,
+    "ingles": 9.1,
+    "sociales": 40.0
+  },
+  {
+    "nombre": "JOSE DANIEL ORTEGA JIMENEZ",
+    "icfes": 130.8,
+    "matematicas": 25.0,
+    "lectura_critica": 25.0,
+    "ciencias_naturales": 29.0,
+    "ingles": 31.8,
+    "sociales": 20.0
+  }
+]

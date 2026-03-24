@@ -481,7 +481,7 @@ document.getElementById('searchInput').addEventListener('keypress', e => {
     if (e.key === 'Enter') buscarEstudiante();
 });
 
-// ── DESCARGAR NOTAS EN CSV ────────────────────────────────────────────────────
+// ── DESCARGAR NOTAS EN CSV (por área) ─────────────────────────────────────────
 async function descargarNotasCSV() {
     const btn = document.querySelector('.csv-btn');
     const originalText = btn.innerHTML;
@@ -489,72 +489,79 @@ async function descargarNotasCSV() {
     btn.disabled = true;
 
     try {
-        // Cargar sim2 si no está cargado
-        let sim2 = datosSim2;
-        if (!sim2) {
-            const r = await fetch('indice_sim2.json');
-            sim2 = await r.json();
+        const [r1, r2] = await Promise.all([
+            fetch('indice_areas_sim1.json'),
+            fetch('indice_areas_sim2.json')
+        ]);
+        const sim1 = await r1.json();
+        const sim2 = await r2.json();
+
+        const AREAS = ['matematicas', 'lectura_critica', 'ciencias_naturales', 'ingles', 'sociales'];
+
+        function normNombre(s) {
+            return s.trim().toUpperCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
         }
 
-        // Construir mapa de notas: clave = nombre normalizado en mayúsculas
-        const mapa = {};
+        function buscarClave(mapa, nombre) {
+            const n = normNombre(nombre);
+            for (const clave of Object.keys(mapa)) {
+                if (clave === n) return clave;
+            }
+            for (const clave of Object.keys(mapa)) {
+                if (clave.includes(n) || n.includes(clave)) return clave;
+            }
+            return null;
+        }
 
-        // Agregar todos los estudiantes del simulacro 1
-        datosSim1.forEach(e => {
-            const clave = e.nombre_completo.trim().toUpperCase();
-            mapa[clave] = {
+        const VACIO = { puntaje_total: 0, matematicas: 0, lectura_critica: 0, ciencias_naturales: 0, ingles: 0, sociales: 0 };
+
+        // Construir mapa con sim1 como base
+        const mapa = {};
+        sim1.forEach(e => {
+            mapa[normNombre(e.nombre_completo)] = {
                 nombre: e.nombre_completo.trim(),
-                sim1: e.puntaje_total,
-                sim2: 0
+                s1: e,
+                s2: null
             };
         });
 
-        // Agregar / cruzar con simulacro 2
+        // Cruzar con sim2
         sim2.forEach(e => {
-            const nombreSim2 = e.nombre.trim().toUpperCase();
-
-            // Intentar encontrar coincidencia en el mapa de sim1
-            // Estrategia: buscar si el nombre de sim2 está contenido en alguna clave de sim1
-            // o si alguna clave de sim1 está contenida en el nombre de sim2
-            let claveEncontrada = null;
-
-            if (mapa[nombreSim2]) {
-                claveEncontrada = nombreSim2;
+            const clave = buscarClave(mapa, e.nombre);
+            if (clave) {
+                mapa[clave].s2 = e;
             } else {
-                // Búsqueda tolerante: comparar versiones sin acentos
-                const normSim2 = nombreSim2.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-                for (const clave of Object.keys(mapa)) {
-                    const normClave = clave.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-                    if (normClave === normSim2) {
-                        claveEncontrada = clave;
-                        break;
-                    }
-                    // Coincidencia parcial: el nombre de sim2 contiene el apellido y nombre de sim1 o viceversa
-                    if (normClave.includes(normSim2) || normSim2.includes(normClave)) {
-                        claveEncontrada = clave;
-                        break;
-                    }
-                }
-            }
-
-            if (claveEncontrada) {
-                mapa[claveEncontrada].sim2 = e.icfes;
-            } else {
-                // Estudiante solo en sim2
-                mapa[nombreSim2] = {
-                    nombre: e.nombre.trim(),
-                    sim1: 0,
-                    sim2: e.icfes
-                };
+                mapa[normNombre(e.nombre)] = { nombre: e.nombre.trim(), s1: null, s2: e };
             }
         });
 
-        // Generar CSV
-        const filas = [['Nombre', 'Nota_Simulacro_1', 'Nota_Simulacro_2']];
-        Object.values(mapa).forEach(({ nombre, sim1, sim2 }) => {
-            // Escapar comas y comillas en el nombre
+        // Generar encabezado
+        const encabezado = [
+            'Nombre',
+            'Sim1_Total', 'Sim1_Matematicas', 'Sim1_Lectura_Critica', 'Sim1_Ciencias_Naturales', 'Sim1_Ingles', 'Sim1_Sociales',
+            'Sim2_Total', 'Sim2_Matematicas', 'Sim2_Lectura_Critica', 'Sim2_Ciencias_Naturales', 'Sim2_Ingles', 'Sim2_Sociales'
+        ];
+        const filas = [encabezado];
+
+        Object.values(mapa).forEach(({ nombre, s1, s2 }) => {
+            const d1 = s1 || VACIO;
+            const d2 = s2 || VACIO;
             const nombreEsc = '"' + nombre.replace(/"/g, '""') + '"';
-            filas.push([nombreEsc, sim1, sim2]);
+            filas.push([
+                nombreEsc,
+                d1.puntaje_total,
+                d1.matematicas    || 0,
+                d1.lectura_critica|| 0,
+                d1.ciencias_naturales || 0,
+                d1.ingles         || 0,
+                d1.sociales       || 0,
+                d2.icfes          || 0,
+                d2.matematicas    || 0,
+                d2.lectura_critica|| 0,
+                d2.ciencias_naturales || 0,
+                d2.ingles         || 0,
+                d2.sociales       || 0
+            ]);
         });
 
         const csv = filas.map(f => f.join(',')).join('\r\n');
@@ -569,17 +576,11 @@ async function descargarNotasCSV() {
         URL.revokeObjectURL(url);
 
         btn.innerHTML = '<span class="csv-icon">✅</span> ¡Descarga lista!';
-        setTimeout(() => {
-            btn.innerHTML = originalText;
-            btn.disabled = false;
-        }, 2500);
+        setTimeout(() => { btn.innerHTML = originalText; btn.disabled = false; }, 2500);
 
     } catch (err) {
         btn.innerHTML = '<span class="csv-icon">❌</span> Error al cargar datos';
-        setTimeout(() => {
-            btn.innerHTML = originalText;
-            btn.disabled = false;
-        }, 3000);
+        setTimeout(() => { btn.innerHTML = originalText; btn.disabled = false; }, 3000);
     }
 }
 </script>

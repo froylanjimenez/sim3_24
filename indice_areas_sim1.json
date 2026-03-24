@@ -1,0 +1,1722 @@
+[
+  {
+    "nombre_completo": "SAMUEL ALEAN ZAPATA",
+    "codigo": "2b47aeb64487",
+    "puntaje_total": 203.0,
+    "matematicas": 40.0,
+    "lectura_critica": 35.0,
+    "ingles": 48.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 40.0
+  },
+  {
+    "nombre_completo": "YEHIDER ENMANUEL VILLORINA DÍAZ",
+    "codigo": "d347c494a440",
+    "puntaje_total": 200.0,
+    "matematicas": 50.0,
+    "lectura_critica": 45.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 40.0
+  },
+  {
+    "nombre_completo": "JESÚS ORLANDO FINO RICARDO",
+    "codigo": "de1cdabda90a",
+    "puntaje_total": 196.0,
+    "matematicas": 20.0,
+    "lectura_critica": 40.0,
+    "ingles": 56.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 40.0
+  },
+  {
+    "nombre_completo": "JULIANA PEREZ VERGARA",
+    "codigo": "a19a582e0027",
+    "puntaje_total": 187.0,
+    "matematicas": 30.0,
+    "lectura_critica": 35.0,
+    "ingles": 52.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "YERMAN YAIR RUIZ GRANADOS",
+    "codigo": "c52fcf477064",
+    "puntaje_total": 184.0,
+    "matematicas": 25.0,
+    "lectura_critica": 35.0,
+    "ingles": 44.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "CAMILO ANDRES MURILLO BUELVAS",
+    "codigo": "3cd3d1289753",
+    "puntaje_total": 183.0,
+    "matematicas": 35.0,
+    "lectura_critica": 35.0,
+    "ingles": 48.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "SAMUEL ALEXANDER RODRIGUEZ VELASQUEZ",
+    "codigo": "9c81a1a049ef",
+    "puntaje_total": 180.0,
+    "matematicas": 40.0,
+    "lectura_critica": 40.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "YONIER ANDRES SALA SOLIS",
+    "codigo": "280b5759b8eb",
+    "puntaje_total": 180.0,
+    "matematicas": 20.0,
+    "lectura_critica": 50.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "ANDREA CAROLINA DIAZ MEDINA",
+    "codigo": "91497b9f53c2",
+    "puntaje_total": 179.0,
+    "matematicas": 40.0,
+    "lectura_critica": 40.0,
+    "ingles": 44.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 10.0
+  },
+  {
+    "nombre_completo": "STEVEN ANDRES HOYOS NAVARRO",
+    "codigo": "1671bb0afa0d",
+    "puntaje_total": 177.0,
+    "matematicas": 35.0,
+    "lectura_critica": 25.0,
+    "ingles": 52.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "LUIS FERNANDO TEJADA GUERRERO",
+    "codigo": "a3496dbdc1ed",
+    "puntaje_total": 176.0,
+    "matematicas": 35.0,
+    "lectura_critica": 25.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 50.0
+  },
+  {
+    "nombre_completo": "DAYLIS PEREZ PADILLA",
+    "codigo": "0b8941f2c46d",
+    "puntaje_total": 174.0,
+    "matematicas": 25.0,
+    "lectura_critica": 35.0,
+    "ingles": 44.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "JOHN ESTEBAN FLOREZ LONDOÑO",
+    "codigo": "409d9198abcf",
+    "puntaje_total": 172.0,
+    "matematicas": 25.0,
+    "lectura_critica": 30.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 45.0
+  },
+  {
+    "nombre_completo": "GABRIELA HERNANDEZ DIAZ",
+    "codigo": "a7bf0473100e",
+    "puntaje_total": 169.0,
+    "matematicas": 25.0,
+    "lectura_critica": 55.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "LEONEL ANDRES RIVERA SILVA",
+    "codigo": "4ae3cb3d1451",
+    "puntaje_total": 168.0,
+    "matematicas": 30.0,
+    "lectura_critica": 30.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 45.0
+  },
+  {
+    "nombre_completo": "JUSTIN TIRADO GARAY",
+    "codigo": "3d35ce48b0ce",
+    "puntaje_total": 168.0,
+    "matematicas": 40.0,
+    "lectura_critica": 10.0,
+    "ingles": 48.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "ESTEBAN DAVID CORONADO PALENCIA",
+    "codigo": "639a89ad631b",
+    "puntaje_total": 167.0,
+    "matematicas": 30.0,
+    "lectura_critica": 35.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 50.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "OSSA POLO ALEX JOSE DE LA",
+    "codigo": "a59bf222d35a",
+    "puntaje_total": 166.0,
+    "matematicas": 25.0,
+    "lectura_critica": 35.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "LIZ EMILY ZUÑIGA OSORIO",
+    "codigo": "ddb39dd07430",
+    "puntaje_total": 166.0,
+    "matematicas": 10.0,
+    "lectura_critica": 35.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 50.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "TALIANA CORREA OVIEDO",
+    "codigo": "62e5ff0ea112",
+    "puntaje_total": 165.0,
+    "matematicas": 30.0,
+    "lectura_critica": 35.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "SAMAHARA FLOREZ OVIEDO",
+    "codigo": "c2264aac740b",
+    "puntaje_total": 165.0,
+    "matematicas": 25.0,
+    "lectura_critica": 35.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "ELEMI HERNANDEZ ALVAREZ",
+    "codigo": "013d229dbb14",
+    "puntaje_total": 165.0,
+    "matematicas": 40.0,
+    "lectura_critica": 20.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 40.0
+  },
+  {
+    "nombre_completo": "MICHELL ANDREA PEREZ CHOLES",
+    "codigo": "2a45b49f6c14",
+    "puntaje_total": 165.0,
+    "matematicas": 10.0,
+    "lectura_critica": 35.0,
+    "ingles": 60.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "PAMELA DENISE RUIZ VILLADIEGO",
+    "codigo": "de6f51343f64",
+    "puntaje_total": 165.0,
+    "matematicas": 35.0,
+    "lectura_critica": 15.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 40.0
+  },
+  {
+    "nombre_completo": "SKARLIT YHIRET HERRERA GIL",
+    "codigo": "ca78e703b0f7",
+    "puntaje_total": 163.0,
+    "matematicas": 30.0,
+    "lectura_critica": 25.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 45.0
+  },
+  {
+    "nombre_completo": "JUNIOR ENRIQUE MERCADO ROHENES",
+    "codigo": "f5ee09a12c85",
+    "puntaje_total": 163.0,
+    "matematicas": 35.0,
+    "lectura_critica": 35.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "JUAN ESTEBAN FLOREZ MARTINEZ",
+    "codigo": "85cd0bc0903f",
+    "puntaje_total": 161.0,
+    "matematicas": 25.0,
+    "lectura_critica": 25.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 45.0
+  },
+  {
+    "nombre_completo": "ANGELICA MARTINEZ BALBERA",
+    "codigo": "857629913fd4",
+    "puntaje_total": 161.0,
+    "matematicas": 20.0,
+    "lectura_critica": 30.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 50.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "DAVID MENDOZA HOYOS",
+    "codigo": "ff7c9ac2a184",
+    "puntaje_total": 161.0,
+    "matematicas": 30.0,
+    "lectura_critica": 35.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "PATRICIA DEL CARMEN RODRIGUEZ VERTEL",
+    "codigo": "c7d67f0d0a10",
+    "puntaje_total": 161.0,
+    "matematicas": 40.0,
+    "lectura_critica": 30.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "VALERI CORREA DOMINGUEZ",
+    "codigo": "7ed6686a299a",
+    "puntaje_total": 160.0,
+    "matematicas": 30.0,
+    "lectura_critica": 30.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "YISEL  KAROLINA RAMOS BELEÑO",
+    "codigo": "c373aa598c1e",
+    "puntaje_total": 159.0,
+    "matematicas": 35.0,
+    "lectura_critica": 45.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "DIEGO ARMANDO CAMPO SALAZAR",
+    "codigo": "cbfea299c68c",
+    "puntaje_total": 158.0,
+    "matematicas": 30.0,
+    "lectura_critica": 20.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "LUISA FERNANDA COLON SERRANO",
+    "codigo": "88b3599a86ab",
+    "puntaje_total": 158.0,
+    "matematicas": 25.0,
+    "lectura_critica": 30.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 40.0
+  },
+  {
+    "nombre_completo": "SARAY CAMILA PIMIENTA SOTO",
+    "codigo": "cf0b003a794a",
+    "puntaje_total": 158.0,
+    "matematicas": 35.0,
+    "lectura_critica": 40.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "BIANA LICETH CASTRO RIVERA",
+    "codigo": "0abb95f150da",
+    "puntaje_total": 157.0,
+    "matematicas": 30.0,
+    "lectura_critica": 30.0,
+    "ingles": 12.0,
+    "ciencias_naturales": 50.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "SARA IBAÑEZ CAUSIL",
+    "codigo": "c4cdc7512d02",
+    "puntaje_total": 157.0,
+    "matematicas": 20.0,
+    "lectura_critica": 35.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "MARIA DE LOS ANGELES PASOS SOTELO",
+    "codigo": "4e4373ac1f5c",
+    "puntaje_total": 156.0,
+    "matematicas": 20.0,
+    "lectura_critica": 45.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "MARIA JOSE VILLEGAS HERRERA",
+    "codigo": "526c97534b21",
+    "puntaje_total": 156.0,
+    "matematicas": 5.0,
+    "lectura_critica": 35.0,
+    "ingles": 56.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "SYARA SOFIA DIAZ HERNANDEZ",
+    "codigo": "f8c448122ac3",
+    "puntaje_total": 155.0,
+    "matematicas": 25.0,
+    "lectura_critica": 35.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "DIEGO DAVID DUQUE HERRERA",
+    "codigo": "fa22535beb5f",
+    "puntaje_total": 155.0,
+    "matematicas": 40.0,
+    "lectura_critica": 25.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "CARLOS ENRIQUE MENDOZA FERIA",
+    "codigo": "f636a9c023bf",
+    "puntaje_total": 155.0,
+    "matematicas": 35.0,
+    "lectura_critica": 20.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "NICOLAS ELIAS CANOLE VASQUEZ",
+    "codigo": "1b1ef68f5c03",
+    "puntaje_total": 154.0,
+    "matematicas": 60.0,
+    "lectura_critica": 30.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 15.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "TALIANA CARDENAS MANSILLA",
+    "codigo": "c3df994cb57e",
+    "puntaje_total": 154.0,
+    "matematicas": 40.0,
+    "lectura_critica": 30.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "DIDIER ESNEIDER CASTILLO CAMARGO",
+    "codigo": "b149f9ca97c2",
+    "puntaje_total": 154.0,
+    "matematicas": 30.0,
+    "lectura_critica": 45.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 20.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "GABRIELA CORONADO OJEDA",
+    "codigo": "1e4f6d240520",
+    "puntaje_total": 154.0,
+    "matematicas": 20.0,
+    "lectura_critica": 30.0,
+    "ingles": 44.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "FREDY JOSE RODIÑO VALLEJO",
+    "codigo": "57b596b06d3a",
+    "puntaje_total": 154.0,
+    "matematicas": 40.0,
+    "lectura_critica": 20.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "VALENTINA ARRIETA SIERRA",
+    "codigo": "ddcb9fd02b95",
+    "puntaje_total": 153.0,
+    "matematicas": 20.0,
+    "lectura_critica": 30.0,
+    "ingles": 48.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "STEFANIA GUERRA VILLA",
+    "codigo": "4c98e8c70129",
+    "puntaje_total": 153.0,
+    "matematicas": 20.0,
+    "lectura_critica": 20.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 45.0
+  },
+  {
+    "nombre_completo": "JHONEIDER LONDOÑO VASQUEZ",
+    "codigo": "5a8d6b842d6c",
+    "puntaje_total": 153.0,
+    "matematicas": 25.0,
+    "lectura_critica": 30.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "SHARON LISHELL RODRIGUEZ OSORIO",
+    "codigo": "65e0a57093d6",
+    "puntaje_total": 153.0,
+    "matematicas": 45.0,
+    "lectura_critica": 15.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "NIKOL MICHELL AVILA GARCIA",
+    "codigo": "1c9fedb2133a",
+    "puntaje_total": 152.0,
+    "matematicas": 20.0,
+    "lectura_critica": 30.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "VICTOR ANDRES ESPITIA MORALES",
+    "codigo": "6482120e3adf",
+    "puntaje_total": 152.0,
+    "matematicas": 20.0,
+    "lectura_critica": 40.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "JUAN ANDRES CARVAJAL DIAZ",
+    "codigo": "45fc26063681",
+    "puntaje_total": 151.0,
+    "matematicas": 25.0,
+    "lectura_critica": 25.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "ANYS ANDREA GUTIERREZ ARRIETA",
+    "codigo": "1dbe7aee46b1",
+    "puntaje_total": 151.0,
+    "matematicas": 30.0,
+    "lectura_critica": 30.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "CRISTIAN DAVID MONTALVO PACHECO",
+    "codigo": "bc9cf55f8860",
+    "puntaje_total": 151.0,
+    "matematicas": 20.0,
+    "lectura_critica": 40.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 40.0
+  },
+  {
+    "nombre_completo": "LORENA LORETH MONTES CORDERO",
+    "codigo": "7cd6ce7aac0c",
+    "puntaje_total": 151.0,
+    "matematicas": 10.0,
+    "lectura_critica": 35.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 60.0
+  },
+  {
+    "nombre_completo": "EVERNEY CALLE SOTELO",
+    "codigo": "31b8d7687178",
+    "puntaje_total": 150.0,
+    "matematicas": 25.0,
+    "lectura_critica": 25.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "IVAN DAVID MARCELO SERPA",
+    "codigo": "dc3c3e4db867",
+    "puntaje_total": 150.0,
+    "matematicas": 35.0,
+    "lectura_critica": 30.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "CRISTIANO RONALDO ROMERO ZUÑIGA",
+    "codigo": "3fedbd7cdc83",
+    "puntaje_total": 150.0,
+    "matematicas": 30.0,
+    "lectura_critica": 30.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 40.0
+  },
+  {
+    "nombre_completo": "ISABELLA VALENTINA HERRERA CAMAÑO",
+    "codigo": "20bce43d54c1",
+    "puntaje_total": 149.0,
+    "matematicas": 40.0,
+    "lectura_critica": 25.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "RICARDO ISABEL CASTILLO",
+    "codigo": "3595e224a180",
+    "puntaje_total": 149.0,
+    "matematicas": 25.0,
+    "lectura_critica": 35.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "JUAN FELIPE MERCADO PEREZ",
+    "codigo": "71b35a171911",
+    "puntaje_total": 149.0,
+    "matematicas": 20.0,
+    "lectura_critica": 30.0,
+    "ingles": 44.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "EDITH NATALIA MADERA PEREIRA",
+    "codigo": "4aa91a3f4ac4",
+    "puntaje_total": 148.0,
+    "matematicas": 15.0,
+    "lectura_critica": 30.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "GENESIS ROMERO ACOSTA",
+    "codigo": "f8b7aa69110f",
+    "puntaje_total": 148.0,
+    "matematicas": 20.0,
+    "lectura_critica": 30.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "YALENA SOFIA SALAZAR OYOLA",
+    "codigo": "3d4e7f2c5972",
+    "puntaje_total": 148.0,
+    "matematicas": 25.0,
+    "lectura_critica": 20.0,
+    "ingles": 48.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "KEVIN DAVID CARRASCO MONTIEL",
+    "codigo": "acfcfe19d82a",
+    "puntaje_total": 147.0,
+    "matematicas": 15.0,
+    "lectura_critica": 45.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "PERTUZ ELIECER DE JESUS DE LEON",
+    "codigo": "2586a7d3cee5",
+    "puntaje_total": 147.0,
+    "matematicas": 15.0,
+    "lectura_critica": 35.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "JUAN DAVID MESTRA AVILA",
+    "codigo": "c4a08e86e942",
+    "puntaje_total": 147.0,
+    "matematicas": 30.0,
+    "lectura_critica": 25.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "JHONATAN DAVID CHITAN LOPEZ",
+    "codigo": "6b3b830e4640",
+    "puntaje_total": 146.0,
+    "matematicas": 10.0,
+    "lectura_critica": 25.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 40.0
+  },
+  {
+    "nombre_completo": "ANDRES FELIPE MARTINEZ PACHECO",
+    "codigo": "676dcd99f33f",
+    "puntaje_total": 146.0,
+    "matematicas": 20.0,
+    "lectura_critica": 40.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 40.0
+  },
+  {
+    "nombre_completo": "NATALIA SANCHEZ MONTERROZA",
+    "codigo": "89b6238ffed7",
+    "puntaje_total": 146.0,
+    "matematicas": 25.0,
+    "lectura_critica": 25.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "MADELINE CAMPO RIVERA",
+    "codigo": "776a61e70a57",
+    "puntaje_total": 145.0,
+    "matematicas": 0.0,
+    "lectura_critica": 40.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "LAUREN VANESSA ESTRADA GARCES",
+    "codigo": "e87d5fadfedc",
+    "puntaje_total": 145.0,
+    "matematicas": 30.0,
+    "lectura_critica": 40.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "ANDY PAOLA MANTILLA ESPITIA",
+    "codigo": "060867eeb7a1",
+    "puntaje_total": 145.0,
+    "matematicas": 30.0,
+    "lectura_critica": 35.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "KEVIN ANDRES RUIZ PEREZ",
+    "codigo": "60c7d8a40693",
+    "puntaje_total": 145.0,
+    "matematicas": 25.0,
+    "lectura_critica": 30.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 55.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "KELLY JOHANA MONTERROZA CASARRUBIA",
+    "codigo": "2eab727f2850",
+    "puntaje_total": 144.0,
+    "matematicas": 15.0,
+    "lectura_critica": 30.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "SAMARA ARIZA ECHAVARRIA",
+    "codigo": "b2d03da2d62e",
+    "puntaje_total": 143.0,
+    "matematicas": 15.0,
+    "lectura_critica": 20.0,
+    "ingles": 48.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "JULIANA BANQUET MENDOZA",
+    "codigo": "d0f2665f3d02",
+    "puntaje_total": 143.0,
+    "matematicas": 15.0,
+    "lectura_critica": 25.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "ANDREA LISETH CAMARGO URANGO",
+    "codigo": "60b72da70b00",
+    "puntaje_total": 143.0,
+    "matematicas": 10.0,
+    "lectura_critica": 25.0,
+    "ingles": 48.0,
+    "ciencias_naturales": 20.0,
+    "sociales": 40.0
+  },
+  {
+    "nombre_completo": "HOYOS LUZ ELENA PEREZ DE",
+    "codigo": "fa001e67ead8",
+    "puntaje_total": 143.0,
+    "matematicas": 25.0,
+    "lectura_critica": 25.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "NICOLAS ELIAS AGAMEZ ZABALA",
+    "codigo": "7ff18ed434f2",
+    "puntaje_total": 142.0,
+    "matematicas": 10.0,
+    "lectura_critica": 30.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "MARIA CAROLINA GOMEZ MUÑOZ",
+    "codigo": "01d09ddd2e32",
+    "puntaje_total": 142.0,
+    "matematicas": 20.0,
+    "lectura_critica": 35.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "YADY ISABEL RAMIREZ MORALES",
+    "codigo": "b4a1aa0ab0b8",
+    "puntaje_total": 142.0,
+    "matematicas": 15.0,
+    "lectura_critica": 40.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "VICTOR MANUEL TEJADA ZUÑIGA",
+    "codigo": "b5597957c96c",
+    "puntaje_total": 142.0,
+    "matematicas": 25.0,
+    "lectura_critica": 40.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "KEINER ACOSTA BUENO",
+    "codigo": "514e4a3ef4b2",
+    "puntaje_total": 141.0,
+    "matematicas": 15.0,
+    "lectura_critica": 30.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "NICOL STEFANY BAQUERO DIAZ",
+    "codigo": "2fbd15c7bbc1",
+    "puntaje_total": 141.0,
+    "matematicas": 20.0,
+    "lectura_critica": 25.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "JUAN CAMILO RICARDO VEGA",
+    "codigo": "7b078db5f9fd",
+    "puntaje_total": 141.0,
+    "matematicas": 25.0,
+    "lectura_critica": 35.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "SEBASTIAN RUIZ MONTERROZA",
+    "codigo": "e8ce79bf293f",
+    "puntaje_total": 141.0,
+    "matematicas": 20.0,
+    "lectura_critica": 35.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "DAILY ALEJANDRA ARGUMEDO SALAS",
+    "codigo": "c1593cdedfaf",
+    "puntaje_total": 140.0,
+    "matematicas": 15.0,
+    "lectura_critica": 25.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "ISABELLA FLOREZ CANO",
+    "codigo": "93749cfc8e59",
+    "puntaje_total": 140.0,
+    "matematicas": 20.0,
+    "lectura_critica": 20.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "YESID ANDRES ZEA CAMAÑO",
+    "codigo": "ea5edd4f22a9",
+    "puntaje_total": 140.0,
+    "matematicas": 25.0,
+    "lectura_critica": 25.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 20.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "MICHELL ANDREA MESA RIVERA",
+    "codigo": "fa987cb513a3",
+    "puntaje_total": 139.0,
+    "matematicas": 20.0,
+    "lectura_critica": 30.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "JULIANA CASTAÑEDA MEJIA",
+    "codigo": "4a3ec50976c9",
+    "puntaje_total": 138.0,
+    "matematicas": 25.0,
+    "lectura_critica": 25.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "SAMUEL VARGAS VIDES",
+    "codigo": "1800ecf26264",
+    "puntaje_total": 138.0,
+    "matematicas": 10.0,
+    "lectura_critica": 30.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "JESUS DAVID VERGARA OCAMPO",
+    "codigo": "3e234a547ca3",
+    "puntaje_total": 138.0,
+    "matematicas": 25.0,
+    "lectura_critica": 40.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 5.0
+  },
+  {
+    "nombre_completo": "JHOJAN STIVEN ALZATE CARMONA",
+    "codigo": "3c9157ae2263",
+    "puntaje_total": 137.0,
+    "matematicas": 15.0,
+    "lectura_critica": 30.0,
+    "ingles": 52.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "SOFIA MARTINEZ HERNANDEZ",
+    "codigo": "45b90a477345",
+    "puntaje_total": 136.0,
+    "matematicas": 20.0,
+    "lectura_critica": 35.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "KATALINA PEREZ MORENO",
+    "codigo": "962bb06534bd",
+    "puntaje_total": 136.0,
+    "matematicas": 25.0,
+    "lectura_critica": 30.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "CAMILA ANDREA SOTELO TORRES",
+    "codigo": "e27624d79462",
+    "puntaje_total": 136.0,
+    "matematicas": 10.0,
+    "lectura_critica": 30.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "KAROL DAYANA ESCOBAR VARGAS",
+    "codigo": "505a82cab17e",
+    "puntaje_total": 135.0,
+    "matematicas": 25.0,
+    "lectura_critica": 25.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "MELANI ALEJANDRA MALDONADO VILLALBA",
+    "codigo": "f68c08449e01",
+    "puntaje_total": 135.0,
+    "matematicas": 35.0,
+    "lectura_critica": 20.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "JUAN PABLO PATERNINA HINCAPIE",
+    "codigo": "72d8600cf2c4",
+    "puntaje_total": 135.0,
+    "matematicas": 10.0,
+    "lectura_critica": 30.0,
+    "ingles": 40.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "SARA MARCELA TORREZ MENDOZA",
+    "codigo": "3982e0168c21",
+    "puntaje_total": 135.0,
+    "matematicas": 15.0,
+    "lectura_critica": 35.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "MATIAS ANDRES BARRIOS SOTELO",
+    "codigo": "e5aeeb344f81",
+    "puntaje_total": 134.0,
+    "matematicas": 35.0,
+    "lectura_critica": 30.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "ANGELICA MADRID SIERRA",
+    "codigo": "3c8227e6e765",
+    "puntaje_total": 134.0,
+    "matematicas": 10.0,
+    "lectura_critica": 25.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "JULIANA ANDREA PASTRANA ROMERO",
+    "codigo": "3b1227ae5a2b",
+    "puntaje_total": 134.0,
+    "matematicas": 10.0,
+    "lectura_critica": 45.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "DIDIEN MATIAS ROMERO SIERRA",
+    "codigo": "0e400d7f9871",
+    "puntaje_total": 134.0,
+    "matematicas": 25.0,
+    "lectura_critica": 30.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "ANA SOFIA VERGARA MARTINEZ",
+    "codigo": "4a876f362adf",
+    "puntaje_total": 134.0,
+    "matematicas": 30.0,
+    "lectura_critica": 30.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 20.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "SHERYL ANDREA FUENTES MENDEZ",
+    "codigo": "8e636925a6dd",
+    "puntaje_total": 133.0,
+    "matematicas": 25.0,
+    "lectura_critica": 20.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "ENIS YULISA HERNÁNDEZ PEÑATE",
+    "codigo": "f2b5797d5321",
+    "puntaje_total": 133.0,
+    "matematicas": 20.0,
+    "lectura_critica": 30.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "BRESLY QUINTERO ROSARIO",
+    "codigo": "8bb197ddfd5e",
+    "puntaje_total": 133.0,
+    "matematicas": 25.0,
+    "lectura_critica": 40.0,
+    "ingles": 8.0,
+    "ciencias_naturales": 15.0,
+    "sociales": 45.0
+  },
+  {
+    "nombre_completo": "JULIANA CONTRERAS GARCIA",
+    "codigo": "51cec26ba15c",
+    "puntaje_total": 132.0,
+    "matematicas": 10.0,
+    "lectura_critica": 30.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "HECTOR LUIS FUENTES MENDOZA",
+    "codigo": "6340292411b9",
+    "puntaje_total": 132.0,
+    "matematicas": 20.0,
+    "lectura_critica": 25.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "NAIDERLIN ESPITIA CASTRO",
+    "codigo": "755ab786dae5",
+    "puntaje_total": 131.0,
+    "matematicas": 20.0,
+    "lectura_critica": 35.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "KEILLY MICHELLE HERNANDEZ HOYOS",
+    "codigo": "03a3396f7954",
+    "puntaje_total": 131.0,
+    "matematicas": 40.0,
+    "lectura_critica": 25.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "ESTHER MARIA LONDOÑO BARRIOS",
+    "codigo": "da4d8bedff19",
+    "puntaje_total": 130.0,
+    "matematicas": 10.0,
+    "lectura_critica": 30.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "YASMILA MENDEZ HERNANDEZ",
+    "codigo": "5f3cf86620ec",
+    "puntaje_total": 130.0,
+    "matematicas": 30.0,
+    "lectura_critica": 15.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "VALENTINA ESTREMOR PEREZ",
+    "codigo": "ab4bdd7f71ff",
+    "puntaje_total": 129.0,
+    "matematicas": 20.0,
+    "lectura_critica": 30.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "MARÍA ANGEL HERNÁNDEZ HOYOS",
+    "codigo": "6ee627be61e5",
+    "puntaje_total": 129.0,
+    "matematicas": 25.0,
+    "lectura_critica": 30.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "MARIA ANGELICA PASTRANA RODRIGUEZ",
+    "codigo": "b55d718ccbc2",
+    "puntaje_total": 129.0,
+    "matematicas": 20.0,
+    "lectura_critica": 30.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "RONALD SAMPAYO ALVIS",
+    "codigo": "e8d3aa289a52",
+    "puntaje_total": 129.0,
+    "matematicas": 25.0,
+    "lectura_critica": 10.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "VALENTINA AGUAS ATENCIA",
+    "codigo": "6fd7a57d1d3f",
+    "puntaje_total": 128.0,
+    "matematicas": 15.0,
+    "lectura_critica": 25.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "YOINER ARRIETA JARAMILLO",
+    "codigo": "97b0173c564f",
+    "puntaje_total": 128.0,
+    "matematicas": 15.0,
+    "lectura_critica": 30.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "YAIRA ANDREA TORRES CADRASCO",
+    "codigo": "83167ca8d9e7",
+    "puntaje_total": 128.0,
+    "matematicas": 15.0,
+    "lectura_critica": 20.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "JUAN DAVID JULIO VILLORINA",
+    "codigo": "4ab86f601fd3",
+    "puntaje_total": 127.0,
+    "matematicas": 30.0,
+    "lectura_critica": 20.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "KEVIN DAVID MEJIA HEREDIA",
+    "codigo": "cd3e1e75c1c2",
+    "puntaje_total": 127.0,
+    "matematicas": 30.0,
+    "lectura_critica": 15.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "GARAVITO MELANI PEÑATES",
+    "codigo": "3f98eaa43b10",
+    "puntaje_total": 127.0,
+    "matematicas": 25.0,
+    "lectura_critica": 25.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 10.0
+  },
+  {
+    "nombre_completo": "SAMUEL DAVID FABRA VAZQUEZ",
+    "codigo": "ed81110bfb9b",
+    "puntaje_total": 126.0,
+    "matematicas": 20.0,
+    "lectura_critica": 20.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 20.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "HITA FERNANDA REYES CÓRDOBA",
+    "codigo": "08b442c8e4a4",
+    "puntaje_total": 126.0,
+    "matematicas": 25.0,
+    "lectura_critica": 20.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 40.0
+  },
+  {
+    "nombre_completo": "KELLY JOHANA ROMERO CASARRUBIA",
+    "codigo": "3f1d628656b2",
+    "puntaje_total": 126.0,
+    "matematicas": 25.0,
+    "lectura_critica": 35.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "KATY MILENA SALGADO VERONA",
+    "codigo": "9e6ed86779ac",
+    "puntaje_total": 126.0,
+    "matematicas": 20.0,
+    "lectura_critica": 35.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 10.0
+  },
+  {
+    "nombre_completo": "DIONI SOLA MARTINEZ",
+    "codigo": "027956853010",
+    "puntaje_total": 126.0,
+    "matematicas": 25.0,
+    "lectura_critica": 20.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "SANTIAGO CEBALLOS ZABALA",
+    "codigo": "913a0d34db8b",
+    "puntaje_total": 125.0,
+    "matematicas": 25.0,
+    "lectura_critica": 25.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "MARIA ANGEL JULIO HERNANDEZ",
+    "codigo": "ce58fdf8d0f6",
+    "puntaje_total": 125.0,
+    "matematicas": 20.0,
+    "lectura_critica": 35.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 20.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "MARISOL MARTINEZ SALAS",
+    "codigo": "24963ef35b94",
+    "puntaje_total": 125.0,
+    "matematicas": 25.0,
+    "lectura_critica": 25.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "ARIATHNA MESTRA ARDILA",
+    "codigo": "5a82b8a87c23",
+    "puntaje_total": 125.0,
+    "matematicas": 20.0,
+    "lectura_critica": 20.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "LUISA FERNANDA BENITEZ BALTAZAR",
+    "codigo": "7c91ec704ace",
+    "puntaje_total": 124.0,
+    "matematicas": 15.0,
+    "lectura_critica": 25.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "JOSE ALBEIRO CALLE MORENO",
+    "codigo": "7b82769f9d76",
+    "puntaje_total": 123.0,
+    "matematicas": 25.0,
+    "lectura_critica": 10.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "JUAN CAMILO GAMARRA LOPEZ",
+    "codigo": "1dca6b446b25",
+    "puntaje_total": 123.0,
+    "matematicas": 5.0,
+    "lectura_critica": 25.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "DANILSA MERCADO TIRADO",
+    "codigo": "d17596861599",
+    "puntaje_total": 123.0,
+    "matematicas": 5.0,
+    "lectura_critica": 20.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "JULIANA ARRIETA GOMEZ",
+    "codigo": "974d21dcde8c",
+    "puntaje_total": 121.0,
+    "matematicas": 20.0,
+    "lectura_critica": 20.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "YOJAN DAVID BENITEZ BARRIOS",
+    "codigo": "8c52e54debf8",
+    "puntaje_total": 121.0,
+    "matematicas": 15.0,
+    "lectura_critica": 15.0,
+    "ingles": 36.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "KEINER GONZALEZ RAMOS",
+    "codigo": "3570b173af52",
+    "puntaje_total": 121.0,
+    "matematicas": 20.0,
+    "lectura_critica": 25.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 45.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "MARIA ALEJANDRA RAMOS CALLE",
+    "codigo": "18e3f75c45cb",
+    "puntaje_total": 121.0,
+    "matematicas": 15.0,
+    "lectura_critica": 20.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 40.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "ANA SOFIA GONZALEZ CALAO",
+    "codigo": "0de7164b909e",
+    "puntaje_total": 120.0,
+    "matematicas": 10.0,
+    "lectura_critica": 20.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "ELIZABETH PEREIRA LOPEZ",
+    "codigo": "306b36abf9e3",
+    "puntaje_total": 120.0,
+    "matematicas": 25.0,
+    "lectura_critica": 10.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 35.0
+  },
+  {
+    "nombre_completo": "TALIANA BERRIO MENDOZA",
+    "codigo": "931ab5aa6858",
+    "puntaje_total": 119.0,
+    "matematicas": 15.0,
+    "lectura_critica": 20.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "STEFANY RUIZ MARTINEZ",
+    "codigo": "6d714eb33c59",
+    "puntaje_total": 119.0,
+    "matematicas": 30.0,
+    "lectura_critica": 15.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "MARIANGEL SALGADO MAZO",
+    "codigo": "acdef62c26ec",
+    "puntaje_total": 119.0,
+    "matematicas": 20.0,
+    "lectura_critica": 20.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "JULIANA ALVARADO MARTINEZ",
+    "codigo": "d0e1eeecf047",
+    "puntaje_total": 118.0,
+    "matematicas": 30.0,
+    "lectura_critica": 15.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 20.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "MARIANA FLOREZ HERNANDEZ",
+    "codigo": "50eac6095d5b",
+    "puntaje_total": 117.0,
+    "matematicas": 35.0,
+    "lectura_critica": 10.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 15.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "JIMENA ANDREA HOLGUÍN CARDEÑO",
+    "codigo": "d40d27a2a6c2",
+    "puntaje_total": 117.0,
+    "matematicas": 30.0,
+    "lectura_critica": 25.0,
+    "ingles": 12.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "DIEGO PADILLA MORA",
+    "codigo": "a31d03aafa83",
+    "puntaje_total": 117.0,
+    "matematicas": 15.0,
+    "lectura_critica": 30.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 10.0
+  },
+  {
+    "nombre_completo": "ENAN JOAQUIN TUIRAN MORENO",
+    "codigo": "0435ebf61cec",
+    "puntaje_total": 117.0,
+    "matematicas": 10.0,
+    "lectura_critica": 20.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "ANA SOFIA FERNANDEZ MADRID",
+    "codigo": "e6fb06a373ef",
+    "puntaje_total": 116.0,
+    "matematicas": 15.0,
+    "lectura_critica": 30.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "ELISEO LUNA PEREZ",
+    "codigo": "ed721bb92d16",
+    "puntaje_total": 115.0,
+    "matematicas": 30.0,
+    "lectura_critica": 15.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "ORNELLA HEREDIA MORENO",
+    "codigo": "7eb2fbbf75dc",
+    "puntaje_total": 114.0,
+    "matematicas": 25.0,
+    "lectura_critica": 20.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 10.0
+  },
+  {
+    "nombre_completo": "CARLOS DANIEL MARCHENA BARRETO",
+    "codigo": "39027e55740a",
+    "puntaje_total": 114.0,
+    "matematicas": 20.0,
+    "lectura_critica": 40.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 15.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "JOSE JULIAN PATERNINA ARCIA",
+    "codigo": "8dec2135a18f",
+    "puntaje_total": 114.0,
+    "matematicas": 35.0,
+    "lectura_critica": 25.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 10.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "YENNIFER CASTILLO SUAREZ",
+    "codigo": "639cfdeb790c",
+    "puntaje_total": 112.0,
+    "matematicas": 20.0,
+    "lectura_critica": 25.0,
+    "ingles": 12.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "TALIN MARÍA GOMEZ HOYOS",
+    "codigo": "7a8e61c2db32",
+    "puntaje_total": 111.0,
+    "matematicas": 20.0,
+    "lectura_critica": 15.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 30.0
+  },
+  {
+    "nombre_completo": "MARÍA JOSÉ PÉREZ CANTERO",
+    "codigo": "e643c3516f2b",
+    "puntaje_total": 108.0,
+    "matematicas": 10.0,
+    "lectura_critica": 15.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "YURIS PAOLA RODRIGUEZ FLOREZ",
+    "codigo": "92cfdc516493",
+    "puntaje_total": 105.0,
+    "matematicas": 30.0,
+    "lectura_critica": 25.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 20.0,
+    "sociales": 10.0
+  },
+  {
+    "nombre_completo": "MARIA JOSE GARCIA GUERRA",
+    "codigo": "fae28b8d8dd3",
+    "puntaje_total": 103.0,
+    "matematicas": 5.0,
+    "lectura_critica": 30.0,
+    "ingles": 28.0,
+    "ciencias_naturales": 35.0,
+    "sociales": 5.0
+  },
+  {
+    "nombre_completo": "LUIS EDUARDO SALGADO QUINTERO",
+    "codigo": "5541be481099",
+    "puntaje_total": 102.0,
+    "matematicas": 15.0,
+    "lectura_critica": 10.0,
+    "ingles": 12.0,
+    "ciencias_naturales": 20.0,
+    "sociales": 45.0
+  },
+  {
+    "nombre_completo": "JAIVER VILLADIEGO JIMENEZ",
+    "codigo": "77603e20ca9c",
+    "puntaje_total": 102.0,
+    "matematicas": 10.0,
+    "lectura_critica": 25.0,
+    "ingles": 32.0,
+    "ciencias_naturales": 15.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "MONICA PAOLA MONTALVO SOTO",
+    "codigo": "aea930f6af4d",
+    "puntaje_total": 101.0,
+    "matematicas": 25.0,
+    "lectura_critica": 25.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 10.0
+  },
+  {
+    "nombre_completo": "JOSE DANIEL ORTEGA JIMENEZ",
+    "codigo": "fddb556e7290",
+    "puntaje_total": 96.0,
+    "matematicas": 25.0,
+    "lectura_critica": 10.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 20.0
+  },
+  {
+    "nombre_completo": "ANGIE PAOLA ALARCON MENDEZ",
+    "codigo": "226fce26a860",
+    "puntaje_total": 95.0,
+    "matematicas": 10.0,
+    "lectura_critica": 20.0,
+    "ingles": 20.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 15.0
+  },
+  {
+    "nombre_completo": "JAIDER DAVID MEZA AVILES",
+    "codigo": "5a96034e80c1",
+    "puntaje_total": 94.0,
+    "matematicas": 0.0,
+    "lectura_critica": 20.0,
+    "ingles": 24.0,
+    "ciencias_naturales": 25.0,
+    "sociales": 25.0
+  },
+  {
+    "nombre_completo": "DANNA CAROLINA SCHELEGUEL CORREA",
+    "codigo": "da8134852f32",
+    "puntaje_total": 91.0,
+    "matematicas": 10.0,
+    "lectura_critica": 20.0,
+    "ingles": 16.0,
+    "ciencias_naturales": 30.0,
+    "sociales": 15.0
+  }
+]
