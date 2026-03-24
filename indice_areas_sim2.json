@@ -2,6 +2,7 @@
   {
     "nombre": "JUSTIN TIRADO GARAY",
     "icfes": 378.1,
+    "id_grado": "112024",
     "matematicas": 60.0,
     "lectura_critica": 95.0,
     "ciencias_naturales": 64.5,
@@ -11,6 +12,7 @@
   {
     "nombre": "YEHIDER VILLORINA",
     "icfes": 365.1,
+    "id_grado": "112009",
     "matematicas": 35.0,
     "lectura_critica": 100.0,
     "ciencias_naturales": 71.0,
@@ -20,6 +22,7 @@
   {
     "nombre": "ANA SOFIA FERNANDEZ MADRID",
     "icfes": 362.2,
+    "id_grado": "112012",
     "matematicas": 65.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 67.7,
@@ -29,6 +32,7 @@
   {
     "nombre": "STEVEN ANDRES HOYOS NAVARRO",
     "icfes": 361.5,
+    "id_grado": "116009",
     "matematicas": 35.0,
     "lectura_critica": 95.0,
     "ciencias_naturales": 77.4,
@@ -38,6 +42,7 @@
   {
     "nombre": "MICHELL ANDREA PEREZ CHOLES",
     "icfes": 358.1,
+    "id_grado": "112022",
     "matematicas": 60.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 64.5,
@@ -47,6 +52,7 @@
   {
     "nombre": "JUAN PABLO PATERNINA HINCAPIE",
     "icfes": 357.4,
+    "id_grado": "114023",
     "matematicas": 40.0,
     "lectura_critica": 90.0,
     "ciencias_naturales": 74.2,
@@ -56,6 +62,7 @@
   {
     "nombre": "SAMUEL VARGAS VIDES",
     "icfes": 357.4,
+    "id_grado": "112025",
     "matematicas": 65.0,
     "lectura_critica": 90.0,
     "ciencias_naturales": 71.0,
@@ -65,6 +72,7 @@
   {
     "nombre": "IVAN DAVID MARCELO SERPA",
     "icfes": 356.9,
+    "id_grado": "114017",
     "matematicas": 85.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 41.9,
@@ -74,6 +82,7 @@
   {
     "nombre": "DAYLIS PEREZ PADILLA",
     "icfes": 351.3,
+    "id_grado": "114025",
     "matematicas": 50.0,
     "lectura_critica": 85.0,
     "ciencias_naturales": 58.1,
@@ -83,6 +92,7 @@
   {
     "nombre": "SEBASTIAN RUIZ MONTERROZA",
     "icfes": 351.0,
+    "id_grado": "116026",
     "matematicas": 60.0,
     "lectura_critica": 95.0,
     "ciencias_naturales": 41.9,
@@ -92,6 +102,7 @@
   {
     "nombre": "ANGELICA MADRID SIERRA",
     "icfes": 349.3,
+    "id_grado": "114015",
     "matematicas": 55.0,
     "lectura_critica": 90.0,
     "ciencias_naturales": 54.8,
@@ -101,6 +112,7 @@
   {
     "nombre": "SAMUEL ALEAN ZAPATA",
     "icfes": 341.3,
+    "id_grado": "112002",
     "matematicas": 35.0,
     "lectura_critica": 95.0,
     "ciencias_naturales": 58.1,
@@ -110,6 +122,7 @@
   {
     "nombre": "VALENTINA AGUAS ATENCIA",
     "icfes": 340.0,
+    "id_grado": "113001",
     "matematicas": 60.0,
     "lectura_critica": 95.0,
     "ciencias_naturales": 35.5,
@@ -119,6 +132,7 @@
   {
     "nombre": "JULIANA CASTAÑEDA MEJIA",
     "icfes": 335.9,
+    "id_grado": "112008",
     "matematicas": 25.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 64.5,
@@ -128,6 +142,7 @@
   {
     "nombre": "JULIANA BANQUET MENDOZA",
     "icfes": 334.9,
+    "id_grado": "112005",
     "matematicas": 55.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 61.3,
@@ -137,6 +152,7 @@
   {
     "nombre": "YERMAN YAIR RUIZ GRANADOS",
     "icfes": 326.6,
+    "id_grado": "115025",
     "matematicas": 60.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 48.4,
@@ -146,6 +162,7 @@
   {
     "nombre": "DIEGO DAVID DUQUE HERRERA",
     "icfes": 323.4,
+    "id_grado": "113008",
     "matematicas": 35.0,
     "lectura_critica": 90.0,
     "ciencias_naturales": 54.8,
@@ -155,6 +172,7 @@
   {
     "nombre": "SANTIAGO CEBALLOS ZABALA",
     "icfes": 320.7,
+    "id_grado": "113006",
     "matematicas": 45.0,
     "lectura_critica": 95.0,
     "ciencias_naturales": 45.2,
@@ -164,6 +182,7 @@
   {
     "nombre": "SAMAHARA FLOREZ OVIEDO",
     "icfes": 320.1,
+    "id_grado": "111016",
     "matematicas": 40.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 71.0,
@@ -173,6 +192,7 @@
   {
     "nombre": "JULIANA ARRIETA GOMEZ",
     "icfes": 319.8,
+    "id_grado": "113002",
     "matematicas": 45.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 51.6,
@@ -182,6 +202,7 @@
   {
     "nombre": "YOJAN DAVID BENITEZ BARRIOS",
     "icfes": 319.3,
+    "id_grado": "114002",
     "matematicas": 50.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 45.2,
@@ -191,6 +212,7 @@
   {
     "nombre": "MELANI ALEJANDRA MALDONADO VILLALBA",
     "icfes": 319.3,
+    "id_grado": "114016",
     "matematicas": 35.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 51.6,
@@ -200,6 +222,7 @@
   {
     "nombre": "KEINER ACOSTA BUENO",
     "icfes": 318.3,
+    "id_grado": "111001",
     "matematicas": 65.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 41.9,
@@ -209,6 +232,7 @@
   {
     "nombre": "DAILY ALEJANDRA ARGUMEDO SALAS",
     "icfes": 317.8,
+    "id_grado": "116001",
     "matematicas": 40.0,
     "lectura_critica": 90.0,
     "ciencias_naturales": 38.7,
@@ -218,6 +242,7 @@
   {
     "nombre": "SYARA SOFIA DIAZ HERNANDEZ",
     "icfes": 313.6,
+    "id_grado": "113007",
     "matematicas": 50.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 58.1,
@@ -227,6 +252,7 @@
   {
     "nombre": "NATALIA SANCHEZ MONTERROZA",
     "icfes": 312.4,
+    "id_grado": "115027",
     "matematicas": 55.0,
     "lectura_critica": 90.0,
     "ciencias_naturales": 41.9,
@@ -236,6 +262,7 @@
   {
     "nombre": "KEVIN DAVID MEJIA HEREDIA",
     "icfes": 309.9,
+    "id_grado": "114019",
     "matematicas": 40.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 61.3,
@@ -245,6 +272,7 @@
   {
     "nombre": "KAROL DAYANA ESCOBAR VARGAS",
     "icfes": 308.6,
+    "id_grado": "112011",
     "matematicas": 50.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 58.1,
@@ -254,6 +282,7 @@
   {
     "nombre": "MARIA JOSE VILLEGAS HERRERA",
     "icfes": 306.3,
+    "id_grado": "112027",
     "matematicas": 35.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 61.3,
@@ -263,6 +292,7 @@
   {
     "nombre": "ESTEBAN DAVID CORONADO PALENCIA",
     "icfes": 305.5,
+    "id_grado": "115006",
     "matematicas": 35.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 41.9,
@@ -272,6 +302,7 @@
   {
     "nombre": "VALENTINA ESTREMOR PEREZ",
     "icfes": 304.5,
+    "id_grado": "115007",
     "matematicas": 40.0,
     "lectura_critica": 85.0,
     "ciencias_naturales": 58.1,
@@ -281,6 +312,7 @@
   {
     "nombre": "JUAN ANDRES CARVAJAL DIAZ",
     "icfes": 304.3,
+    "id_grado": "115005",
     "matematicas": 70.0,
     "lectura_critica": 60.0,
     "ciencias_naturales": 48.4,
@@ -290,6 +322,7 @@
   {
     "nombre": "MARIA DE LOS ANGELES PASOS SOTELO",
     "icfes": 304.3,
+    "id_grado": "112021",
     "matematicas": 40.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 45.2,
@@ -299,6 +332,7 @@
   {
     "nombre": "SARAY CAMILA PIMIENTA SOTO",
     "icfes": 304.0,
+    "id_grado": "114026",
     "matematicas": 45.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 64.5,
@@ -308,6 +342,7 @@
   {
     "nombre": "ARIATHNA MESTRA ARDILA",
     "icfes": 302.7,
+    "id_grado": "112020",
     "matematicas": 70.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 61.3,
@@ -317,6 +352,7 @@
   {
     "nombre": "DIEGO ARMANDO CAMPO SALAZAR",
     "icfes": 301.8,
+    "id_grado": "111007",
     "matematicas": 35.0,
     "lectura_critica": 85.0,
     "ciencias_naturales": 61.3,
@@ -326,6 +362,7 @@
   {
     "nombre": "LAUREN VANESSA ESTRADA GARCES",
     "icfes": 300.7,
+    "id_grado": "113009",
     "matematicas": 35.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 51.6,
@@ -335,6 +372,7 @@
   {
     "nombre": "SHARON LISHELL RODRIGUEZ OSORIO",
     "icfes": 300.0,
+    "id_grado": "113023",
     "matematicas": 40.0,
     "lectura_critica": 85.0,
     "ciencias_naturales": 35.5,
@@ -344,6 +382,7 @@
   {
     "nombre": "STIVEN DARIO CALI ESTRADA",
     "icfes": 299.0,
+    "id_grado": "112006",
     "matematicas": 55.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 58.1,
@@ -353,6 +392,7 @@
   {
     "nombre": "JULIANA CONTRERAS GARCIA",
     "icfes": 298.7,
+    "id_grado": "111012",
     "matematicas": 45.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 38.7,
@@ -362,6 +402,7 @@
   {
     "nombre": "PAMELA DENISE RUIZ VILLADIEGO",
     "icfes": 298.1,
+    "id_grado": "113025",
     "matematicas": 30.0,
     "lectura_critica": 60.0,
     "ciencias_naturales": 64.5,
@@ -371,6 +412,7 @@
   {
     "nombre": "LUIS FERNANDO TEJADA GUERRERO",
     "icfes": 297.5,
+    "id_grado": "115028",
     "matematicas": 55.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 51.6,
@@ -380,6 +422,7 @@
   {
     "nombre": "KEVIN DAVID CARRASCO MONTIEL",
     "icfes": 296.7,
+    "id_grado": "111009",
     "matematicas": 60.0,
     "lectura_critica": 40.0,
     "ciencias_naturales": 58.1,
@@ -389,6 +432,7 @@
   {
     "nombre": "ANGELICA MARTINEZ BALBERA",
     "icfes": 295.8,
+    "id_grado": "116012",
     "matematicas": 30.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 61.3,
@@ -398,6 +442,7 @@
   {
     "nombre": "MADELINE CAMPO RIVERA",
     "icfes": 295.4,
+    "id_grado": "113004",
     "matematicas": 35.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 64.5,
@@ -407,6 +452,7 @@
   {
     "nombre": "JULIANA ALVARADO MARTINEZ",
     "icfes": 295.1,
+    "id_grado": "112003",
     "matematicas": 40.0,
     "lectura_critica": 60.0,
     "ciencias_naturales": 41.9,
@@ -416,6 +462,7 @@
   {
     "nombre": "ISABEL CASTILLO RICARDO",
     "icfes": 294.7,
+    "id_grado": "114004",
     "matematicas": 35.0,
     "lectura_critica": 85.0,
     "ciencias_naturales": 45.2,
@@ -425,6 +472,7 @@
   {
     "nombre": "CARLOS ENRIQUE MENDOZA FERIA",
     "icfes": 294.3,
+    "id_grado": "115014",
     "matematicas": 40.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 54.8,
@@ -434,6 +482,7 @@
   {
     "nombre": "JUAN ESTEBAN FLOREZ MARTINEZ",
     "icfes": 294.0,
+    "id_grado": "111015",
     "matematicas": 35.0,
     "lectura_critica": 85.0,
     "ciencias_naturales": 58.1,
@@ -443,6 +492,7 @@
   {
     "nombre": "JAIDER DAVID MEZA AVILES",
     "icfes": 292.4,
+    "id_grado": "114020",
     "matematicas": 45.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 41.9,
@@ -452,6 +502,7 @@
   {
     "nombre": "JUAN CAMILO RICARDO VEGA",
     "icfes": 292.1,
+    "id_grado": "115020",
     "matematicas": 30.0,
     "lectura_critica": 90.0,
     "ciencias_naturales": 51.6,
@@ -461,6 +512,7 @@
   {
     "nombre": "YESID ANDRES ZEA CAMAÑO",
     "icfes": 290.9,
+    "id_grado": "111031",
     "matematicas": 60.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 64.5,
@@ -470,6 +522,7 @@
   {
     "nombre": "ELISEO LUNA PEREZ",
     "icfes": 290.5,
+    "id_grado": "115012",
     "matematicas": 60.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 35.5,
@@ -479,6 +532,7 @@
   {
     "nombre": "MARISOL MARTINEZ SALAS",
     "icfes": 289.8,
+    "id_grado": "114018",
     "matematicas": 40.0,
     "lectura_critica": 90.0,
     "ciencias_naturales": 48.4,
@@ -488,6 +542,7 @@
   {
     "nombre": "SARA MARCELA TORREZ MENDOZA",
     "icfes": 289.8,
+    "id_grado": "116030",
     "matematicas": 35.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 54.8,
@@ -497,6 +552,7 @@
   {
     "nombre": "YALENA SOFIA SALAZAR OYOLA",
     "icfes": 289.4,
+    "id_grado": "116027",
     "matematicas": 55.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 25.8,
@@ -506,6 +562,7 @@
   {
     "nombre": "LUISA FERNANDA BENITEZ BALTAZAR",
     "icfes": 289.3,
+    "id_grado": "115003",
     "matematicas": 35.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 45.2,
@@ -515,6 +572,7 @@
   {
     "nombre": "JUAN FELIPE MERCADO PEREZ",
     "icfes": 288.4,
+    "id_grado": "113019",
     "matematicas": 55.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 45.2,
@@ -524,6 +582,7 @@
   {
     "nombre": "LIZ EMILY ZUÑIGA OSORIO",
     "icfes": 287.6,
+    "id_grado": "112028",
     "matematicas": 25.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 29.0,
@@ -533,6 +592,7 @@
   {
     "nombre": "DIONI SOLA MARTINEZ",
     "icfes": 286.6,
+    "id_grado": "111029",
     "matematicas": 35.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 45.2,
@@ -542,6 +602,7 @@
   {
     "nombre": "ALEJANDRO ZARZA HOYOS",
     "icfes": 286.3,
+    "id_grado": "115030",
     "matematicas": 50.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 58.1,
@@ -551,6 +612,7 @@
   {
     "nombre": "ANDY PAOLA MANTILLA ESPITIA",
     "icfes": 284.7,
+    "id_grado": "116011",
     "matematicas": 50.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 45.2,
@@ -560,6 +622,7 @@
   {
     "nombre": "DIDIER ESNEIDER CASTILLO CAMARGO",
     "icfes": 281.9,
+    "id_grado": "113005",
     "matematicas": 35.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 41.9,
@@ -569,6 +632,7 @@
   {
     "nombre": "PATRICIA DEL CARMEN RODRIGUEZ VERTEL",
     "icfes": 281.4,
+    "id_grado": "116024",
     "matematicas": 40.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 41.9,
@@ -578,6 +642,7 @@
   {
     "nombre": "ANDREA LISETH CAMARGO URANGO",
     "icfes": 280.7,
+    "id_grado": "114003",
     "matematicas": 45.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 54.8,
@@ -587,6 +652,7 @@
   {
     "nombre": "JUNIOR ENRIQUE MERCADO ROHENES",
     "icfes": 278.5,
+    "id_grado": "112019",
     "matematicas": 35.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 19.4,
@@ -596,6 +662,7 @@
   {
     "nombre": "YENNIFER CASTILLO SUAREZ",
     "icfes": 277.1,
+    "id_grado": "114005",
     "matematicas": 65.0,
     "lectura_critica": 50.0,
     "ciencias_naturales": 51.6,
@@ -605,6 +672,7 @@
   {
     "nombre": "VICTOR ANDRES ESPITIA MORALES",
     "icfes": 275.2,
+    "id_grado": "114008",
     "matematicas": 50.0,
     "lectura_critica": 60.0,
     "ciencias_naturales": 45.2,
@@ -614,6 +682,7 @@
   {
     "nombre": "MELANI PEÑATES GARAVITO",
     "icfes": 274.8,
+    "id_grado": "116020",
     "matematicas": 50.0,
     "lectura_critica": 50.0,
     "ciencias_naturales": 54.8,
@@ -623,6 +692,7 @@
   {
     "nombre": "VALENTINA ARRIETA SIERRA",
     "icfes": 272.4,
+    "id_grado": "112004",
     "matematicas": 25.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 41.9,
@@ -632,6 +702,7 @@
   {
     "nombre": "TALIANA BERRIO MENDOZA",
     "icfes": 271.6,
+    "id_grado": "111005",
     "matematicas": 40.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 45.2,
@@ -641,6 +712,7 @@
   {
     "nombre": "ANGIE PAOLA ALARCON MENDEZ",
     "icfes": 271.4,
+    "id_grado": "114001",
     "matematicas": 35.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 35.5,
@@ -650,6 +722,7 @@
   {
     "nombre": "JOSE ALBEIRO CALLE MORENO",
     "icfes": 271.1,
+    "id_grado": "111006",
     "matematicas": 50.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 45.2,
@@ -659,6 +732,7 @@
   {
     "nombre": "MARIA ALEJANDRA RAMOS CALLE",
     "icfes": 271.1,
+    "id_grado": "114027",
     "matematicas": 25.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 45.2,
@@ -668,6 +742,7 @@
   {
     "nombre": "STEFANIA GUERRA VILLA",
     "icfes": 270.9,
+    "id_grado": "116005",
     "matematicas": 30.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 32.3,
@@ -677,6 +752,7 @@
   {
     "nombre": "JULIANA PEREZ VERGARA",
     "icfes": 270.7,
+    "id_grado": "113021",
     "matematicas": 35.0,
     "lectura_critica": 60.0,
     "ciencias_naturales": 45.2,
@@ -686,6 +762,7 @@
   {
     "nombre": "OSSA POLO ALEX JOSE DE LA",
     "icfes": 270.5,
+    "id_grado": "111013",
     "matematicas": 45.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 35.5,
@@ -695,6 +772,7 @@
   {
     "nombre": "ALYS PATRICIA HERNANDEZ PASTRANA",
     "icfes": 269.8,
+    "id_grado": "115011",
     "matematicas": 25.0,
     "lectura_critica": 90.0,
     "ciencias_naturales": 48.4,
@@ -704,6 +782,7 @@
   {
     "nombre": "ANA SOFIA GONZALEZ CALAO",
     "icfes": 268.9,
+    "id_grado": "111017",
     "matematicas": 25.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 48.4,
@@ -713,6 +792,7 @@
   {
     "nombre": "VALERI CORREA DOMINGUEZ",
     "icfes": 268.7,
+    "id_grado": "116002",
     "matematicas": 20.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 38.7,
@@ -722,6 +802,7 @@
   {
     "nombre": "NICOLAS ELIAS AGAMEZ ZABALA",
     "icfes": 266.4,
+    "id_grado": "112001",
     "matematicas": 20.0,
     "lectura_critica": 85.0,
     "ciencias_naturales": 35.5,
@@ -731,6 +812,7 @@
   {
     "nombre": "DANILSA MERCADO TIRADO",
     "icfes": 265.7,
+    "id_grado": "116015",
     "matematicas": 30.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 51.6,
@@ -740,6 +822,7 @@
   {
     "nombre": "CAMILO ANDRES MURILLO BUELVAS",
     "icfes": 265.3,
+    "id_grado": "115017",
     "matematicas": 60.0,
     "lectura_critica": 30.0,
     "ciencias_naturales": 54.8,
@@ -749,6 +832,7 @@
   {
     "nombre": "JESUS ORLANDO FINO RICARDO",
     "icfes": 265.2,
+    "id_grado": "114010",
     "matematicas": 50.0,
     "lectura_critica": 60.0,
     "ciencias_naturales": 45.2,
@@ -758,6 +842,7 @@
   {
     "nombre": "ANDRES FELIPE MARTINEZ PACHECO",
     "icfes": 264.2,
+    "id_grado": "116014",
     "matematicas": 15.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 38.7,
@@ -767,6 +852,7 @@
   {
     "nombre": "ELIZABETH PEREIRA LOPEZ",
     "icfes": 263.7,
+    "id_grado": "116021",
     "matematicas": 30.0,
     "lectura_critica": 85.0,
     "ciencias_naturales": 41.9,
@@ -776,6 +862,7 @@
   {
     "nombre": "NAIDERLIN ESPITIA CASTRO",
     "icfes": 263.4,
+    "id_grado": "111014",
     "matematicas": 30.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 51.6,
@@ -785,6 +872,7 @@
   {
     "nombre": "MARIA ANGEL JULIO HERNANDEZ",
     "icfes": 261.9,
+    "id_grado": "113015",
     "matematicas": 40.0,
     "lectura_critica": 50.0,
     "ciencias_naturales": 35.5,
@@ -794,6 +882,7 @@
   {
     "nombre": "ISABELLA FLOREZ CANO",
     "icfes": 259.9,
+    "id_grado": "113010",
     "matematicas": 50.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 29.0,
@@ -803,6 +892,7 @@
   {
     "nombre": "MARIA JOSE PEREZ CANTERO",
     "icfes": 259.5,
+    "id_grado": "114024",
     "matematicas": 40.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 29.0,
@@ -812,6 +902,7 @@
   {
     "nombre": "CRISTIANO RONALDO ROMERO ZUÑIGA",
     "icfes": 258.7,
+    "id_grado": "111027",
     "matematicas": 70.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 35.5,
@@ -821,6 +912,7 @@
   {
     "nombre": "SHERYL ANDREA FUENTES MENDEZ",
     "icfes": 257.6,
+    "id_grado": "114011",
     "matematicas": 30.0,
     "lectura_critica": 60.0,
     "ciencias_naturales": 29.0,
@@ -830,6 +922,7 @@
   {
     "nombre": "SOFIA MARTINEZ HERNANDEZ",
     "icfes": 257.5,
+    "id_grado": "116013",
     "matematicas": 40.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 51.6,
@@ -839,6 +932,7 @@
   {
     "nombre": "YADY ISABEL RAMIREZ MORALES",
     "icfes": 255.4,
+    "id_grado": "116023",
     "matematicas": 40.0,
     "lectura_critica": 90.0,
     "ciencias_naturales": 29.0,
@@ -848,6 +942,7 @@
   {
     "nombre": "ANYS ANDREA GUTIERREZ ARRIETA",
     "icfes": 254.0,
+    "id_grado": "116006",
     "matematicas": 35.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 22.6,
@@ -857,6 +952,7 @@
   {
     "nombre": "KEILLY MICHELLE HERNANDEZ HOYOS",
     "icfes": 253.7,
+    "id_grado": "116008",
     "matematicas": 40.0,
     "lectura_critica": 50.0,
     "ciencias_naturales": 38.7,
@@ -866,6 +962,7 @@
   {
     "nombre": "HITA FERNANDA REYES CORDOBA",
     "icfes": 253.3,
+    "id_grado": "111025",
     "matematicas": 40.0,
     "lectura_critica": 45.0,
     "ciencias_naturales": 41.9,
@@ -875,6 +972,7 @@
   {
     "nombre": "JULIANA ANDREA PASTRANA ROMERO",
     "icfes": 251.3,
+    "id_grado": "115018",
     "matematicas": 50.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 25.8,
@@ -884,6 +982,7 @@
   {
     "nombre": "EVERNEY CALLE SOTELO",
     "icfes": 248.8,
+    "id_grado": "112007",
     "matematicas": 40.0,
     "lectura_critica": 30.0,
     "ciencias_naturales": 45.2,
@@ -893,6 +992,7 @@
   {
     "nombre": "YISEL KAROLINA RAMOS BELEÑO",
     "icfes": 247.5,
+    "id_grado": "113022",
     "matematicas": 30.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 45.2,
@@ -902,6 +1002,7 @@
   {
     "nombre": "MARIA ANGELICA PASTRANA RODRIGUEZ",
     "icfes": 247.4,
+    "id_grado": "113020",
     "matematicas": 30.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 41.9,
@@ -911,6 +1012,7 @@
   {
     "nombre": "ENAN JOAQUIN TUIRAN MORENO",
     "icfes": 247.3,
+    "id_grado": "113030",
     "matematicas": 55.0,
     "lectura_critica": 85.0,
     "ciencias_naturales": 35.5,
@@ -920,6 +1022,7 @@
   {
     "nombre": "SKARLIT YHIRET HERRERA GIL",
     "icfes": 247.2,
+    "id_grado": "111019",
     "matematicas": 40.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 58.1,
@@ -929,6 +1032,7 @@
   {
     "nombre": "ELEMI HERNANDEZ ALVAREZ",
     "icfes": 245.7,
+    "id_grado": "115010",
     "matematicas": 35.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 45.2,
@@ -938,6 +1042,7 @@
   {
     "nombre": "JHOJAN STIVEN ALZATE CARMONA",
     "icfes": 245.4,
+    "id_grado": "115001",
     "matematicas": 45.0,
     "lectura_critica": 40.0,
     "ciencias_naturales": 29.0,
@@ -947,6 +1052,7 @@
   {
     "nombre": "VICTOR MANUEL TEJADA ZUÑIGA",
     "icfes": 243.7,
+    "id_grado": "114029",
     "matematicas": 45.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 41.9,
@@ -956,6 +1062,7 @@
   {
     "nombre": "NICOLAS ELIAS CANOLE VASQUEZ",
     "icfes": 241.9,
+    "id_grado": "115004",
     "matematicas": 40.0,
     "lectura_critica": 20.0,
     "ciencias_naturales": 41.9,
@@ -965,6 +1072,7 @@
   {
     "nombre": "NICOL STEFANY BAQUERO DIAZ",
     "icfes": 239.9,
+    "id_grado": "115002",
     "matematicas": 30.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 29.0,
@@ -974,6 +1082,7 @@
   {
     "nombre": "DIEGO PADILLA MORA",
     "icfes": 239.6,
+    "id_grado": "116018",
     "matematicas": 45.0,
     "lectura_critica": 60.0,
     "ciencias_naturales": 38.7,
@@ -983,6 +1092,7 @@
   {
     "nombre": "MATIAS ANDRES BARRIOS SOTELO",
     "icfes": 239.0,
+    "id_grado": "111004",
     "matematicas": 30.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 29.0,
@@ -992,6 +1102,7 @@
   {
     "nombre": "YOINER ARRIETA JARAMILLO",
     "icfes": 238.8,
+    "id_grado": "111003",
     "matematicas": 30.0,
     "lectura_critica": 30.0,
     "ciencias_naturales": 45.2,
@@ -1001,6 +1112,7 @@
   {
     "nombre": "MARIA ANGEL HERNANDEZ HOYOS",
     "icfes": 238.5,
+    "id_grado": "112016",
     "matematicas": 30.0,
     "lectura_critica": 60.0,
     "ciencias_naturales": 22.6,
@@ -1010,6 +1122,7 @@
   {
     "nombre": "ISABELLA VALENTINA HERRERA CAMAÑO",
     "icfes": 236.1,
+    "id_grado": "111018",
     "matematicas": 50.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 51.6,
@@ -1019,6 +1132,7 @@
   {
     "nombre": "ANA SOFIA VERGARA MARTINEZ",
     "icfes": 234.6,
+    "id_grado": "116031",
     "matematicas": 45.0,
     "lectura_critica": 35.0,
     "ciencias_naturales": 32.3,
@@ -1028,6 +1142,7 @@
   {
     "nombre": "JHONEIDER LONDOÑO VASQUEZ",
     "icfes": 231.8,
+    "id_grado": "111020",
     "matematicas": 30.0,
     "lectura_critica": 60.0,
     "ciencias_naturales": 32.3,
@@ -1037,6 +1152,7 @@
   {
     "nombre": "MARIANGEL SALGADO MAZO",
     "icfes": 229.9,
+    "id_grado": "113026",
     "matematicas": 20.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 29.0,
@@ -1046,6 +1162,7 @@
   {
     "nombre": "ORNELLA HEREDIA MORENO",
     "icfes": 229.5,
+    "id_grado": "116007",
     "matematicas": 50.0,
     "lectura_critica": 45.0,
     "ciencias_naturales": 29.0,
@@ -1055,6 +1172,7 @@
   {
     "nombre": "YURIS PAOLA RODRIGUEZ FLOREZ",
     "icfes": 228.9,
+    "id_grado": "115022",
     "matematicas": 20.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 48.4,
@@ -1064,6 +1182,7 @@
   {
     "nombre": "ESTHER MARIA LONDOÑO BARRIOS",
     "icfes": 228.2,
+    "id_grado": "116010",
     "matematicas": 30.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 38.7,
@@ -1073,6 +1192,7 @@
   {
     "nombre": "CARLOS DANIEL MARCHENA BARRERO",
     "icfes": 225.3,
+    "id_grado": "115013",
     "matematicas": 45.0,
     "lectura_critica": 25.0,
     "ciencias_naturales": 54.8,
@@ -1082,6 +1202,7 @@
   {
     "nombre": "GABRIELA HERNANDEZ DIAZ",
     "icfes": 224.3,
+    "id_grado": "112015",
     "matematicas": 30.0,
     "lectura_critica": 80.0,
     "ciencias_naturales": 12.9,
@@ -1091,6 +1212,7 @@
   {
     "nombre": "KELLY JOHANA MONTERROZA CASARRUBIA",
     "icfes": 224.2,
+    "id_grado": "115016",
     "matematicas": 25.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 38.7,
@@ -1100,6 +1222,7 @@
   {
     "nombre": "KATALINA PEREZ MORENO",
     "icfes": 223.1,
+    "id_grado": "115019",
     "matematicas": 20.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 29.0,
@@ -1109,6 +1232,7 @@
   {
     "nombre": "JAIVER VILLADIEGO JIMENEZ",
     "icfes": 223.1,
+    "id_grado": "112026",
     "matematicas": 55.0,
     "lectura_critica": 70.0,
     "ciencias_naturales": 25.8,
@@ -1118,6 +1242,7 @@
   {
     "nombre": "LUISA FERNANDA COLON SERRANO",
     "icfes": 220.7,
+    "id_grado": "111011",
     "matematicas": 30.0,
     "lectura_critica": 45.0,
     "ciencias_naturales": 45.2,
@@ -1127,6 +1252,7 @@
   {
     "nombre": "STEFANY RUIZ MARTINEZ",
     "icfes": 218.2,
+    "id_grado": "111028",
     "matematicas": 30.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 38.7,
@@ -1136,6 +1262,7 @@
   {
     "nombre": "GABRIELA CORONADO OJEDA",
     "icfes": 218.1,
+    "id_grado": "114006",
     "matematicas": 25.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 25.8,
@@ -1145,6 +1272,7 @@
   {
     "nombre": "TALIANA CORREA OVIEDO",
     "icfes": 218.1,
+    "id_grado": "116003",
     "matematicas": 30.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 22.6,
@@ -1154,6 +1282,7 @@
   {
     "nombre": "KELLY JOHANA ROMERO CASARRUBIA",
     "icfes": 217.8,
+    "id_grado": "115024",
     "matematicas": 40.0,
     "lectura_critica": 50.0,
     "ciencias_naturales": 41.9,
@@ -1163,6 +1292,7 @@
   {
     "nombre": "DAVID MENDOZA HOYOS",
     "icfes": 216.4,
+    "id_grado": "113018",
     "matematicas": 45.0,
     "lectura_critica": 40.0,
     "ciencias_naturales": 35.5,
@@ -1172,6 +1302,7 @@
   {
     "nombre": "SAMARA ARIZA ECHAVARRIA",
     "icfes": 216.0,
+    "id_grado": "111002",
     "matematicas": 20.0,
     "lectura_critica": 50.0,
     "ciencias_naturales": 38.7,
@@ -1181,6 +1312,7 @@
   {
     "nombre": "ENIS YULISA HERNANDEZ PEÑATES",
     "icfes": 214.9,
+    "id_grado": "112017",
     "matematicas": 20.0,
     "lectura_critica": 60.0,
     "ciencias_naturales": 22.6,
@@ -1190,6 +1322,7 @@
   {
     "nombre": "JESUS DAVID VERGARA OCAMPO",
     "icfes": 214.9,
+    "id_grado": "115029",
     "matematicas": 40.0,
     "lectura_critica": 45.0,
     "ciencias_naturales": 58.1,
@@ -1199,6 +1332,7 @@
   {
     "nombre": "TALIANA CARDENAS MANSILLA",
     "icfes": 214.5,
+    "id_grado": "111008",
     "matematicas": 35.0,
     "lectura_critica": 40.0,
     "ciencias_naturales": 29.0,
@@ -1208,6 +1342,7 @@
   {
     "nombre": "JIMENA ANDREA HOLGUIN CARDEÑO",
     "icfes": 213.1,
+    "id_grado": "114013",
     "matematicas": 35.0,
     "lectura_critica": 40.0,
     "ciencias_naturales": 29.0,
@@ -1217,6 +1352,7 @@
   {
     "nombre": "JUAN DAVID MESTRA AVILA",
     "icfes": 212.8,
+    "id_grado": "111021",
     "matematicas": 25.0,
     "lectura_critica": 35.0,
     "ciencias_naturales": 38.7,
@@ -1226,6 +1362,7 @@
   {
     "nombre": "MARIA JOSE GARCIA GUERRA",
     "icfes": 211.3,
+    "id_grado": "112014",
     "matematicas": 35.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 25.8,
@@ -1235,6 +1372,7 @@
   {
     "nombre": "SAMUEL DAVID FABRA VAZQUEZ",
     "icfes": 210.8,
+    "id_grado": "114009",
     "matematicas": 35.0,
     "lectura_critica": 40.0,
     "ciencias_naturales": 19.4,
@@ -1244,6 +1382,7 @@
   {
     "nombre": "YONIER ANDRES SALA SOLIS",
     "icfes": 210.2,
+    "id_grado": "114028",
     "matematicas": 45.0,
     "lectura_critica": 50.0,
     "ciencias_naturales": 16.1,
@@ -1253,6 +1392,7 @@
   {
     "nombre": "LORENA LORETH MONTES CORDERO",
     "icfes": 209.9,
+    "id_grado": "114021",
     "matematicas": 40.0,
     "lectura_critica": 50.0,
     "ciencias_naturales": 25.8,
@@ -1262,6 +1402,7 @@
   {
     "nombre": "CAMILA ANDREA SOTELO TORRES",
     "icfes": 209.6,
+    "id_grado": "113028",
     "matematicas": 20.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 38.7,
@@ -1271,6 +1412,7 @@
   {
     "nombre": "MONICA PAOLA MONTALVO SOTO",
     "icfes": 208.2,
+    "id_grado": "115015",
     "matematicas": 15.0,
     "lectura_critica": 45.0,
     "ciencias_naturales": 32.3,
@@ -1280,6 +1422,7 @@
   {
     "nombre": "PERTUZ ELIECER DE JESUS DE LEON",
     "icfes": 206.2,
+    "id_grado": "112010",
     "matematicas": 40.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 19.4,
@@ -1289,6 +1432,7 @@
   {
     "nombre": "GENESIS ROMERO ACOSTA",
     "icfes": 205.7,
+    "id_grado": "115023",
     "matematicas": 20.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 48.4,
@@ -1298,6 +1442,7 @@
   {
     "nombre": "KATY MILENA SALGADO VERONA",
     "icfes": 204.6,
+    "id_grado": "116028",
     "matematicas": 40.0,
     "lectura_critica": 40.0,
     "ciencias_naturales": 38.7,
@@ -1307,6 +1452,7 @@
   {
     "nombre": "MICHELL ANDREA MESA RIVERA",
     "icfes": 204.4,
+    "id_grado": "116016",
     "matematicas": 45.0,
     "lectura_critica": 35.0,
     "ciencias_naturales": 22.6,
@@ -1316,6 +1462,7 @@
   {
     "nombre": "EDITH NATALIA MADERA PEREIRA",
     "icfes": 204.2,
+    "id_grado": "113017",
     "matematicas": 30.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 38.7,
@@ -1325,6 +1472,7 @@
   {
     "nombre": "ANDRES DIAZ CASTRO",
     "icfes": 203.3,
+    "id_grado": "114007",
     "matematicas": 30.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 41.9,
@@ -1334,6 +1482,7 @@
   {
     "nombre": "HOYOS LUZ ELENA PEREZ DE",
     "icfes": 202.8,
+    "id_grado": "111022",
     "matematicas": 35.0,
     "lectura_critica": 0.0,
     "ciencias_naturales": 41.9,
@@ -1343,6 +1492,7 @@
   {
     "nombre": "JUAN CAMILO GAMARRA LOPEZ",
     "icfes": 200.5,
+    "id_grado": "115009",
     "matematicas": 20.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 35.5,
@@ -1352,6 +1502,7 @@
   {
     "nombre": "FREDY JOSE RODIÑO VALLEJO",
     "icfes": 200.2,
+    "id_grado": "112023",
     "matematicas": 25.0,
     "lectura_critica": 45.0,
     "ciencias_naturales": 48.4,
@@ -1361,6 +1512,7 @@
   {
     "nombre": "BIANA LICETH CASTRO RIVERA",
     "icfes": 200.1,
+    "id_grado": "111010",
     "matematicas": 35.0,
     "lectura_critica": 25.0,
     "ciencias_naturales": 38.7,
@@ -1370,6 +1522,7 @@
   {
     "nombre": "LEONEL ANDRES RIVERA SILVA",
     "icfes": 197.0,
+    "id_grado": "115021",
     "matematicas": 35.0,
     "lectura_critica": 40.0,
     "ciencias_naturales": 45.2,
@@ -1379,6 +1532,7 @@
   {
     "nombre": "YASMILA MENDEZ HERNANDEZ",
     "icfes": 191.4,
+    "id_grado": "112018",
     "matematicas": 50.0,
     "lectura_critica": 45.0,
     "ciencias_naturales": 35.5,
@@ -1388,6 +1542,7 @@
   {
     "nombre": "HECTOR LUIS FUENTES MENDOZA",
     "icfes": 191.3,
+    "id_grado": "114012",
     "matematicas": 40.0,
     "lectura_critica": 45.0,
     "ciencias_naturales": 25.8,
@@ -1397,6 +1552,7 @@
   {
     "nombre": "DIDIEN MATIAS ROMERO SIERRA",
     "icfes": 186.4,
+    "id_grado": "116025",
     "matematicas": 15.0,
     "lectura_critica": 65.0,
     "ciencias_naturales": 35.5,
@@ -1406,6 +1562,7 @@
   {
     "nombre": "KEVIN ANDRES RUIZ PEREZ",
     "icfes": 185.5,
+    "id_grado": "113024",
     "matematicas": 45.0,
     "lectura_critica": 25.0,
     "ciencias_naturales": 38.7,
@@ -1415,6 +1572,7 @@
   {
     "nombre": "NIKOL MICHELL AVILA GARCIA",
     "icfes": 180.8,
+    "id_grado": "113003",
     "matematicas": 15.0,
     "lectura_critica": 25.0,
     "ciencias_naturales": 29.0,
@@ -1424,6 +1582,7 @@
   {
     "nombre": "MARIA CAROLINA GOMEZ MUÑOZ",
     "icfes": 179.9,
+    "id_grado": "116004",
     "matematicas": 35.0,
     "lectura_critica": 50.0,
     "ciencias_naturales": 19.4,
@@ -1433,6 +1592,7 @@
   {
     "nombre": "RONALD SAMPAYO ALVIS",
     "icfes": 178.8,
+    "id_grado": "116029",
     "matematicas": 35.0,
     "lectura_critica": 60.0,
     "ciencias_naturales": 16.1,
@@ -1442,6 +1602,7 @@
   {
     "nombre": "SAMUEL ALEXANDER RODRIGUEZ VELASQUEZ",
     "icfes": 178.5,
+    "id_grado": "111026",
     "matematicas": 20.0,
     "lectura_critica": 45.0,
     "ciencias_naturales": 22.6,
@@ -1451,6 +1612,7 @@
   {
     "nombre": "JOHN ESTEBAN FLOREZ LONDOÑO",
     "icfes": 178.4,
+    "id_grado": "115008",
     "matematicas": 30.0,
     "lectura_critica": 40.0,
     "ciencias_naturales": 12.9,
@@ -1460,6 +1622,7 @@
   {
     "nombre": "SARA IBAÑEZ CAUSIL",
     "icfes": 177.3,
+    "id_grado": "114014",
     "matematicas": 25.0,
     "lectura_critica": 30.0,
     "ciencias_naturales": 35.5,
@@ -1469,6 +1632,7 @@
   {
     "nombre": "JUAN DAVID JULIO VILLORINA",
     "icfes": 176.7,
+    "id_grado": "113016",
     "matematicas": 50.0,
     "lectura_critica": 50.0,
     "ciencias_naturales": 19.4,
@@ -1478,6 +1642,7 @@
   {
     "nombre": "JHON FREED QUINTERO SUAREZ",
     "icfes": 175.8,
+    "id_grado": "116022",
     "matematicas": 25.0,
     "lectura_critica": 45.0,
     "ciencias_naturales": 29.0,
@@ -1487,6 +1652,7 @@
   {
     "nombre": "LUIS EDUARDO SALGADO QUINTERO",
     "icfes": 175.3,
+    "id_grado": "115026",
     "matematicas": 20.0,
     "lectura_critica": 55.0,
     "ciencias_naturales": 19.4,
@@ -1496,6 +1662,7 @@
   {
     "nombre": "JOSE JULIAN PATERNINA ARCIA",
     "icfes": 170.8,
+    "id_grado": "116019",
     "matematicas": 30.0,
     "lectura_critica": 30.0,
     "ciencias_naturales": 29.0,
@@ -1505,6 +1672,7 @@
   {
     "nombre": "MARIANA FLOREZ HERNANDEZ",
     "icfes": 168.1,
+    "id_grado": "112013",
     "matematicas": 25.0,
     "lectura_critica": 45.0,
     "ciencias_naturales": 22.6,
@@ -1514,6 +1682,7 @@
   {
     "nombre": "KEINER GONZALEZ RAMOS",
     "icfes": 167.2,
+    "id_grado": "113013",
     "matematicas": 40.0,
     "lectura_critica": 25.0,
     "ciencias_naturales": 25.8,
@@ -1523,6 +1692,7 @@
   {
     "nombre": "DANNA CAROLINA SCHELEGUEL CORREA",
     "icfes": 166.0,
+    "id_grado": "113027",
     "matematicas": 30.0,
     "lectura_critica": 15.0,
     "ciencias_naturales": 35.5,
@@ -1532,6 +1702,7 @@
   {
     "nombre": "CRISTIAN DAVID MONTALVO PACHECO",
     "icfes": 151.1,
+    "id_grado": "116017",
     "matematicas": 15.0,
     "lectura_critica": 30.0,
     "ciencias_naturales": 9.7,
@@ -1541,6 +1712,7 @@
   {
     "nombre": "TAILIN MARIA GOMEZ HOYOS",
     "icfes": 143.5,
+    "id_grado": "113012",
     "matematicas": 40.0,
     "lectura_critica": 15.0,
     "ciencias_naturales": 25.8,
@@ -1550,6 +1722,7 @@
   {
     "nombre": "YAIRA ANDREA TORRES CADRASCO",
     "icfes": 135.4,
+    "id_grado": "111030",
     "matematicas": 15.0,
     "lectura_critica": 25.0,
     "ciencias_naturales": 29.0,
@@ -1559,6 +1732,7 @@
   {
     "nombre": "BRESLY QUINTERO ROSARIO",
     "icfes": 133.5,
+    "id_grado": "111024",
     "matematicas": 25.0,
     "lectura_critica": 40.0,
     "ciencias_naturales": 19.4,
@@ -1568,6 +1742,7 @@
   {
     "nombre": "JOSE DANIEL ORTEGA JIMENEZ",
     "icfes": 130.8,
+    "id_grado": "114022",
     "matematicas": 25.0,
     "lectura_critica": 25.0,
     "ciencias_naturales": 29.0,

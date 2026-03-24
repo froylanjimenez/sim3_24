@@ -223,16 +223,58 @@
 
         .creditos { margin-top: 8px; font-weight: 700; color: #667eea; }
 
-        /* ── BOTÓN DESCARGAR CSV ── */
+        /* ── SECCIÓN DESCARGA CSV ── */
         .csv-section {
             margin-top: 22px;
             padding-top: 20px;
             border-top: 2px solid #ecf0f1;
         }
 
+        .csv-section-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .csv-selectors {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .csv-select-wrap label {
+            display: block;
+            font-size: 11px;
+            font-weight: 600;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .csv-select-wrap select {
+            width: 100%;
+            padding: 10px 12px;
+            border: 2px solid #ecf0f1;
+            border-radius: 8px;
+            font-size: 13px;
+            color: #2c3e50;
+            background: #f8f9fa;
+            cursor: pointer;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .csv-select-wrap select:focus { border-color: #667eea; }
+
         .csv-btn {
             width: 100%;
-            padding: 15px;
+            padding: 14px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             border: none;
@@ -250,15 +292,16 @@
 
         .csv-btn:hover  { transform: translateY(-2px); box-shadow: 0 12px 35px rgba(102,126,234,0.45); }
         .csv-btn:active { transform: translateY(0); }
+        .csv-btn:disabled { opacity: 0.7; cursor: not-allowed; transform: none; }
 
         .csv-btn .csv-icon { font-size: 20px; }
 
         .csv-label {
             display: block;
             color: #7f8c8d;
-            font-size: 12px;
+            font-size: 11px;
             text-align: center;
-            margin-top: 8px;
+            margin-top: 7px;
         }
 
         @media (max-width: 600px) {
@@ -315,11 +358,37 @@
     <div class="results" id="results"></div>
 
     <div class="csv-section">
+        <div class="csv-section-title">📋 Descargar notas en CSV</div>
+        <div class="csv-selectors">
+            <div class="csv-select-wrap">
+                <label for="selectGrupo">Grupo</label>
+                <select id="selectGrupo">
+                    <option value="todos">Todos los grupos</option>
+                    <option value="111">11° A</option>
+                    <option value="112">11° B</option>
+                    <option value="113">11° C</option>
+                    <option value="114">11° D</option>
+                    <option value="115">11° E</option>
+                    <option value="116">11° F</option>
+                </select>
+            </div>
+            <div class="csv-select-wrap">
+                <label for="selectArea">Área</label>
+                <select id="selectArea">
+                    <option value="todas">Todas las áreas</option>
+                    <option value="matematicas">Matemáticas</option>
+                    <option value="lectura_critica">Lectura Crítica</option>
+                    <option value="ciencias_naturales">Ciencias Naturales</option>
+                    <option value="ingles">Inglés</option>
+                    <option value="sociales">Sociales</option>
+                </select>
+            </div>
+        </div>
         <button class="csv-btn" onclick="descargarNotasCSV()">
             <span class="csv-icon">📥</span>
-            Descargar notas en CSV
+            Descargar CSV
         </button>
-        <span class="csv-label">Descarga las notas de ambos simulacros en un archivo CSV</span>
+        <span class="csv-label">Los estudiantes sin registro en un simulacro aparecen con 0</span>
     </div>
 
     <div class="footer">
@@ -481,12 +550,33 @@ document.getElementById('searchInput').addEventListener('keypress', e => {
     if (e.key === 'Enter') buscarEstudiante();
 });
 
-// ── DESCARGAR NOTAS EN CSV (por área) ─────────────────────────────────────────
+// ── DESCARGAR NOTAS EN CSV (por área y grupo) ─────────────────────────────────
 async function descargarNotasCSV() {
     const btn = document.querySelector('.csv-btn');
     const originalText = btn.innerHTML;
     btn.innerHTML = '<span class="csv-icon">⏳</span> Cargando datos...';
     btn.disabled = true;
+
+    const grupoSel = document.getElementById('selectGrupo').value;  // "todos" | "111"..."116"
+    const areaSel  = document.getElementById('selectArea').value;   // "todas" | "matematicas" etc.
+
+    const AREAS_ALL = ['matematicas', 'lectura_critica', 'ciencias_naturales', 'ingles', 'sociales'];
+    const AREA_LABEL = {
+        matematicas: 'Matematicas', lectura_critica: 'Lectura_Critica',
+        ciencias_naturales: 'Ciencias_Naturales', ingles: 'Ingles', sociales: 'Sociales'
+    };
+    const GRUPO_LABEL = { '111':'11A','112':'11B','113':'11C','114':'11D','115':'11E','116':'11F' };
+    const areas = areaSel === 'todas' ? AREAS_ALL : [areaSel];
+
+    function normNombre(s) {
+        return s.trim().toUpperCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+    function buscarClave(mapa, nombre) {
+        const n = normNombre(nombre);
+        for (const k of Object.keys(mapa)) { if (k === n) return k; }
+        for (const k of Object.keys(mapa)) { if (k.includes(n) || n.includes(k)) return k; }
+        return null;
+    }
 
     try {
         const [r1, r2] = await Promise.all([
@@ -496,84 +586,51 @@ async function descargarNotasCSV() {
         const sim1 = await r1.json();
         const sim2 = await r2.json();
 
-        const AREAS = ['matematicas', 'lectura_critica', 'ciencias_naturales', 'ingles', 'sociales'];
-
-        function normNombre(s) {
-            return s.trim().toUpperCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-        }
-
-        function buscarClave(mapa, nombre) {
-            const n = normNombre(nombre);
-            for (const clave of Object.keys(mapa)) {
-                if (clave === n) return clave;
-            }
-            for (const clave of Object.keys(mapa)) {
-                if (clave.includes(n) || n.includes(clave)) return clave;
-            }
-            return null;
-        }
-
-        const VACIO = { puntaje_total: 0, matematicas: 0, lectura_critica: 0, ciencias_naturales: 0, ingles: 0, sociales: 0 };
-
-        // Construir mapa con sim1 como base
+        // Construir mapa base con sim1; el grupo viene de sim2 (id_grado)
         const mapa = {};
         sim1.forEach(e => {
-            mapa[normNombre(e.nombre_completo)] = {
-                nombre: e.nombre_completo.trim(),
-                s1: e,
-                s2: null
-            };
+            mapa[normNombre(e.nombre_completo)] = { nombre: e.nombre_completo.trim(), s1: e, s2: null };
         });
-
-        // Cruzar con sim2
         sim2.forEach(e => {
             const clave = buscarClave(mapa, e.nombre);
-            if (clave) {
-                mapa[clave].s2 = e;
-            } else {
-                mapa[normNombre(e.nombre)] = { nombre: e.nombre.trim(), s1: null, s2: e };
-            }
+            if (clave) { mapa[clave].s2 = e; }
+            else       { mapa[normNombre(e.nombre)] = { nombre: e.nombre.trim(), s1: null, s2: e }; }
         });
 
-        // Generar encabezado
-        const encabezado = [
-            'Nombre',
-            'Sim1_Total', 'Sim1_Matematicas', 'Sim1_Lectura_Critica', 'Sim1_Ciencias_Naturales', 'Sim1_Ingles', 'Sim1_Sociales',
-            'Sim2_Total', 'Sim2_Matematicas', 'Sim2_Lectura_Critica', 'Sim2_Ciencias_Naturales', 'Sim2_Ingles', 'Sim2_Sociales'
-        ];
+        // Filtrar por grupo (solo estudiantes con id_grado en sim2)
+        let filas_data = Object.values(mapa);
+        if (grupoSel !== 'todos') {
+            filas_data = filas_data.filter(({ s2 }) => s2 && s2.id_grado && s2.id_grado.startsWith(grupoSel));
+        }
+
+        // Encabezado dinámico según áreas seleccionadas
+        const colsSim1 = areas.map(a => `Sim1_${AREA_LABEL[a]}`);
+        const colsSim2 = areas.map(a => `Sim2_${AREA_LABEL[a]}`);
+        const encabezado = ['Nombre', 'Grupo', 'Sim1_Total', ...colsSim1, 'Sim2_Total', ...colsSim2];
         const filas = [encabezado];
 
-        Object.values(mapa).forEach(({ nombre, s1, s2 }) => {
-            const d1 = s1 || VACIO;
-            const d2 = s2 || VACIO;
+        filas_data.forEach(({ nombre, s1, s2 }) => {
+            const d1 = s1 || {};
+            const d2 = s2 || {};
+            const grupo = (d2.id_grado ? GRUPO_LABEL[d2.id_grado.slice(0,3)] : '') || '';
             const nombreEsc = '"' + nombre.replace(/"/g, '""') + '"';
-            filas.push([
-                nombreEsc,
-                d1.puntaje_total,
-                d1.matematicas    || 0,
-                d1.lectura_critica|| 0,
-                d1.ciencias_naturales || 0,
-                d1.ingles         || 0,
-                d1.sociales       || 0,
-                d2.icfes          || 0,
-                d2.matematicas    || 0,
-                d2.lectura_critica|| 0,
-                d2.ciencias_naturales || 0,
-                d2.ingles         || 0,
-                d2.sociales       || 0
-            ]);
+            const vals1 = areas.map(a => d1[a] ?? 0);
+            const vals2 = areas.map(a => d2[a] ?? 0);
+            filas.push([nombreEsc, grupo, d1.puntaje_total ?? 0, ...vals1, d2.icfes ?? 0, ...vals2]);
         });
+
+        // Nombre de archivo descriptivo
+        const gLabel = grupoSel === 'todos' ? 'todos' : GRUPO_LABEL[grupoSel];
+        const aLabel = areaSel === 'todas' ? 'todas_areas' : AREA_LABEL[areaSel];
+        const filename = `notas_${gLabel}_${aLabel}.csv`;
 
         const csv = filas.map(f => f.join(',')).join('\r\n');
         const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
-        a.href = url;
-        a.download = 'notas_simulacros.csv';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
+        a.href = url; a.download = filename;
+        document.body.appendChild(a); a.click();
+        document.body.removeChild(a); URL.revokeObjectURL(url);
 
         btn.innerHTML = '<span class="csv-icon">✅</span> ¡Descarga lista!';
         setTimeout(() => { btn.innerHTML = originalText; btn.disabled = false; }, 2500);
