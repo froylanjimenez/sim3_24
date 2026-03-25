@@ -309,6 +309,112 @@
             h1 { font-size: 22px; }
             .sim-btn { font-size: 12px; padding: 10px 6px; }
         }
+
+        .sim-btn.active.sim3 { color: #27ae60; }
+        .sim-btn.active.sim3 .tag { background: #d4efdf; color: #27ae60; }
+        .info-box.sim3 { background: #d4efdf; color: #1e8449; border-color: #27ae60; }
+        .search-btn.sim3 {
+            background: linear-gradient(135deg, #27ae60 0%, #1e8449 100%);
+            box-shadow: 0 10px 30px rgba(39,174,96,0.3);
+        }
+        input.sim3focus:focus { border-color: #27ae60; box-shadow: 0 0 0 3px rgba(39,174,96,0.12); }
+        .spinner.sim3 { border-top-color: #27ae60; }
+
+        /* ── MODAL CLAVE ── */
+        .modal-overlay {
+            display: none; position: fixed; top: 0; left: 0;
+            width: 100%; height: 100%; background: rgba(0,0,0,0.55);
+            z-index: 1000; justify-content: center; align-items: center;
+        }
+        .modal-overlay.show { display: flex; animation: fadeIn 0.25s ease-out; }
+        .modal-box {
+            background: white; border-radius: 18px; padding: 36px 32px;
+            max-width: 360px; width: 90%; text-align: center;
+            box-shadow: 0 24px 60px rgba(0,0,0,0.35);
+            animation: slideIn 0.3s ease-out;
+        }
+        .modal-icon { font-size: 48px; margin-bottom: 14px; }
+        .modal-title { font-size: 18px; font-weight: 700; color: #2c3e50; margin-bottom: 6px; }
+        .modal-sub { font-size: 13px; color: #7f8c8d; margin-bottom: 22px; }
+        .modal-input-group { position: relative; margin-bottom: 16px; }
+        .modal-input-group .input-icon { top: 50%; }
+        .modal-error { color: #e74c3c; font-size: 13px; margin-bottom: 12px; display: none; }
+        .modal-error.show { display: block; animation: shake 0.4s ease-out; }
+        .modal-btn {
+            width: 100%; padding: 14px;
+            background: linear-gradient(135deg, #27ae60 0%, #1e8449 100%);
+            color: white; border: none; border-radius: 10px;
+            font-size: 15px; font-weight: 700; cursor: pointer;
+            box-shadow: 0 8px 25px rgba(39,174,96,0.3); transition: all 0.2s;
+        }
+        .modal-btn:hover { transform: translateY(-2px); }
+        .modal-cancel { margin-top: 12px; font-size: 13px; color: #95a5a6; cursor: pointer; }
+        .modal-cancel:hover { color: #7f8c8d; }
+
+        /* ── SECCIÓN NOTAS FINALES ── */
+        #notasSection { display: none; }
+        #notasSection.show { display: block; animation: fadeIn 0.4s ease-out; }
+
+        .nota-card {
+            border-radius: 14px; padding: 22px; margin-bottom: 16px;
+            border-left: 6px solid; animation: fadeIn 0.4s ease-out;
+        }
+        .nota-card.aprobado { background: linear-gradient(135deg,#f0fff4,#d4efdf); border-color:#27ae60; }
+        .nota-card.salvado  { background: linear-gradient(135deg,#fffbf0,#fdebd0); border-color:#f39c12; }
+        .nota-card.reprobado{ background: linear-gradient(135deg,#fff5f5,#fde8e8); border-color:#e74c3c; }
+
+        .nota-nombre { font-size: 18px; font-weight: 800; color: #2c3e50; margin-bottom: 14px; }
+        .nota-grupo  { font-size: 12px; font-weight: 600; color: #7f8c8d; margin-bottom: 14px; }
+
+        .nota-desglose {
+            background: rgba(255,255,255,0.7); border-radius: 10px;
+            padding: 14px 16px; margin-bottom: 14px; font-size: 13px;
+        }
+        .nota-row {
+            display: flex; justify-content: space-between;
+            padding: 5px 0; border-bottom: 1px solid rgba(0,0,0,0.06);
+        }
+        .nota-row:last-child { border-bottom: none; }
+        .nota-row-label { color: #555; }
+        .nota-row-val { font-weight: 700; color: #2c3e50; }
+
+        .nota-final-box {
+            text-align: center; padding: 16px; border-radius: 10px;
+            margin-bottom: 14px; background: rgba(255,255,255,0.85);
+        }
+        .nota-final-num {
+            font-size: 52px; font-weight: 900; line-height: 1;
+        }
+        .nota-final-num.aprobado { color: #27ae60; }
+        .nota-final-num.salvado  { color: #f39c12; }
+        .nota-final-num.reprobado{ color: #e74c3c; }
+        .nota-final-label { font-size: 12px; color: #7f8c8d; margin-top: 4px; }
+
+        .nota-mensaje {
+            border-radius: 10px; padding: 14px 16px;
+            font-size: 14px; font-weight: 600; line-height: 1.5;
+            text-align: center;
+        }
+        .nota-mensaje.aprobado  { background:#d4efdf; color:#1e8449; }
+        .nota-mensaje.salvado   { background:#fdebd0; color:#9a6100; }
+        .nota-mensaje.reprobado { background:#fde8e8; color:#c0392b; }
+
+        .nota-multiple-card {
+            background: linear-gradient(135deg,#f8f9fa,#e9ecef);
+            border-radius: 10px; padding: 16px; margin-bottom: 10px;
+            border-left: 5px solid #27ae60; cursor: pointer; transition: all 0.25s;
+        }
+        .nota-multiple-card:hover { transform: translateX(5px); box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+
+        #notaErrorMsg {
+            background: #f8d7da; color: #721c24; padding: 14px;
+            border-radius: 10px; border-left: 5px solid #dc3545;
+            margin-top: 18px; display: none;
+        }
+        #notaErrorMsg.show { display: block; animation: shake 0.5s ease-out; }
+
+        #notaLoading { text-align: center; color: #7f8c8d; padding: 20px; display: none; }
+        #notaLoading.show { display: block; }
     </style>
 </head>
 <body>
@@ -328,6 +434,10 @@
         <button class="sim-btn sim2" id="btn2" onclick="seleccionarSimulacro(2)">
             🔵 Segundo Simulacro<br>
             <span class="tag">2026 · Mar</span>
+        </button>
+        <button class="sim-btn sim3" id="btn3" onclick="abrirModalClave()">
+            🟢 Notas Finales<br>
+            <span class="tag">I Periodo</span>
         </button>
     </div>
 
@@ -356,6 +466,30 @@
     <div class="error-message" id="errorMessage"></div>
 
     <div class="results" id="results"></div>
+
+    <!-- SECCIÓN NOTAS FINALES -->
+    <div id="notasSection">
+        <div class="info-box sim3" style="margin-bottom:18px">
+            🟢 <strong>Notas Finales I Periodo Física</strong><br>
+            <span style="font-size:12px">Fórmula: 20% Simulacro 1 + 40% Simulacro 2 + 40% Actividades</span>
+        </div>
+        <label class="search-label">Busca tu nombre o apellido</label>
+        <div class="input-group">
+            <span class="input-icon">🔍</span>
+            <input type="text" id="notaSearchInput"
+                   placeholder="Escribe tu nombre o apellido"
+                   autocomplete="off">
+        </div>
+        <button class="search-btn sim3" onclick="buscarNota()">
+            🔍 Ver Mi Nota Final
+        </button>
+        <div id="notaLoading">
+            <div class="spinner sim3"></div>
+            <p>Buscando...</p>
+        </div>
+        <div id="notaErrorMsg"></div>
+        <div id="notaResults"></div>
+    </div>
 
     <div class="csv-section">
         <div class="csv-section-title">📋 Descargar notas en CSV</div>
@@ -391,6 +525,23 @@
         <span class="csv-label">Los estudiantes sin registro en un simulacro aparecen con 0</span>
     </div>
 
+    <!-- MODAL CLAVE NOTAS FINALES -->
+    <div class="modal-overlay" id="modalClave">
+        <div class="modal-box">
+            <div class="modal-icon">🔒</div>
+            <div class="modal-title">Acceso Restringido</div>
+            <div class="modal-sub">Ingresa la clave para ver las Notas Finales I Periodo Física</div>
+            <div class="modal-input-group input-group">
+                <span class="input-icon">🔑</span>
+                <input type="password" id="claveInput" placeholder="Clave de acceso"
+                       autocomplete="off" onkeypress="if(event.key==='Enter')verificarClave()">
+            </div>
+            <div class="modal-error" id="claveError">❌ Clave incorrecta. Intenta de nuevo.</div>
+            <button class="modal-btn" onclick="verificarClave()">✅ Acceder</button>
+            <div class="modal-cancel" onclick="cerrarModal()">Cancelar</div>
+        </div>
+    </div>
+
     <div class="footer">
         Sistema de consulta de resultados — Simulacro Saber 11°
         <div class="creditos">Diseñado por Froylan Jiménez</div>
@@ -412,6 +563,19 @@ function seleccionarSimulacro(n) {
     // Botones
     document.getElementById('btn1').classList.toggle('active', n === 1);
     document.getElementById('btn2').classList.toggle('active', n === 2);
+    document.getElementById('btn3').classList.toggle('active', n === 3);
+
+    // Mostrar/ocultar secciones según modo
+    const esNotas = n === 3;
+    document.querySelector('.search-section').style.display = esNotas ? 'none' : 'block';
+    document.getElementById('loading').style.display = esNotas ? 'none' : '';
+    document.getElementById('errorMessage').classList.remove('show');
+    document.getElementById('results').classList.remove('show');
+    document.getElementById('results').innerHTML = '';
+    document.getElementById('notasSection').classList.toggle('show', esNotas);
+    document.getElementById('notaResults').innerHTML = '';
+    document.getElementById('notaErrorMsg').classList.remove('show');
+    if (esNotas) return;
 
     // Info box
     const box = document.getElementById('infoBox');
@@ -640,6 +804,175 @@ async function descargarNotasCSV() {
         setTimeout(() => { btn.innerHTML = originalText; btn.disabled = false; }, 3000);
     }
 }
+
+// ── DATOS NOTAS FINALES ──────────────────────────────────────────────────────
+const datosNotas = [{"nombre":"ANA SOFIA GONZALEZ CALAO","grupo":"111","sim1":35.0,"sim2":48.4,"ods":100.0,"nota_raw":66.36,"nota_final":73.0,"estado":"aprobado"},{"nombre":"BIANA LICETH CASTRO RIVERA","grupo":"111","sim1":50.0,"sim2":38.7,"ods":0,"nota_raw":25.48,"nota_final":25.48,"estado":"reprobado"},{"nombre":"BRESLY QUINTERO ROSARIO","grupo":"111","sim1":15.0,"sim2":19.4,"ods":100.0,"nota_raw":50.76,"nota_final":60,"estado":"salvado"},{"nombre":"CRISTIANO RONALDO ROMERO ZUÑIGA","grupo":"111","sim1":30.0,"sim2":35.5,"ods":100.0,"nota_raw":60.2,"nota_final":66.22,"estado":"aprobado"},{"nombre":"DIEGO ARMANDO CAMPO SALAZAR","grupo":"111","sim1":45.0,"sim2":61.3,"ods":0,"nota_raw":33.52,"nota_final":33.52,"estado":"reprobado"},{"nombre":"DIONI SOLA MARTINEZ","grupo":"111","sim1":40.0,"sim2":45.2,"ods":100.0,"nota_raw":66.08,"nota_final":72.69,"estado":"aprobado"},{"nombre":"HITA FERNANDA REYES CORDOBA","grupo":"111","sim1":25.0,"sim2":41.9,"ods":100.0,"nota_raw":61.76,"nota_final":67.94,"estado":"aprobado"},{"nombre":"HOYOS LUZ ELENA PEREZ DE","grupo":"111","sim1":30.0,"sim2":41.9,"ods":100.0,"nota_raw":62.76,"nota_final":69.04,"estado":"aprobado"},{"nombre":"ISABELLA VALENTINA HERRERA CAMAÑO","grupo":"111","sim1":35.0,"sim2":51.6,"ods":110.0,"nota_raw":71.64,"nota_final":78.8,"estado":"aprobado"},{"nombre":"JHONEIDER LONDOÑO VASQUEZ","grupo":"111","sim1":45.0,"sim2":32.3,"ods":100.0,"nota_raw":61.92,"nota_final":68.11,"estado":"aprobado"},{"nombre":"JOSE ALBEIRO CALLE MORENO","grupo":"111","sim1":25.0,"sim2":45.2,"ods":100.0,"nota_raw":63.08,"nota_final":69.39,"estado":"aprobado"},{"nombre":"JUAN ESTEBAN FLOREZ MARTINEZ","grupo":"111","sim1":30.0,"sim2":58.1,"ods":0,"nota_raw":29.24,"nota_final":29.24,"estado":"reprobado"},{"nombre":"JULIANA CONTRERAS GARCIA","grupo":"111","sim1":25.0,"sim2":38.7,"ods":110.0,"nota_raw":64.48,"nota_final":70.93,"estado":"aprobado"},{"nombre":"KEINER ACOSTA BUENO","grupo":"111","sim1":25.0,"sim2":41.9,"ods":100.0,"nota_raw":61.76,"nota_final":67.94,"estado":"aprobado"},{"nombre":"KEVIN DAVID CARRASCO MONTIEL","grupo":"111","sim1":35.0,"sim2":58.1,"ods":110.0,"nota_raw":74.24,"nota_final":81.66,"estado":"aprobado"},{"nombre":"LUISA FERNANDA COLON SERRANO","grupo":"111","sim1":35.0,"sim2":45.2,"ods":100.0,"nota_raw":65.08,"nota_final":71.59,"estado":"aprobado"},{"nombre":"MATIAS ANDRES BARRIOS SOTELO","grupo":"111","sim1":30.0,"sim2":29.0,"ods":110.0,"nota_raw":61.6,"nota_final":67.76,"estado":"aprobado"},{"nombre":"NAIDERLIN ESPITIA CASTRO","grupo":"111","sim1":25.0,"sim2":51.6,"ods":100.0,"nota_raw":65.64,"nota_final":72.2,"estado":"aprobado"},{"nombre":"OSSA POLO ALEX JOSE DE LA","grupo":"111","sim1":45.0,"sim2":35.5,"ods":110.0,"nota_raw":67.2,"nota_final":73.92,"estado":"aprobado"},{"nombre":"SAMAHARA FLOREZ OVIEDO","grupo":"111","sim1":35.0,"sim2":71.0,"ods":100.0,"nota_raw":75.4,"nota_final":82.94,"estado":"aprobado"},{"nombre":"SAMARA ARIZA ECHAVARRIA","grupo":"111","sim1":30.0,"sim2":38.7,"ods":100.0,"nota_raw":61.48,"nota_final":67.63,"estado":"aprobado"},{"nombre":"SAMUEL ALEXANDER RODRIGUEZ VELASQUEZ","grupo":"111","sim1":30.0,"sim2":22.6,"ods":110.0,"nota_raw":59.04,"nota_final":60,"estado":"salvado"},{"nombre":"SKARLIT YHIRET HERRERA GIL","grupo":"111","sim1":35.0,"sim2":58.1,"ods":100.0,"nota_raw":70.24,"nota_final":77.26,"estado":"aprobado"},{"nombre":"STEFANY RUIZ MARTINEZ","grupo":"111","sim1":25.0,"sim2":38.7,"ods":100.0,"nota_raw":60.48,"nota_final":66.53,"estado":"aprobado"},{"nombre":"TALIANA BERRIO MENDOZA","grupo":"111","sim1":30.0,"sim2":45.2,"ods":100.0,"nota_raw":64.08,"nota_final":70.49,"estado":"aprobado"},{"nombre":"TALIANA CARDENAS MANSILLA","grupo":"111","sim1":40.0,"sim2":29.0,"ods":100.0,"nota_raw":59.6,"nota_final":60,"estado":"salvado"},{"nombre":"YESID ANDRES ZEA CAMAÑO","grupo":"111","sim1":20.0,"sim2":64.5,"ods":110.0,"nota_raw":73.8,"nota_final":81.18,"estado":"aprobado"},{"nombre":"YOINER ARRIETA JARAMILLO","grupo":"111","sim1":30.0,"sim2":45.2,"ods":0,"nota_raw":24.08,"nota_final":24.08,"estado":"reprobado"},{"nombre":"ARIATHNA MESTRA ARDILA","grupo":"112","sim1":30.0,"sim2":61.3,"ods":100.0,"nota_raw":70.52,"nota_final":77.57,"estado":"aprobado"},{"nombre":"ARRIETA DIDIER","grupo":"112","sim1":0,"sim2":0,"ods":100.0,"nota_raw":40.0,"nota_final":40.0,"estado":"reprobado"},{"nombre":"ENIS YULISA HERNANDEZ PEÑATES","grupo":"112","sim1":30.0,"sim2":22.6,"ods":0,"nota_raw":15.04,"nota_final":15.04,"estado":"reprobado"},{"nombre":"EVERNEY CALLE SOTELO","grupo":"112","sim1":30.0,"sim2":45.2,"ods":100.0,"nota_raw":64.08,"nota_final":70.49,"estado":"aprobado"},{"nombre":"FREDY JOSE RODIÑO VALLEJO","grupo":"112","sim1":35.0,"sim2":48.4,"ods":0,"nota_raw":26.36,"nota_final":26.36,"estado":"reprobado"},{"nombre":"GABRIELA HERNANDEZ DIAZ","grupo":"112","sim1":45.0,"sim2":12.9,"ods":150.0,"nota_raw":74.16,"nota_final":81.58,"estado":"aprobado"},{"nombre":"JAIVER VILLADIEGO JIMENEZ","grupo":"112","sim1":15.0,"sim2":25.8,"ods":110.0,"nota_raw":57.32,"nota_final":60,"estado":"salvado"},{"nombre":"JHONATAN DAVID CHITAN LOPEZ","grupo":"112","sim1":35.0,"sim2":0,"ods":110.0,"nota_raw":51.0,"nota_final":60,"estado":"salvado"},{"nombre":"JULIANA ALVARADO MARTINEZ","grupo":"112","sim1":20.0,"sim2":41.9,"ods":150.0,"nota_raw":80.76,"nota_final":88.84,"estado":"aprobado"},{"nombre":"JULIANA BANQUET MENDOZA","grupo":"112","sim1":40.0,"sim2":61.3,"ods":100.0,"nota_raw":72.52,"nota_final":79.77,"estado":"aprobado"},{"nombre":"JULIANA CASTAÑEDA MEJIA","grupo":"112","sim1":45.0,"sim2":64.5,"ods":100.0,"nota_raw":74.8,"nota_final":82.28,"estado":"aprobado"},{"nombre":"JUNIOR ENRIQUE MERCADO ROHENES","grupo":"112","sim1":30.0,"sim2":19.4,"ods":0,"nota_raw":13.76,"nota_final":13.76,"estado":"reprobado"},{"nombre":"JUSTIN TIRADO GARAY","grupo":"112","sim1":35.0,"sim2":64.5,"ods":130.0,"nota_raw":84.8,"nota_final":93.28,"estado":"aprobado"},{"nombre":"KAROL DAYANA ESCOBAR VARGAS","grupo":"112","sim1":30.0,"sim2":58.1,"ods":130.0,"nota_raw":81.24,"nota_final":89.36,"estado":"aprobado"},{"nombre":"LIZ EMILY ZUÑIGA OSORIO","grupo":"112","sim1":50.0,"sim2":29.0,"ods":100.0,"nota_raw":61.6,"nota_final":67.76,"estado":"aprobado"},{"nombre":"MARIA DE LOS ANGELES PASOS SOTELO","grupo":"112","sim1":25.0,"sim2":45.2,"ods":0,"nota_raw":23.08,"nota_final":23.08,"estado":"reprobado"},{"nombre":"MARIA JOSE GARCIA GUERRA","grupo":"112","sim1":35.0,"sim2":25.8,"ods":100.0,"nota_raw":57.32,"nota_final":60,"estado":"salvado"},{"nombre":"MARIA JOSE VILLEGAS HERRERA","grupo":"112","sim1":35.0,"sim2":61.3,"ods":150.0,"nota_raw":91.52,"nota_final":100,"estado":"aprobado"},{"nombre":"MARIANA FLOREZ HERNANDEZ","grupo":"112","sim1":15.0,"sim2":22.6,"ods":100.0,"nota_raw":52.04,"nota_final":60,"estado":"salvado"},{"nombre":"MICHELL ANDREA PEREZ CHOLES","grupo":"112","sim1":30.0,"sim2":64.5,"ods":130.0,"nota_raw":83.8,"nota_final":92.18,"estado":"aprobado"},{"nombre":"NICOLAS ELIAS AGAMEZ ZABALA","grupo":"112","sim1":40.0,"sim2":35.5,"ods":110.0,"nota_raw":66.2,"nota_final":72.82,"estado":"aprobado"},{"nombre":"PASO MARIA","grupo":"112","sim1":0,"sim2":0,"ods":100.0,"nota_raw":40.0,"nota_final":40.0,"estado":"reprobado"},{"nombre":"PERTUZ ELIECER DE JESUS DE LEON","grupo":"112","sim1":40.0,"sim2":19.4,"ods":100.0,"nota_raw":55.76,"nota_final":60,"estado":"salvado"},{"nombre":"SAMUEL ALEAN ZAPATA","grupo":"112","sim1":40.0,"sim2":58.1,"ods":110.0,"nota_raw":75.24,"nota_final":82.76,"estado":"aprobado"},{"nombre":"SAMUEL VARGAS VIDES","grupo":"112","sim1":35.0,"sim2":71.0,"ods":100.0,"nota_raw":75.4,"nota_final":82.94,"estado":"aprobado"},{"nombre":"STIVEN DARIO CALI ESTRADA","grupo":"112","sim1":0,"sim2":58.1,"ods":110.0,"nota_raw":67.24,"nota_final":73.96,"estado":"aprobado"},{"nombre":"VALENTINA ARRIETA SIERRA","grupo":"112","sim1":35.0,"sim2":41.9,"ods":150.0,"nota_raw":83.76,"nota_final":92.14,"estado":"aprobado"},{"nombre":"YASMILA MENDEZ HERNANDEZ","grupo":"112","sim1":35.0,"sim2":35.5,"ods":130.0,"nota_raw":73.2,"nota_final":80.52,"estado":"aprobado"},{"nombre":"YEHIDER VILLORINA","grupo":"112","sim1":25.0,"sim2":71.0,"ods":0,"nota_raw":33.4,"nota_final":33.4,"estado":"reprobado"},{"nombre":"CAMILA ANDREA SOTELO TORRES","grupo":"113","sim1":40.0,"sim2":38.7,"ods":0,"nota_raw":23.48,"nota_final":23.48,"estado":"reprobado"},{"nombre":"DANNA CAROLINA SCHELEGUEL CORREA","grupo":"113","sim1":30.0,"sim2":35.5,"ods":0,"nota_raw":20.2,"nota_final":20.2,"estado":"reprobado"},{"nombre":"DAVID MENDOZA HOYOS","grupo":"113","sim1":35.0,"sim2":35.5,"ods":100.0,"nota_raw":61.2,"nota_final":67.32,"estado":"aprobado"},{"nombre":"DIDIER ESNEIDER CASTILLO CAMARGO","grupo":"113","sim1":20.0,"sim2":41.9,"ods":100.0,"nota_raw":60.76,"nota_final":66.84,"estado":"aprobado"},{"nombre":"DIEGO DAVID DUQUE HERRERA","grupo":"113","sim1":30.0,"sim2":54.8,"ods":100.0,"nota_raw":67.92,"nota_final":74.71,"estado":"aprobado"},{"nombre":"EDITH NATALIA MADERA PEREIRA","grupo":"113","sim1":40.0,"sim2":38.7,"ods":100.0,"nota_raw":63.48,"nota_final":69.83,"estado":"aprobado"},{"nombre":"ENAN JOAQUIN TUIRAN MORENO","grupo":"113","sim1":30.0,"sim2":35.5,"ods":115.0,"nota_raw":66.2,"nota_final":72.82,"estado":"aprobado"},{"nombre":"FLOREZ ALEJANDRA","grupo":"113","sim1":0,"sim2":0,"ods":100.0,"nota_raw":40.0,"nota_final":40.0,"estado":"reprobado"},{"nombre":"ISABELLA FLOREZ CANO","grupo":"113","sim1":40.0,"sim2":29.0,"ods":260.0,"nota_raw":123.6,"nota_final":100,"estado":"aprobado"},{"nombre":"JUAN DAVID JULIO VILLORINA","grupo":"113","sim1":25.0,"sim2":19.4,"ods":115.0,"nota_raw":58.76,"nota_final":60,"estado":"salvado"},{"nombre":"JUAN FELIPE MERCADO PEREZ","grupo":"113","sim1":30.0,"sim2":45.2,"ods":130.0,"nota_raw":76.08,"nota_final":83.69,"estado":"aprobado"},{"nombre":"JULIANA ARRIETA GOMEZ","grupo":"113","sim1":30.0,"sim2":51.6,"ods":100.0,"nota_raw":66.64,"nota_final":73.3,"estado":"aprobado"},{"nombre":"JULIANA PEREZ VERGARA","grupo":"113","sim1":45.0,"sim2":45.2,"ods":0,"nota_raw":27.08,"nota_final":27.08,"estado":"reprobado"},{"nombre":"KEINER GONZALEZ RAMOS","grupo":"113","sim1":45.0,"sim2":25.8,"ods":115.0,"nota_raw":65.32,"nota_final":71.85,"estado":"aprobado"},{"nombre":"KEVIN ANDRES RUIZ PEREZ","grupo":"113","sim1":55.0,"sim2":38.7,"ods":100.0,"nota_raw":66.48,"nota_final":73.13,"estado":"aprobado"},{"nombre":"LAUREN VANESSA ESTRADA GARCES","grupo":"113","sim1":35.0,"sim2":51.6,"ods":0,"nota_raw":27.64,"nota_final":27.64,"estado":"reprobado"},{"nombre":"MADELINE CAMPO RIVERA","grupo":"113","sim1":45.0,"sim2":64.5,"ods":260.0,"nota_raw":138.8,"nota_final":100,"estado":"aprobado"},{"nombre":"MARIA ANGEL JULIO HERNANDEZ","grupo":"113","sim1":20.0,"sim2":35.5,"ods":100.0,"nota_raw":58.2,"nota_final":60,"estado":"salvado"},{"nombre":"MARIA ANGELICA PASTRANA RODRIGUEZ","grupo":"113","sim1":25.0,"sim2":41.9,"ods":100.0,"nota_raw":61.76,"nota_final":67.94,"estado":"aprobado"},{"nombre":"MARIANGEL SALGADO MAZO","grupo":"113","sim1":30.0,"sim2":29.0,"ods":130.0,"nota_raw":69.6,"nota_final":76.56,"estado":"aprobado"},{"nombre":"NIKOL MICHELL AVILA GARCIA","grupo":"113","sim1":35.0,"sim2":29.0,"ods":100.0,"nota_raw":58.6,"nota_final":60,"estado":"salvado"},{"nombre":"PAMELA DENISE RUIZ VILLADIEGO","grupo":"113","sim1":35.0,"sim2":64.5,"ods":100.0,"nota_raw":72.8,"nota_final":80.08,"estado":"aprobado"},{"nombre":"SANTIAGO CEBALLOS ZABALA","grupo":"113","sim1":35.0,"sim2":45.2,"ods":100.0,"nota_raw":65.08,"nota_final":71.59,"estado":"aprobado"},{"nombre":"SHARON LISHELL RODRIGUEZ OSORIO","grupo":"113","sim1":35.0,"sim2":35.5,"ods":0,"nota_raw":21.2,"nota_final":21.2,"estado":"reprobado"},{"nombre":"SYARA SOFIA DIAZ HERNANDEZ","grupo":"113","sim1":35.0,"sim2":58.1,"ods":260.0,"nota_raw":134.24,"nota_final":100,"estado":"aprobado"},{"nombre":"VALENTINA AGUAS ATENCIA","grupo":"113","sim1":45.0,"sim2":35.5,"ods":0,"nota_raw":23.2,"nota_final":23.2,"estado":"reprobado"},{"nombre":"YISEL KAROLINA RAMOS BELEÑO","grupo":"113","sim1":30.0,"sim2":45.2,"ods":130.0,"nota_raw":76.08,"nota_final":83.69,"estado":"aprobado"},{"nombre":"ANDREA LISETH CAMARGO URANGO","grupo":"114","sim1":20.0,"sim2":54.8,"ods":70.0,"nota_raw":53.92,"nota_final":60,"estado":"salvado"},{"nombre":"ANDRES DIAZ CASTRO","grupo":"114","sim1":30.0,"sim2":41.9,"ods":70.0,"nota_raw":50.76,"nota_final":60,"estado":"salvado"},{"nombre":"ANGELICA MADRID SIERRA","grupo":"114","sim1":40.0,"sim2":54.8,"ods":0,"nota_raw":29.92,"nota_final":29.92,"estado":"reprobado"},{"nombre":"ANGIE PAOLA ALARCON MENDEZ","grupo":"114","sim1":30.0,"sim2":35.5,"ods":90.0,"nota_raw":56.2,"nota_final":60,"estado":"salvado"},{"nombre":"BENITEZ JOHAN","grupo":"114","sim1":0,"sim2":0,"ods":70.0,"nota_raw":28.0,"nota_final":28.0,"estado":"reprobado"},{"nombre":"DAYLIS PEREZ PADILLA","grupo":"114","sim1":35.0,"sim2":58.1,"ods":100.0,"nota_raw":70.24,"nota_final":77.26,"estado":"aprobado"},{"nombre":"FUENTES SHERY","grupo":"114","sim1":0,"sim2":0,"ods":80.0,"nota_raw":32.0,"nota_final":32.0,"estado":"reprobado"},{"nombre":"GABRIELA CORONADO OJEDA","grupo":"114","sim1":35.0,"sim2":25.8,"ods":90.0,"nota_raw":53.32,"nota_final":60,"estado":"salvado"},{"nombre":"HECTOR LUIS FUENTES MENDOZA","grupo":"114","sim1":35.0,"sim2":25.8,"ods":80.0,"nota_raw":49.32,"nota_final":49.32,"estado":"reprobado"},{"nombre":"ISABEL CASTILLO RICARDO","grupo":"114","sim1":30.0,"sim2":45.2,"ods":70.0,"nota_raw":52.08,"nota_final":60,"estado":"salvado"},{"nombre":"IVAN DAVID MARCELO SERPA","grupo":"114","sim1":40.0,"sim2":41.9,"ods":80.0,"nota_raw":56.76,"nota_final":60,"estado":"salvado"},{"nombre":"JAIDER DAVID MEZA AVILES","grupo":"114","sim1":25.0,"sim2":41.9,"ods":80.0,"nota_raw":53.76,"nota_final":60,"estado":"salvado"},{"nombre":"JESUS ORLANDO FINO RICARDO","grupo":"114","sim1":40.0,"sim2":45.2,"ods":0,"nota_raw":26.08,"nota_final":26.08,"estado":"reprobado"},{"nombre":"JIMENA ANDREA HOLGUIN CARDEÑO","grupo":"114","sim1":30.0,"sim2":29.0,"ods":70.0,"nota_raw":45.6,"nota_final":45.6,"estado":"reprobado"},{"nombre":"JOSE DANIEL ORTEGA JIMENEZ","grupo":"114","sim1":25.0,"sim2":29.0,"ods":0,"nota_raw":16.6,"nota_final":16.6,"estado":"reprobado"},{"nombre":"JUAN PABLO PATERNINA HINCAPIE","grupo":"114","sim1":30.0,"sim2":74.2,"ods":70.0,"nota_raw":63.68,"nota_final":70.05,"estado":"aprobado"},{"nombre":"KEVIN DAVID MEJIA HEREDIA","grupo":"114","sim1":30.0,"sim2":61.3,"ods":70.0,"nota_raw":58.52,"nota_final":60,"estado":"salvado"},{"nombre":"LORENA LORETH MONTES CORDERO","grupo":"114","sim1":30.0,"sim2":25.8,"ods":0,"nota_raw":16.32,"nota_final":16.32,"estado":"reprobado"},{"nombre":"MARIA ALEJANDRA RAMOS CALLE","grupo":"114","sim1":40.0,"sim2":45.2,"ods":100.0,"nota_raw":66.08,"nota_final":72.69,"estado":"aprobado"},{"nombre":"MARIA JOSE PEREZ CANTERO","grupo":"114","sim1":30.0,"sim2":29.0,"ods":120.0,"nota_raw":65.6,"nota_final":72.16,"estado":"aprobado"},{"nombre":"MARISOL MARTINEZ SALAS","grupo":"114","sim1":25.0,"sim2":48.4,"ods":80.0,"nota_raw":56.36,"nota_final":60,"estado":"salvado"},{"nombre":"MELANI ALEJANDRA MALDONADO VILLALBA","grupo":"114","sim1":25.0,"sim2":51.6,"ods":100.0,"nota_raw":65.64,"nota_final":72.2,"estado":"aprobado"},{"nombre":"SAMUEL DAVID FABRA VAZQUEZ","grupo":"114","sim1":20.0,"sim2":19.4,"ods":40.0,"nota_raw":27.76,"nota_final":27.76,"estado":"reprobado"},{"nombre":"SARA IBAÑEZ CAUSIL","grupo":"114","sim1":40.0,"sim2":35.5,"ods":100.0,"nota_raw":62.2,"nota_final":68.42,"estado":"aprobado"},{"nombre":"SARAY CAMILA PIMIENTA SOTO","grupo":"114","sim1":40.0,"sim2":64.5,"ods":80.0,"nota_raw":65.8,"nota_final":72.38,"estado":"aprobado"},{"nombre":"SHERYL ANDREA FUENTES MENDEZ","grupo":"114","sim1":30.0,"sim2":29.0,"ods":0,"nota_raw":17.6,"nota_final":17.6,"estado":"reprobado"},{"nombre":"VICTOR ANDRES ESPITIA MORALES","grupo":"114","sim1":35.0,"sim2":45.2,"ods":100.0,"nota_raw":65.08,"nota_final":71.59,"estado":"aprobado"},{"nombre":"VICTOR MANUEL TEJADA ZUÑIGA","grupo":"114","sim1":25.0,"sim2":41.9,"ods":100.0,"nota_raw":61.76,"nota_final":67.94,"estado":"aprobado"},{"nombre":"YENNIFER CASTILLO SUAREZ","grupo":"114","sim1":35.0,"sim2":51.6,"ods":0,"nota_raw":27.64,"nota_final":27.64,"estado":"reprobado"},{"nombre":"YOJAN DAVID BENITEZ BARRIOS","grupo":"114","sim1":30.0,"sim2":45.2,"ods":0,"nota_raw":24.08,"nota_final":24.08,"estado":"reprobado"},{"nombre":"YONIER ANDRES SALA SOLIS","grupo":"114","sim1":40.0,"sim2":16.1,"ods":0,"nota_raw":14.44,"nota_final":14.44,"estado":"reprobado"},{"nombre":"ALEJANDRO ZARZA HOYOS","grupo":"115","sim1":0,"sim2":58.1,"ods":0,"nota_raw":23.24,"nota_final":23.24,"estado":"reprobado"},{"nombre":"ALYS PATRICIA HERNANDEZ PASTRANA","grupo":"115","sim1":0,"sim2":48.4,"ods":95.0,"nota_raw":57.36,"nota_final":60,"estado":"salvado"},{"nombre":"CAMILO ANDRES MURILLO BUELVAS","grupo":"115","sim1":30.0,"sim2":54.8,"ods":50.0,"nota_raw":47.92,"nota_final":47.92,"estado":"reprobado"},{"nombre":"CARLOS DANIEL MARCHENA BARRERO","grupo":"115","sim1":15.0,"sim2":54.8,"ods":80.0,"nota_raw":56.92,"nota_final":60,"estado":"salvado"},{"nombre":"CARLOS ENRIQUE MENDOZA FERIA","grupo":"115","sim1":35.0,"sim2":54.8,"ods":100.0,"nota_raw":68.92,"nota_final":75.81,"estado":"aprobado"},{"nombre":"ELEMI HERNANDEZ ALVAREZ","grupo":"115","sim1":25.0,"sim2":45.2,"ods":85.0,"nota_raw":57.08,"nota_final":60,"estado":"salvado"},{"nombre":"ELISEO LUNA PEREZ","grupo":"115","sim1":35.0,"sim2":35.5,"ods":70.0,"nota_raw":49.2,"nota_final":49.2,"estado":"reprobado"},{"nombre":"ESTEBAN DAVID CORONADO PALENCIA","grupo":"115","sim1":50.0,"sim2":41.9,"ods":100.0,"nota_raw":66.76,"nota_final":73.44,"estado":"aprobado"},{"nombre":"GENESIS ROMERO ACOSTA","grupo":"115","sim1":45.0,"sim2":48.4,"ods":100.0,"nota_raw":68.36,"nota_final":75.2,"estado":"aprobado"},{"nombre":"JESUS DAVID VERGARA OCAMPO","grupo":"115","sim1":40.0,"sim2":58.1,"ods":100.0,"nota_raw":71.24,"nota_final":78.36,"estado":"aprobado"},{"nombre":"JHOJAN STIVEN ALZATE CARMONA","grupo":"115","sim1":25.0,"sim2":29.0,"ods":90.0,"nota_raw":52.6,"nota_final":60,"estado":"salvado"},{"nombre":"JOHN ESTEBAN FLOREZ LONDOÑO","grupo":"115","sim1":40.0,"sim2":12.9,"ods":100.0,"nota_raw":53.16,"nota_final":60,"estado":"salvado"},{"nombre":"JUAN ANDRES CARVAJAL DIAZ","grupo":"115","sim1":30.0,"sim2":48.4,"ods":100.0,"nota_raw":65.36,"nota_final":71.9,"estado":"aprobado"},{"nombre":"JUAN CAMILO GAMARRA LOPEZ","grupo":"115","sim1":45.0,"sim2":35.5,"ods":80.0,"nota_raw":55.2,"nota_final":60,"estado":"salvado"},{"nombre":"JUAN CAMILO RICARDO VEGA","grupo":"115","sim1":25.0,"sim2":51.6,"ods":95.0,"nota_raw":63.64,"nota_final":70.0,"estado":"aprobado"},{"nombre":"JULIANA ANDREA PASTRANA ROMERO","grupo":"115","sim1":30.0,"sim2":25.8,"ods":75.0,"nota_raw":46.32,"nota_final":46.32,"estado":"reprobado"},{"nombre":"KATALINA PEREZ MORENO","grupo":"115","sim1":40.0,"sim2":29.0,"ods":95.0,"nota_raw":57.6,"nota_final":60,"estado":"salvado"},{"nombre":"KELLY JOHANA MONTERROZA CASARRUBIA","grupo":"115","sim1":40.0,"sim2":38.7,"ods":0,"nota_raw":23.48,"nota_final":23.48,"estado":"reprobado"},{"nombre":"KELLY JOHANA ROMERO CASARRUBIA","grupo":"115","sim1":30.0,"sim2":41.9,"ods":70.0,"nota_raw":50.76,"nota_final":60,"estado":"salvado"},{"nombre":"LEONEL ANDRES RIVERA SILVA","grupo":"115","sim1":35.0,"sim2":45.2,"ods":70.0,"nota_raw":53.08,"nota_final":60,"estado":"salvado"},{"nombre":"LUIS EDUARDO SALGADO QUINTERO","grupo":"115","sim1":20.0,"sim2":19.4,"ods":100.0,"nota_raw":51.76,"nota_final":60,"estado":"salvado"},{"nombre":"LUIS FERNANDO TEJADA GUERRERO","grupo":"115","sim1":30.0,"sim2":51.6,"ods":0,"nota_raw":26.64,"nota_final":26.64,"estado":"reprobado"},{"nombre":"LUISA FERNANDA BENITEZ BALTAZAR","grupo":"115","sim1":30.0,"sim2":45.2,"ods":90.0,"nota_raw":60.08,"nota_final":66.09,"estado":"aprobado"},{"nombre":"MONICA PAOLA MONTALVO SOTO","grupo":"115","sim1":25.0,"sim2":32.3,"ods":85.0,"nota_raw":51.92,"nota_final":60,"estado":"salvado"},{"nombre":"MONTERROSA CASARUBIA KELLY","grupo":"115","sim1":0,"sim2":0,"ods":100.0,"nota_raw":40.0,"nota_final":40.0,"estado":"reprobado"},{"nombre":"NATALIA SANCHEZ MONTERROZA","grupo":"115","sim1":35.0,"sim2":41.9,"ods":75.0,"nota_raw":53.76,"nota_final":60,"estado":"salvado"},{"nombre":"NICOL STEFANY BAQUERO DIAZ","grupo":"115","sim1":35.0,"sim2":29.0,"ods":100.0,"nota_raw":58.6,"nota_final":60,"estado":"salvado"},{"nombre":"NICOLAS ELIAS CANOLE VASQUEZ","grupo":"115","sim1":15.0,"sim2":41.9,"ods":0,"nota_raw":19.76,"nota_final":19.76,"estado":"reprobado"},{"nombre":"VALENTINA ESTREMOR PEREZ","grupo":"115","sim1":40.0,"sim2":58.1,"ods":100.0,"nota_raw":71.24,"nota_final":78.36,"estado":"aprobado"},{"nombre":"YERMAN YAIR RUIZ GRANADOS","grupo":"115","sim1":45.0,"sim2":48.4,"ods":0,"nota_raw":28.36,"nota_final":28.36,"estado":"reprobado"},{"nombre":"YURIS PAOLA RODRIGUEZ FLOREZ","grupo":"115","sim1":20.0,"sim2":48.4,"ods":100.0,"nota_raw":63.36,"nota_final":69.7,"estado":"aprobado"},{"nombre":"ANA SOFIA VERGARA MARTINEZ","grupo":"116","sim1":20.0,"sim2":32.3,"ods":120.0,"nota_raw":64.92,"nota_final":71.41,"estado":"aprobado"},{"nombre":"ANDRES FELIPE MARTINEZ PACHECO","grupo":"116","sim1":30.0,"sim2":38.7,"ods":100.0,"nota_raw":61.48,"nota_final":67.63,"estado":"aprobado"},{"nombre":"ANDY PAOLA MANTILLA ESPITIA","grupo":"116","sim1":40.0,"sim2":45.2,"ods":120.0,"nota_raw":74.08,"nota_final":81.49,"estado":"aprobado"},{"nombre":"ANGELICA MARTINEZ BALBERA","grupo":"116","sim1":50.0,"sim2":61.3,"ods":0,"nota_raw":34.52,"nota_final":34.52,"estado":"reprobado"},{"nombre":"ANYS ANDREA GUTIERREZ ARRIETA","grupo":"116","sim1":30.0,"sim2":22.6,"ods":100.0,"nota_raw":55.04,"nota_final":60,"estado":"salvado"},{"nombre":"CRISTIAN DAVID MONTALVO PACHECO","grupo":"116","sim1":35.0,"sim2":9.7,"ods":100.0,"nota_raw":50.88,"nota_final":60,"estado":"salvado"},{"nombre":"DAILY ALEJANDRA ARGUMEDO SALAS","grupo":"116","sim1":30.0,"sim2":38.7,"ods":100.0,"nota_raw":61.48,"nota_final":67.63,"estado":"aprobado"},{"nombre":"DANILSA MERCADO TIRADO","grupo":"116","sim1":45.0,"sim2":51.6,"ods":0,"nota_raw":29.64,"nota_final":29.64,"estado":"reprobado"},{"nombre":"DIDIEN MATIAS ROMERO SIERRA","grupo":"116","sim1":30.0,"sim2":35.5,"ods":100.0,"nota_raw":60.2,"nota_final":66.22,"estado":"aprobado"},{"nombre":"DIEGO PADILLA MORA","grupo":"116","sim1":30.0,"sim2":38.7,"ods":100.0,"nota_raw":61.48,"nota_final":67.63,"estado":"aprobado"},{"nombre":"ELIZABETH PEREIRA LOPEZ","grupo":"116","sim1":30.0,"sim2":41.9,"ods":115.0,"nota_raw":68.76,"nota_final":75.64,"estado":"aprobado"},{"nombre":"ESTHER MARIA LONDOÑO BARRIOS","grupo":"116","sim1":40.0,"sim2":38.7,"ods":100.0,"nota_raw":63.48,"nota_final":69.83,"estado":"aprobado"},{"nombre":"JHON FREED QUINTERO SUAREZ","grupo":"116","sim1":0,"sim2":29.0,"ods":0,"nota_raw":11.6,"nota_final":11.6,"estado":"reprobado"},{"nombre":"JOSE JULIAN PATERNINA ARCIA","grupo":"116","sim1":10.0,"sim2":29.0,"ods":100.0,"nota_raw":53.6,"nota_final":60,"estado":"salvado"},{"nombre":"KATY MILENA SALGADO VERONA","grupo":"116","sim1":45.0,"sim2":38.7,"ods":100.0,"nota_raw":64.48,"nota_final":70.93,"estado":"aprobado"},{"nombre":"KEILLY MICHELLE HERNANDEZ HOYOS","grupo":"116","sim1":25.0,"sim2":38.7,"ods":100.0,"nota_raw":60.48,"nota_final":66.53,"estado":"aprobado"},{"nombre":"KEILLY MICHELLE HERNANDEZ HOYOS","grupo":"116","sim1":25.0,"sim2":38.7,"ods":100.0,"nota_raw":60.48,"nota_final":66.53,"estado":"aprobado"},{"nombre":"MARIA CAROLINA GOMEZ MUÑOZ","grupo":"116","sim1":30.0,"sim2":19.4,"ods":120.0,"nota_raw":61.76,"nota_final":67.94,"estado":"aprobado"},{"nombre":"MELANI PEÑATES GARAVITO","grupo":"116","sim1":35.0,"sim2":54.8,"ods":0,"nota_raw":28.92,"nota_final":28.92,"estado":"reprobado"},{"nombre":"MICHELL ANDREA MESA RIVERA","grupo":"116","sim1":40.0,"sim2":22.6,"ods":100.0,"nota_raw":57.04,"nota_final":60,"estado":"salvado"},{"nombre":"ORNELLA HEREDIA MORENO","grupo":"116","sim1":35.0,"sim2":29.0,"ods":115.0,"nota_raw":64.6,"nota_final":71.06,"estado":"aprobado"},{"nombre":"PATRICIA DEL CARMEN RODRIGUEZ VERTEL","grupo":"116","sim1":30.0,"sim2":41.9,"ods":100.0,"nota_raw":62.76,"nota_final":69.04,"estado":"aprobado"},{"nombre":"RONALD SAMPAYO ALVIS","grupo":"116","sim1":45.0,"sim2":16.1,"ods":100.0,"nota_raw":55.44,"nota_final":60,"estado":"salvado"},{"nombre":"SARA MARCELA TORREZ MENDOZA","grupo":"116","sim1":35.0,"sim2":54.8,"ods":100.0,"nota_raw":68.92,"nota_final":75.81,"estado":"aprobado"},{"nombre":"SEBASTIAN RUIZ MONTERROZA","grupo":"116","sim1":30.0,"sim2":41.9,"ods":100.0,"nota_raw":62.76,"nota_final":69.04,"estado":"aprobado"},{"nombre":"SOFIA MARTINEZ HERNANDEZ","grupo":"116","sim1":30.0,"sim2":51.6,"ods":100.0,"nota_raw":66.64,"nota_final":73.3,"estado":"aprobado"},{"nombre":"STEFANIA GUERRA VILLA","grupo":"116","sim1":40.0,"sim2":32.3,"ods":100.0,"nota_raw":60.92,"nota_final":67.01,"estado":"aprobado"},{"nombre":"STEVEN ANDRES HOYOS NAVARRO","grupo":"116","sim1":30.0,"sim2":77.4,"ods":100.0,"nota_raw":76.96,"nota_final":84.66,"estado":"aprobado"},{"nombre":"TALIANA CORREA OVIEDO","grupo":"116","sim1":45.0,"sim2":22.6,"ods":100.0,"nota_raw":58.04,"nota_final":60,"estado":"salvado"},{"nombre":"VALERI CORREA DOMINGUEZ","grupo":"116","sim1":40.0,"sim2":38.7,"ods":100.0,"nota_raw":63.48,"nota_final":69.83,"estado":"aprobado"},{"nombre":"YADY ISABEL RAMIREZ MORALES","grupo":"116","sim1":30.0,"sim2":29.0,"ods":115.0,"nota_raw":63.6,"nota_final":69.96,"estado":"aprobado"},{"nombre":"YALENA SOFIA SALAZAR OYOLA","grupo":"116","sim1":35.0,"sim2":25.8,"ods":115.0,"nota_raw":63.32,"nota_final":69.65,"estado":"aprobado"}];
+
+// ── MODAL CLAVE ──────────────────────────────────────────────────────────────
+function abrirModalClave() {
+    document.getElementById('claveInput').value = '';
+    document.getElementById('claveError').classList.remove('show');
+    document.getElementById('modalClave').classList.add('show');
+    setTimeout(() => document.getElementById('claveInput').focus(), 100);
+}
+
+function cerrarModal() {
+    document.getElementById('modalClave').classList.remove('show');
+    // Reactivar el botón que estaba activo antes
+    document.getElementById('btn3').classList.remove('active');
+}
+
+function verificarClave() {
+    const clave = document.getElementById('claveInput').value;
+    if (clave === 'MrBot') {
+        document.getElementById('modalClave').classList.remove('show');
+        // Actualizar estado como si hubiera seleccionado sim3
+        document.getElementById('btn1').classList.remove('active');
+        document.getElementById('btn2').classList.remove('active');
+        document.getElementById('btn3').classList.add('active');
+        simulacroActivo = 3;
+        document.querySelector('.search-section').style.display = 'none';
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('results').classList.remove('show');
+        document.getElementById('results').innerHTML = '';
+        const box = document.getElementById('infoBox');
+        box.className = 'info-box sim3';
+        box.innerHTML = '🟢 <strong>Notas Finales I Periodo Física</strong> — Busca tu nombre para ver tu nota definitiva.';
+        document.getElementById('notasSection').classList.add('show');
+        setTimeout(() => document.getElementById('notaSearchInput').focus(), 100);
+    } else {
+        const err = document.getElementById('claveError');
+        err.classList.add('show');
+        document.getElementById('claveInput').value = '';
+        document.getElementById('claveInput').focus();
+        setTimeout(() => err.classList.remove('show'), 3000);
+    }
+}
+
+// ── BÚSQUEDA NOTAS FINALES ───────────────────────────────────────────────────
+const GRUPO_LABEL = {'111':'11° A','112':'11° B','113':'11° C','114':'11° D','115':'11° E','116':'11° F'};
+
+function normN(s) {
+    return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+}
+
+function buscarNota() {
+    const q = document.getElementById('notaSearchInput').value.trim();
+    if (!q) { mostrarNotaError('Por favor ingresa tu nombre o apellido.'); return; }
+
+    document.getElementById('notaLoading').classList.add('show');
+    document.getElementById('notaResults').innerHTML = '';
+    document.getElementById('notaErrorMsg').classList.remove('show');
+
+    setTimeout(() => {
+        document.getElementById('notaLoading').classList.remove('show');
+        const qn = normN(q);
+        const encontrados = datosNotas.filter(e => normN(e.nombre).includes(qn));
+
+        if (!encontrados.length) {
+            mostrarNotaError('No se encontraron resultados. Verifica tu nombre o apellido.');
+            return;
+        }
+        if (encontrados.length === 1) {
+            mostrarNotaDetalle(encontrados[0]);
+        } else {
+            mostrarNotaLista(encontrados);
+        }
+    }, 300);
+}
+
+function mostrarNotaLista(lista) {
+    const div = document.getElementById('notaResults');
+    div.innerHTML = `<h3 style="color:#2c3e50;margin-bottom:15px;font-size:17px">
+        📋 Se encontraron ${lista.length} resultados. Selecciona tu nombre:</h3>`;
+    lista.forEach(e => {
+        const card = document.createElement('div');
+        card.className = 'nota-multiple-card';
+        card.onclick = () => mostrarNotaDetalle(e);
+        const gLabel = GRUPO_LABEL[e.grupo] || ('Grupo ' + e.grupo);
+        card.innerHTML = `
+            <div class="result-name">${e.nombre}</div>
+            <div class="result-info">
+                <span class="result-badge" style="background:#27ae60">${gLabel}</span>
+                <span class="result-badge" style="background:#7f8c8d">Nota final: ${e.nota_final.toFixed(1)}</span>
+            </div>`;
+        div.appendChild(card);
+    });
+}
+
+function mostrarNotaDetalle(e) {
+    const div = document.getElementById('notaResults');
+    const gLabel = GRUPO_LABEL[e.grupo] || ('Grupo ' + e.grupo);
+    
+    let mensajeHtml = '';
+    if (e.estado === 'aprobado') {
+        mensajeHtml = `<div class="nota-mensaje aprobado">
+            🎉 ¡Felicitaciones! Has aprobado el primer periodo con una nota de <strong>${e.nota_final.toFixed(1)}</strong>.<br>
+            Simulacro 1: ${e.sim1.toFixed(1)} &nbsp;|&nbsp; Simulacro 2: ${e.sim2.toFixed(1)} &nbsp;|&nbsp; Actividades: ${e.ods.toFixed(1)}<br>
+            Nota base: ${e.nota_raw.toFixed(1)} → +10% bono aprobado = <strong>${e.nota_final.toFixed(1)}</strong> ✅
+        </div>`;
+    } else if (e.estado === 'salvado') {
+        mensajeHtml = `<div class="nota-mensaje salvado">
+            🌹 ¡Salvado por la rosa de guadalupe! Tu nota base era ${e.nota_raw.toFixed(1)} 
+            y fue ajustada a <strong>60.0</strong> para que puedas continuar. ¡Aprovecha el segundo periodo!
+        </div>`;
+    } else {
+        mensajeHtml = `<div class="nota-mensaje reprobado">
+            📉 Tu nota final es <strong>${e.nota_final.toFixed(1)}</strong>. 
+            Recuerda que puedes mejorar en los próximos periodos. ¡Tú puedes!
+        </div>`;
+    }
+
+    div.innerHTML = `
+        <div class="nota-card ${e.estado}">
+            <div class="nota-nombre">${e.nombre}</div>
+            <div class="nota-grupo">Grupo: ${gLabel}</div>
+            <div class="nota-desglose">
+                <div class="nota-row">
+                    <span class="nota-row-label">🔬 Ciencias Nat. Sim. 1 (20%)</span>
+                    <span class="nota-row-val">${e.sim1.toFixed(1)}</span>
+                </div>
+                <div class="nota-row">
+                    <span class="nota-row-label">🔬 Ciencias Nat. Sim. 2 (40%)</span>
+                    <span class="nota-row-val">${e.sim2.toFixed(1)}</span>
+                </div>
+                <div class="nota-row">
+                    <span class="nota-row-label">📋 Actividades ODS (40%)</span>
+                    <span class="nota-row-val">${e.ods.toFixed(1)}</span>
+                </div>
+                <div class="nota-row" style="margin-top:6px;font-size:12px;color:#888">
+                    <span>Nota base (antes de ajuste)</span>
+                    <span>${e.nota_raw.toFixed(1)}</span>
+                </div>
+            </div>
+            <div class="nota-final-box">
+                <div class="nota-final-num ${e.estado}">${e.nota_final.toFixed(1)}</div>
+                <div class="nota-final-label">NOTA FINAL I PERIODO</div>
+            </div>
+            ${mensajeHtml}
+        </div>
+        <button onclick="document.getElementById('notaResults').innerHTML='';document.getElementById('notaSearchInput').value='';"
+            style="margin-top:10px;padding:10px 20px;border:none;border-radius:8px;background:#ecf0f1;color:#2c3e50;font-weight:600;cursor:pointer;font-size:14px">
+            🔙 Buscar otro estudiante
+        </button>`;
+}
+
+function mostrarNotaError(msg) {
+    const d = document.getElementById('notaErrorMsg');
+    d.textContent = '❌ ' + msg;
+    d.classList.add('show');
+    setTimeout(() => d.classList.remove('show'), 5000);
+}
+
+// Enter para buscar notas
+document.getElementById('notaSearchInput').addEventListener('keypress', e => {
+    if (e.key === 'Enter') buscarNota();
+});
+
+// Cerrar modal con click fuera
+document.getElementById('modalClave').addEventListener('click', function(e) {
+    if (e.target === this) cerrarModal();
+});
 </script>
 </body>
 </html>
