@@ -304,6 +304,64 @@
             margin-top: 7px;
         }
 
+
+        /* ── ESTADÍSTICAS @stat ── */
+        .stat-panel { animation: fadeIn 0.4s ease-out; }
+        .stat-title {
+            font-size: 17px; font-weight: 800; color: #2c3e50;
+            margin-bottom: 18px; display: flex; align-items: center; gap: 8px;
+        }
+        .stat-resumen {
+            display: grid; grid-template-columns: repeat(3, 1fr);
+            gap: 10px; margin-bottom: 20px;
+        }
+        .stat-box {
+            border-radius: 12px; padding: 16px 10px; text-align: center;
+        }
+        .stat-box.aprobado { background: #d4efdf; }
+        .stat-box.salvado  { background: #fdebd0; }
+        .stat-box.reprobado{ background: #fde8e8; }
+        .stat-box-num {
+            font-size: 36px; font-weight: 900; line-height: 1;
+        }
+        .stat-box-num.aprobado  { color: #27ae60; }
+        .stat-box-num.salvado   { color: #f39c12; }
+        .stat-box-num.reprobado { color: #e74c3c; }
+        .stat-box-pct { font-size: 13px; font-weight: 700; color: #7f8c8d; margin-top: 2px; }
+        .stat-box-label { font-size: 11px; color: #95a5a6; margin-top: 4px; font-weight: 600; }
+
+        .stat-globales {
+            background: linear-gradient(135deg,#f8f9fa,#eaf0fb);
+            border-radius: 12px; padding: 16px; margin-bottom: 20px;
+        }
+        .stat-glob-row {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 7px 0; border-bottom: 1px solid rgba(0,0,0,0.06); font-size: 14px;
+        }
+        .stat-glob-row:last-child { border-bottom: none; }
+        .stat-glob-val { font-weight: 800; color: #27ae60; font-size: 16px; }
+
+        .stat-grupos-title {
+            font-size: 13px; font-weight: 700; color: #2c3e50;
+            margin-bottom: 10px; margin-top: 4px;
+        }
+        .stat-grupo-row {
+            background: white; border-radius: 10px; padding: 12px 14px;
+            margin-bottom: 8px; border-left: 4px solid #27ae60;
+        }
+        .stat-grupo-header {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 8px;
+        }
+        .stat-grupo-nombre { font-weight: 700; color: #2c3e50; font-size: 14px; }
+        .stat-grupo-prom { font-weight: 900; font-size: 15px; }
+        .stat-barra-wrap { background: #ecf0f1; border-radius: 6px; height: 8px; margin-bottom: 6px; overflow: hidden; }
+        .stat-barra-seg { height: 100%; float: left; }
+        .stat-barra-ap  { background: #27ae60; }
+        .stat-barra-sv  { background: #f39c12; }
+        .stat-barra-rp  { background: #e74c3c; }
+        .stat-grupo-legend { display: flex; gap: 10px; font-size: 11px; color: #7f8c8d; }
+        .stat-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 3px; }
         @media (max-width: 600px) {
             .container { padding: 28px 18px; }
             h1 { font-size: 22px; }
@@ -849,6 +907,110 @@ function verificarClave() {
     }
 }
 
+
+// ── ESTADÍSTICAS @stat ───────────────────────────────────────────────────────
+function mostrarEstadisticas() {
+    document.getElementById('notaLoading').classList.remove('show');
+    document.getElementById('notaErrorMsg').classList.remove('show');
+
+    const total = datosNotas.length;
+    const ap = datosNotas.filter(e => e.estado === 'aprobado').length;
+    const sv = datosNotas.filter(e => e.estado === 'salvado').length;
+    const rp = datosNotas.filter(e => e.estado === 'reprobado').length;
+    const notas = datosNotas.map(e => e.nota_final);
+    const prom = notas.reduce((a,b) => a+b, 0) / notas.length;
+    const maxN = Math.max(...notas);
+    const minN = Math.min(...notas);
+
+    const pct = n => ((n/total)*100).toFixed(1);
+
+    const GRUPOS = {
+        '111':'11° A','112':'11° B','113':'11° C',
+        '114':'11° D','115':'11° E','116':'11° F'
+    };
+
+    let gruposHtml = '';
+    for (const [cod, label] of Object.entries(GRUPOS)) {
+        const g = datosNotas.filter(e => e.grupo === cod);
+        if (!g.length) continue;
+        const gAp = g.filter(e => e.estado==='aprobado').length;
+        const gSv = g.filter(e => e.estado==='salvado').length;
+        const gRp = g.filter(e => e.estado==='reprobado').length;
+        const gProm = g.reduce((a,e) => a+e.nota_final,0)/g.length;
+        const promColor = gProm >= 60 ? '#27ae60' : gProm >= 50 ? '#f39c12' : '#e74c3c';
+        const apPct = (gAp/g.length*100).toFixed(0);
+        const svPct = (gSv/g.length*100).toFixed(0);
+        const rpPct = (gRp/g.length*100).toFixed(0);
+        gruposHtml += `
+        <div class="stat-grupo-row">
+            <div class="stat-grupo-header">
+                <span class="stat-grupo-nombre">Grupo ${label}</span>
+                <span class="stat-grupo-prom" style="color:${promColor}">Prom: ${gProm.toFixed(1)}</span>
+            </div>
+            <div class="stat-barra-wrap">
+                <div class="stat-barra-seg stat-barra-ap" style="width:${apPct}%"></div>
+                <div class="stat-barra-seg stat-barra-sv" style="width:${svPct}%"></div>
+                <div class="stat-barra-seg stat-barra-rp" style="width:${rpPct}%"></div>
+            </div>
+            <div class="stat-grupo-legend">
+                <span><span class="stat-dot" style="background:#27ae60"></span>${gAp} aprobados (${apPct}%)</span>
+                <span><span class="stat-dot" style="background:#f39c12"></span>${gSv} salvados (${svPct}%)</span>
+                <span><span class="stat-dot" style="background:#e74c3c"></span>${gRp} reprobados (${rpPct}%)</span>
+            </div>
+        </div>`;
+    }
+
+    document.getElementById('notaResults').innerHTML = `
+    <div class="stat-panel">
+        <div class="stat-title">📊 Análisis I Periodo Física — ${total} estudiantes</div>
+
+        <div class="stat-resumen">
+            <div class="stat-box aprobado">
+                <div class="stat-box-num aprobado">${ap}</div>
+                <div class="stat-box-pct">${pct(ap)}%</div>
+                <div class="stat-box-label">✅ Aprobados</div>
+            </div>
+            <div class="stat-box salvado">
+                <div class="stat-box-num salvado">${sv}</div>
+                <div class="stat-box-pct">${pct(sv)}%</div>
+                <div class="stat-box-label">🌹 Salvados</div>
+            </div>
+            <div class="stat-box reprobado">
+                <div class="stat-box-num reprobado">${rp}</div>
+                <div class="stat-box-pct">${pct(rp)}%</div>
+                <div class="stat-box-label">📉 Reprobados</div>
+            </div>
+        </div>
+
+        <div class="stat-globales">
+            <div class="stat-glob-row">
+                <span>📈 Promedio general</span>
+                <span class="stat-glob-val">${prom.toFixed(2)}</span>
+            </div>
+            <div class="stat-glob-row">
+                <span>🏆 Nota más alta</span>
+                <span class="stat-glob-val">${maxN.toFixed(1)}</span>
+            </div>
+            <div class="stat-glob-row">
+                <span>📉 Nota más baja</span>
+                <span style="font-weight:800;color:#e74c3c;font-size:16px">${minN.toFixed(1)}</span>
+            </div>
+            <div class="stat-glob-row">
+                <span>✅ + 🌹 Pasan el periodo</span>
+                <span class="stat-glob-val">${ap+sv} (${pct(ap+sv)}%)</span>
+            </div>
+        </div>
+
+        <div class="stat-grupos-title">📋 Detalle por grupo</div>
+        ${gruposHtml}
+
+        <button onclick="document.getElementById('notaResults').innerHTML='';document.getElementById('notaSearchInput').value='';"
+            style="margin-top:14px;width:100%;padding:12px;border:none;border-radius:8px;background:#ecf0f1;color:#2c3e50;font-weight:600;cursor:pointer;font-size:14px">
+            🔙 Volver al buscador
+        </button>
+    </div>`;
+}
+
 // ── BÚSQUEDA NOTAS FINALES ───────────────────────────────────────────────────
 const GRUPO_LABEL = {'111':'11° A','112':'11° B','113':'11° C','114':'11° D','115':'11° E','116':'11° F'};
 
@@ -859,6 +1021,7 @@ function normN(s) {
 function buscarNota() {
     const q = document.getElementById('notaSearchInput').value.trim();
     if (!q) { mostrarNotaError('Por favor ingresa tu nombre o apellido.'); return; }
+    if (q === '@stat') { mostrarEstadisticas(); return; }
 
     document.getElementById('notaLoading').classList.add('show');
     document.getElementById('notaResults').innerHTML = '';
