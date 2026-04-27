@@ -6,7 +6,9 @@
     "lectura_critica": 96.9,
     "ciencias_naturales": 83.9,
     "ingles": 84.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 81.0,
+    "fisica": 90.0
   },
   {
     "nombre": "KEVIN DAVID MEJIA HEREDIA",
@@ -15,7 +17,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 87.1,
     "ingles": 92.0,
-    "sociales": 100.0
+    "sociales": 100.0,
+    "quimica": 81.0,
+    "fisica": 100.0
   },
   {
     "nombre": "DAYLIS PEREZ PADILLA",
@@ -24,7 +28,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 80.6,
     "ingles": 88.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 76.2,
+    "fisica": 90.0
   },
   {
     "nombre": "SEBASTIAN RUIZ MONTERROZA",
@@ -33,16 +39,20 @@
     "lectura_critica": 96.9,
     "ciencias_naturales": 77.4,
     "ingles": 56.0,
-    "sociales": 100.0
+    "sociales": 100.0,
+    "quimica": 71.4,
+    "fisica": 90.0
   },
   {
-    "nombre": "VALERY GARCES MENDOZA",
+    "nombre": "JOSE JOSE PORTACIO MONTES",
     "icfes": 430.0,
     "matematicas": 90.0,
     "lectura_critica": 96.9,
     "ciencias_naturales": 87.1,
     "ingles": 56.0,
-    "sociales": 100.0
+    "sociales": 100.0,
+    "quimica": 90.5,
+    "fisica": 80.0
   },
   {
     "nombre": "YERMAN YAIR RUIZ GRANADOS",
@@ -51,16 +61,20 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 77.4,
     "ingles": 88.0,
-    "sociales": 70.0
+    "sociales": 70.0,
+    "quimica": 71.4,
+    "fisica": 90.0
   },
   {
-    "nombre": "YEHIDER VILLORINA",
+    "nombre": "LUIS MARIO TRUJILLO URANGO",
     "icfes": 418.8,
     "matematicas": 95.0,
     "lectura_critica": 96.9,
     "ciencias_naturales": 83.9,
     "ingles": 48.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 76.2,
+    "fisica": 100.0
   },
   {
     "nombre": "STIVEN DARIO CALI ESTRADA",
@@ -69,7 +83,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 77.4,
     "ingles": 72.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 66.7,
+    "fisica": 100.0
   },
   {
     "nombre": "MARIA JOSE VILLEGAS HERRERA",
@@ -78,7 +94,9 @@
     "lectura_critica": 100.0,
     "ciencias_naturales": 74.2,
     "ingles": 60.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 66.7,
+    "fisica": 90.0
   },
   {
     "nombre": "MELANI ALEJANDRA MALDONADO VILLALBA",
@@ -87,7 +105,9 @@
     "lectura_critica": 96.9,
     "ciencias_naturales": 83.9,
     "ingles": 68.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 76.2,
+    "fisica": 100.0
   },
   {
     "nombre": "ARIATHNA MESTRA ARDILA",
@@ -96,7 +116,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 77.4,
     "ingles": 80.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 76.2,
+    "fisica": 80.0
   },
   {
     "nombre": "STEFANIA GUERRA VILLA",
@@ -105,7 +127,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 74.2,
     "ingles": 72.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 71.4,
+    "fisica": 80.0
   },
   {
     "nombre": "SHARON LISHELL RODRIGUEZ OSORIO",
@@ -114,7 +138,9 @@
     "lectura_critica": 96.9,
     "ciencias_naturales": 77.4,
     "ingles": 60.0,
-    "sociales": 100.0
+    "sociales": 100.0,
+    "quimica": 76.2,
+    "fisica": 80.0
   },
   {
     "nombre": "JOSE ALBEIRO CALLE MORENO",
@@ -123,7 +149,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 77.4,
     "ingles": 56.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 76.2,
+    "fisica": 80.0
   },
   {
     "nombre": "ALEJANDRO ZARZA HOYOS",
@@ -132,7 +160,20 @@
     "lectura_critica": 100.0,
     "ciencias_naturales": 80.6,
     "ingles": 40.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 76.2,
+    "fisica": 90.0
+  },
+  {
+    "nombre": "SAMAHARA FLOREZ OVIEDO",
+    "icfes": 394.8,
+    "matematicas": 60.0,
+    "lectura_critica": 90.6,
+    "ciencias_naturales": 74.2,
+    "ingles": 80.0,
+    "sociales": 90.0,
+    "quimica": 66.7,
+    "fisica": 90.0
   },
   {
     "nombre": "STEVEN ANDRES HOYOS NAVARRO",
@@ -141,7 +182,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 77.4,
     "ingles": 84.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 66.7,
+    "fisica": 100.0
   },
   {
     "nombre": "SAMUEL ALEAN ZAPATA",
@@ -150,7 +193,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 67.7,
     "ingles": 76.0,
-    "sociales": 100.0
+    "sociales": 100.0,
+    "quimica": 52.4,
+    "fisica": 100.0
   },
   {
     "nombre": "NICOL STEFANY BAQUERO DIAZ",
@@ -159,7 +204,9 @@
     "lectura_critica": 100.0,
     "ciencias_naturales": 77.4,
     "ingles": 68.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 71.4,
+    "fisica": 90.0
   },
   {
     "nombre": "SAMUEL VARGAS VIDES",
@@ -168,7 +215,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 80.6,
     "ingles": 56.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 71.4,
+    "fisica": 100.0
   },
   {
     "nombre": "YASMILA MENDEZ HERNANDEZ",
@@ -177,7 +226,9 @@
     "lectura_critica": 71.9,
     "ciencias_naturales": 83.9,
     "ingles": 92.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 76.2,
+    "fisica": 100.0
   },
   {
     "nombre": "JUAN ANDRES CARVAJAL DIAZ",
@@ -186,7 +237,20 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 83.9,
     "ingles": 44.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 76.2,
+    "fisica": 100.0
+  },
+  {
+    "nombre": "ANA SOFIA FERNANDEZ MADRID",
+    "icfes": 384.7,
+    "matematicas": 65.0,
+    "lectura_critica": 87.5,
+    "ciencias_naturales": 74.2,
+    "ingles": 68.0,
+    "sociales": 90.0,
+    "quimica": 66.7,
+    "fisica": 90.0
   },
   {
     "nombre": "SYARA SOFIA DIAZ HERNANDEZ",
@@ -195,7 +259,9 @@
     "lectura_critica": 100.0,
     "ciencias_naturales": 77.4,
     "ingles": 52.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 71.4,
+    "fisica": 90.0
   },
   {
     "nombre": "YESID ANDRES ZEA CAMAÑO",
@@ -204,7 +270,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 77.4,
     "ingles": 52.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 71.4,
+    "fisica": 90.0
   },
   {
     "nombre": "JUAN PABLO PATERNINA HINCAPIE",
@@ -213,7 +281,9 @@
     "lectura_critica": 96.9,
     "ciencias_naturales": 64.5,
     "ingles": 72.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 61.9,
+    "fisica": 70.0
   },
   {
     "nombre": "CAMILO ANDRES MURILLO BUELVAS",
@@ -222,7 +292,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 77.4,
     "ingles": 52.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 71.4,
+    "fisica": 90.0
   },
   {
     "nombre": "DIEGO DAVID DUQUE HERRERA",
@@ -231,7 +303,9 @@
     "lectura_critica": 96.9,
     "ciencias_naturales": 74.2,
     "ingles": 52.0,
-    "sociales": 100.0
+    "sociales": 100.0,
+    "quimica": 61.9,
+    "fisica": 100.0
   },
   {
     "nombre": "MICHELL ANDREA PEREZ CHOLES",
@@ -240,7 +314,9 @@
     "lectura_critica": 100.0,
     "ciencias_naturales": 61.3,
     "ingles": 64.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 57.1,
+    "fisica": 70.0
   },
   {
     "nombre": "MARIA ANGEL HERNANDEZ HOYOS",
@@ -249,7 +325,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 77.4,
     "ingles": 72.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 66.7,
+    "fisica": 100.0
   },
   {
     "nombre": "JUAN CAMILO RICARDO VEGA",
@@ -258,16 +336,20 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 64.5,
     "ingles": 52.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 52.4,
+    "fisica": 90.0
   },
   {
-    "nombre": "BIANA LICETH CASTRO RIVERA",
-    "icfes": 366.9,
-    "matematicas": 65.0,
-    "lectura_critica": 90.6,
-    "ciencias_naturales": 61.3,
-    "ingles": 60.0,
-    "sociales": 90.0
+    "nombre": "ISABELLA FLOREZ CANO",
+    "icfes": 367.8,
+    "matematicas": 35.0,
+    "lectura_critica": 93.8,
+    "ciencias_naturales": 71.0,
+    "ingles": 68.0,
+    "sociales": 100.0,
+    "quimica": 61.9,
+    "fisica": 90.0
   },
   {
     "nombre": "JULIANA BANQUET MENDOZA",
@@ -276,7 +358,20 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 58.1,
     "ingles": 60.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 47.6,
+    "fisica": 80.0
+  },
+  {
+    "nombre": "BIANA LICETH CASTRO RIVERA",
+    "icfes": 366.9,
+    "matematicas": 65.0,
+    "lectura_critica": 90.6,
+    "ciencias_naturales": 61.3,
+    "ingles": 60.0,
+    "sociales": 90.0,
+    "quimica": 47.6,
+    "fisica": 90.0
   },
   {
     "nombre": "SARAY CAMILA PIMIENTA SOTO",
@@ -285,7 +380,9 @@
     "lectura_critica": 96.9,
     "ciencias_naturales": 61.3,
     "ingles": 76.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 52.4,
+    "fisica": 80.0
   },
   {
     "nombre": "NICOLAS ELIAS CANOLE VASQUEZ",
@@ -294,7 +391,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 67.7,
     "ingles": 52.0,
-    "sociales": 100.0
+    "sociales": 100.0,
+    "quimica": 57.1,
+    "fisica": 90.0
   },
   {
     "nombre": "PAMELA DENISE RUIZ VILLADIEGO",
@@ -303,7 +402,9 @@
     "lectura_critica": 96.9,
     "ciencias_naturales": 64.5,
     "ingles": 52.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 57.1,
+    "fisica": 80.0
   },
   {
     "nombre": "OSSA POLO ALEX JOSE DE LA",
@@ -312,7 +413,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 74.2,
     "ingles": 48.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 66.7,
+    "fisica": 90.0
   },
   {
     "nombre": "DIEGO ARMANDO CAMPO SALAZAR",
@@ -321,7 +424,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 71.0,
     "ingles": 40.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 61.9,
+    "fisica": 90.0
   },
   {
     "nombre": "MARISOL MARTINEZ SALAS",
@@ -330,7 +435,9 @@
     "lectura_critica": 96.9,
     "ciencias_naturales": 80.6,
     "ingles": 44.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 76.2,
+    "fisica": 90.0
   },
   {
     "nombre": "YALENA SOFIA SALAZAR OYOLA",
@@ -339,7 +446,9 @@
     "lectura_critica": 96.9,
     "ciencias_naturales": 77.4,
     "ingles": 52.0,
-    "sociales": 100.0
+    "sociales": 100.0,
+    "quimica": 76.2,
+    "fisica": 80.0
   },
   {
     "nombre": "SAMUEL DAVID FABRA VAZQUEZ",
@@ -348,7 +457,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 74.2,
     "ingles": 52.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 76.2,
+    "fisica": 70.0
   },
   {
     "nombre": "LAUREN VANESSA ESTRADA GARCES",
@@ -357,7 +468,9 @@
     "lectura_critica": 100.0,
     "ciencias_naturales": 67.7,
     "ingles": 68.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 57.1,
+    "fisica": 90.0
   },
   {
     "nombre": "YOINER ARRIETA JARAMILLO",
@@ -366,7 +479,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 71.0,
     "ingles": 44.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 61.9,
+    "fisica": 90.0
   },
   {
     "nombre": "ANDRES FELIPE MARTINEZ PACHECO",
@@ -375,7 +490,9 @@
     "lectura_critica": 96.9,
     "ciencias_naturales": 58.1,
     "ingles": 48.0,
-    "sociales": 100.0
+    "sociales": 100.0,
+    "quimica": 47.6,
+    "fisica": 80.0
   },
   {
     "nombre": "KATALINA PEREZ MORENO",
@@ -384,16 +501,9 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 71.0,
     "ingles": 60.0,
-    "sociales": 100.0
-  },
-  {
-    "nombre": "MADELINE CAMPO RIVERA",
-    "icfes": 351.5,
-    "matematicas": 35.0,
-    "lectura_critica": 87.5,
-    "ciencias_naturales": 71.0,
-    "ingles": 68.0,
-    "sociales": 90.0
+    "sociales": 100.0,
+    "quimica": 71.4,
+    "fisica": 70.0
   },
   {
     "nombre": "YOJAN DAVID BENITEZ BARRIOS",
@@ -402,7 +512,20 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 71.0,
     "ingles": 48.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 57.1,
+    "fisica": 100.0
+  },
+  {
+    "nombre": "MADELINE CAMPO RIVERA",
+    "icfes": 351.5,
+    "matematicas": 35.0,
+    "lectura_critica": 87.5,
+    "ciencias_naturales": 71.0,
+    "ingles": 68.0,
+    "sociales": 90.0,
+    "quimica": 66.7,
+    "fisica": 80.0
   },
   {
     "nombre": "MARIA DE LOS ANGELES PASOS SOTELO",
@@ -411,7 +534,9 @@
     "lectura_critica": 96.9,
     "ciencias_naturales": 64.5,
     "ingles": 44.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 52.4,
+    "fisica": 90.0
   },
   {
     "nombre": "IVAN DAVID MARCELO SERPA",
@@ -420,7 +545,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 58.1,
     "ingles": 56.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 52.4,
+    "fisica": 70.0
   },
   {
     "nombre": "VALENTINA ARRIETA SIERRA",
@@ -429,7 +556,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 71.0,
     "ingles": 56.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 57.1,
+    "fisica": 100.0
   },
   {
     "nombre": "SANTIAGO CEBALLOS ZABALA",
@@ -438,7 +567,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 77.4,
     "ingles": 48.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 66.7,
+    "fisica": 100.0
   },
   {
     "nombre": "ANGELICA MADRID SIERRA",
@@ -447,7 +578,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 61.3,
     "ingles": 52.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 52.4,
+    "fisica": 80.0
   },
   {
     "nombre": "NICOLAS ELIAS AGAMEZ ZABALA",
@@ -456,7 +589,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 61.3,
     "ingles": 48.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 42.9,
+    "fisica": 100.0
   },
   {
     "nombre": "DAILY ALEJANDRA ARGUMEDO SALAS",
@@ -465,7 +600,9 @@
     "lectura_critica": 65.6,
     "ciencias_naturales": 61.3,
     "ingles": 64.0,
-    "sociales": 100.0
+    "sociales": 100.0,
+    "quimica": 47.6,
+    "fisica": 90.0
   },
   {
     "nombre": "ANDREA LISETH CAMARGO URANGO",
@@ -474,7 +611,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 58.1,
     "ingles": 52.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 47.6,
+    "fisica": 80.0
   },
   {
     "nombre": "JULIANA ARRIETA GOMEZ",
@@ -483,7 +622,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 74.2,
     "ingles": 40.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 61.9,
+    "fisica": 100.0
   },
   {
     "nombre": "KEINER ACOSTA BUENO",
@@ -492,7 +633,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 74.2,
     "ingles": 36.0,
-    "sociales": 100.0
+    "sociales": 100.0,
+    "quimica": 66.7,
+    "fisica": 90.0
   },
   {
     "nombre": "SARA MARCELA TORREZ MENDOZA",
@@ -501,7 +644,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 58.1,
     "ingles": 44.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 61.9,
+    "fisica": 50.0
   },
   {
     "nombre": "YISEL KAROLINA RAMOS BELEÑO",
@@ -510,7 +655,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 61.3,
     "ingles": 52.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 52.4,
+    "fisica": 80.0
   },
   {
     "nombre": "SHERYL ANDREA FUENTES MENDEZ",
@@ -519,7 +666,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 80.6,
     "ingles": 52.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 71.4,
+    "fisica": 100.0
   },
   {
     "nombre": "ELISEO LUNA PEREZ",
@@ -528,7 +677,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 64.5,
     "ingles": 52.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 66.7,
+    "fisica": 60.0
   },
   {
     "nombre": "MARIA JOSE PEREZ CANTERO",
@@ -537,7 +688,20 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 61.3,
     "ingles": 56.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 52.4,
+    "fisica": 80.0
+  },
+  {
+    "nombre": "JUAN ESTEBAN FLOREZ MARTINEZ",
+    "icfes": 339.6,
+    "matematicas": 50.0,
+    "lectura_critica": 90.6,
+    "ciencias_naturales": 71.0,
+    "ingles": 48.0,
+    "sociales": 80.0,
+    "quimica": 57.1,
+    "fisica": 100.0
   },
   {
     "nombre": "MICHELL ANDREA MESA RIVERA",
@@ -546,7 +710,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 71.0,
     "ingles": 44.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 61.9,
+    "fisica": 90.0
   },
   {
     "nombre": "KEVIN DAVID CARRASCO MONTIEL",
@@ -555,7 +721,9 @@
     "lectura_critica": 78.1,
     "ciencias_naturales": 51.6,
     "ingles": 64.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 42.9,
+    "fisica": 70.0
   },
   {
     "nombre": "VALENTINA ESTREMOR PEREZ",
@@ -564,7 +732,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 61.3,
     "ingles": 48.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 47.6,
+    "fisica": 90.0
   },
   {
     "nombre": "JULIANA ALVARADO MARTINEZ",
@@ -573,7 +743,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 61.3,
     "ingles": 56.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 57.1,
+    "fisica": 70.0
   },
   {
     "nombre": "ANYS ANDREA GUTIERREZ ARRIETA",
@@ -582,7 +754,9 @@
     "lectura_critica": 100.0,
     "ciencias_naturales": 51.6,
     "ingles": 40.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 38.1,
+    "fisica": 80.0
   },
   {
     "nombre": "ANDY PAOLA MANTILLA ESPITIA",
@@ -591,7 +765,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 64.5,
     "ingles": 44.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 52.4,
+    "fisica": 90.0
   },
   {
     "nombre": "DIDIER ESNEIDER CASTILLO CAMARGO",
@@ -600,7 +776,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 61.3,
     "ingles": 48.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 47.6,
+    "fisica": 90.0
   },
   {
     "nombre": "ANGELICA MARTINEZ BALBERA",
@@ -609,7 +787,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 67.7,
     "ingles": 48.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 52.4,
+    "fisica": 100.0
   },
   {
     "nombre": "RONALD SAMPAYO ALVIS",
@@ -618,7 +798,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 71.0,
     "ingles": 24.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 76.2,
+    "fisica": 60.0
   },
   {
     "nombre": "HOYOS LUZ ELENA PEREZ DE",
@@ -627,7 +809,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 64.5,
     "ingles": 40.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 52.4,
+    "fisica": 90.0
   },
   {
     "nombre": "LUIS FERNANDO TEJADA GUERRERO",
@@ -636,7 +820,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 58.1,
     "ingles": 40.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 47.6,
+    "fisica": 80.0
   },
   {
     "nombre": "ELEMI HERNANDEZ ALVAREZ",
@@ -645,7 +831,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 58.1,
     "ingles": 36.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 52.4,
+    "fisica": 70.0
   },
   {
     "nombre": "JESUS ORLANDO FINO RICARDO",
@@ -654,7 +842,9 @@
     "lectura_critica": 71.9,
     "ciencias_naturales": 64.5,
     "ingles": 68.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 57.1,
+    "fisica": 80.0
   },
   {
     "nombre": "MONICA PAOLA MONTALVO SOTO",
@@ -663,7 +853,9 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 45.2,
     "ingles": 68.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 33.3,
+    "fisica": 70.0
   },
   {
     "nombre": "DANILSA MERCADO TIRADO",
@@ -672,7 +864,9 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 71.0,
     "ingles": 52.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 66.7,
+    "fisica": 80.0
   },
   {
     "nombre": "VALENTINA AGUAS ATENCIA",
@@ -681,7 +875,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 61.3,
     "ingles": 44.0,
-    "sociales": 100.0
+    "sociales": 100.0,
+    "quimica": 52.4,
+    "fisica": 80.0
   },
   {
     "nombre": "YADY ISABEL RAMIREZ MORALES",
@@ -690,7 +886,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 61.3,
     "ingles": 44.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 52.4,
+    "fisica": 80.0
   },
   {
     "nombre": "CARLOS ENRIQUE MENDOZA FERIA",
@@ -699,7 +897,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 51.6,
     "ingles": 48.0,
-    "sociales": 70.0
+    "sociales": 70.0,
+    "quimica": 47.6,
+    "fisica": 60.0
   },
   {
     "nombre": "ELIZABETH PEREIRA LOPEZ",
@@ -708,7 +908,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 54.8,
     "ingles": 44.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 52.4,
+    "fisica": 60.0
   },
   {
     "nombre": "KAROL DAYANA ESCOBAR VARGAS",
@@ -717,7 +919,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 61.3,
     "ingles": 52.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 52.4,
+    "fisica": 80.0
   },
   {
     "nombre": "FREDY JOSE RODIÑO VALLEJO",
@@ -726,7 +930,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 61.3,
     "ingles": 52.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 52.4,
+    "fisica": 80.0
   },
   {
     "nombre": "LUISA FERNANDA COLON SERRANO",
@@ -735,7 +941,9 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 61.3,
     "ingles": 48.0,
-    "sociales": 70.0
+    "sociales": 70.0,
+    "quimica": 52.4,
+    "fisica": 80.0
   },
   {
     "nombre": "ANA SOFIA VERGARA MARTINEZ",
@@ -744,7 +952,9 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 71.0,
     "ingles": 48.0,
-    "sociales": 70.0
+    "sociales": 70.0,
+    "quimica": 71.4,
+    "fisica": 70.0
   },
   {
     "nombre": "TALIANA CARDENAS MANSILLA",
@@ -753,7 +963,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 54.8,
     "ingles": 44.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 42.9,
+    "fisica": 80.0
   },
   {
     "nombre": "ALYS PATRICIA HERNANDEZ PASTRANA",
@@ -762,7 +974,9 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 48.4,
     "ingles": 44.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 42.9,
+    "fisica": 60.0
   },
   {
     "nombre": "JULIANA PEREZ VERGARA",
@@ -771,7 +985,9 @@
     "lectura_critica": 68.8,
     "ciencias_naturales": 54.8,
     "ingles": 60.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 42.9,
+    "fisica": 80.0
   },
   {
     "nombre": "JUAN FELIPE MERCADO PEREZ",
@@ -780,7 +996,9 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 61.3,
     "ingles": 56.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 47.6,
+    "fisica": 90.0
   },
   {
     "nombre": "MATIAS ANDRES BARRIOS SOTELO",
@@ -789,7 +1007,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 48.4,
     "ingles": 52.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 47.6,
+    "fisica": 50.0
   },
   {
     "nombre": "NATALIA SANCHEZ MONTERROZA",
@@ -798,7 +1018,9 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 67.7,
     "ingles": 48.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 61.9,
+    "fisica": 80.0
   },
   {
     "nombre": "SKARLIT YHIRET HERRERA GIL",
@@ -807,7 +1029,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 48.4,
     "ingles": 44.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 42.9,
+    "fisica": 60.0
   },
   {
     "nombre": "DAVID MENDOZA HOYOS",
@@ -816,7 +1040,9 @@
     "lectura_critica": 75.0,
     "ciencias_naturales": 80.6,
     "ingles": 40.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 71.4,
+    "fisica": 100.0
   },
   {
     "nombre": "LEONEL ANDRES RIVERA SILVA",
@@ -825,7 +1051,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 58.1,
     "ingles": 52.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 52.4,
+    "fisica": 70.0
   },
   {
     "nombre": "LIZ EMILY ZUÑIGA OSORIO",
@@ -834,7 +1062,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 51.6,
     "ingles": 52.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 47.6,
+    "fisica": 60.0
   },
   {
     "nombre": "YENNIFER CASTILLO SUAREZ",
@@ -843,16 +1073,31 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 71.0,
     "ingles": 32.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 66.7,
+    "fisica": 80.0
   },
   {
-    "nombre": "ISABEL CASTILLO RICARDO",
+    "nombre": "JOSE DANIEL ORTEGA JIMENEZ",
     "icfes": 309.9,
     "matematicas": 15.0,
     "lectura_critica": 93.8,
     "ciencias_naturales": 58.1,
     "ingles": 48.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 52.4,
+    "fisica": 70.0
+  },
+  {
+    "nombre": "PERTUZ ELIECER DE JESUS DE LEON",
+    "icfes": 309.4,
+    "matematicas": 60.0,
+    "lectura_critica": 68.8,
+    "ciencias_naturales": 51.6,
+    "ingles": 44.0,
+    "sociales": 85.0,
+    "quimica": 42.9,
+    "fisica": 70.0
   },
   {
     "nombre": "MARIA ANGELICA PASTRANA RODRIGUEZ",
@@ -861,7 +1106,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 58.1,
     "ingles": 36.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 52.4,
+    "fisica": 70.0
   },
   {
     "nombre": "ANA SOFIA GONZALEZ CALAO",
@@ -870,7 +1117,9 @@
     "lectura_critica": 75.0,
     "ciencias_naturales": 58.1,
     "ingles": 40.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 57.1,
+    "fisica": 60.0
   },
   {
     "nombre": "DIONI SOLA MARTINEZ",
@@ -879,7 +1128,9 @@
     "lectura_critica": 96.9,
     "ciencias_naturales": 67.7,
     "ingles": 28.0,
-    "sociales": 95.0
+    "sociales": 95.0,
+    "quimica": 57.1,
+    "fisica": 90.0
   },
   {
     "nombre": "CRISTIANO RONALDO ROMERO ZUÑIGA",
@@ -888,7 +1139,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 58.1,
     "ingles": 40.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 47.6,
+    "fisica": 80.0
   },
   {
     "nombre": "JULIANA CONTRERAS GARCIA",
@@ -897,7 +1150,9 @@
     "lectura_critica": 75.0,
     "ciencias_naturales": 45.2,
     "ingles": 56.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 42.9,
+    "fisica": 50.0
   },
   {
     "nombre": "KEILLY MICHELLE HERNANDEZ HOYOS",
@@ -906,16 +1161,20 @@
     "lectura_critica": 78.1,
     "ciencias_naturales": 45.2,
     "ingles": 52.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 38.1,
+    "fisica": 60.0
   },
   {
-    "nombre": "ANDRES DIAZ CASTRO",
+    "nombre": "JUNIOR ENRIQUE MERCADO ROHENES",
     "icfes": 304.6,
     "matematicas": 65.0,
     "lectura_critica": 75.0,
     "ciencias_naturales": 51.6,
     "ingles": 48.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 47.6,
+    "fisica": 60.0
   },
   {
     "nombre": "SAMUEL ALEXANDER RODRIGUEZ VELASQUEZ",
@@ -924,7 +1183,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 54.8,
     "ingles": 60.0,
-    "sociales": 70.0
+    "sociales": 70.0,
+    "quimica": 52.4,
+    "fisica": 60.0
   },
   {
     "nombre": "CAMILA ANDREA SOTELO TORRES",
@@ -933,7 +1194,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 58.1,
     "ingles": 68.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 61.9,
+    "fisica": 50.0
   },
   {
     "nombre": "LUISA FERNANDA BENITEZ BALTAZAR",
@@ -942,7 +1205,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 54.8,
     "ingles": 44.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 47.6,
+    "fisica": 70.0
   },
   {
     "nombre": "ENAN JOAQUIN TUIRAN MORENO",
@@ -951,7 +1216,9 @@
     "lectura_critica": 78.1,
     "ciencias_naturales": 54.8,
     "ingles": 40.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 47.6,
+    "fisica": 70.0
   },
   {
     "nombre": "JHOJAN STIVEN ALZATE CARMONA",
@@ -960,16 +1227,9 @@
     "lectura_critica": 75.0,
     "ciencias_naturales": 45.2,
     "ingles": 52.0,
-    "sociales": 85.0
-  },
-  {
-    "nombre": "ISABELLA VALENTINA HERRERA CAMAÑO",
-    "icfes": 301.0,
-    "matematicas": 60.0,
-    "lectura_critica": 81.2,
-    "ciencias_naturales": 54.8,
-    "ingles": 40.0,
-    "sociales": 65.0
+    "sociales": 85.0,
+    "quimica": 33.3,
+    "fisica": 70.0
   },
   {
     "nombre": "NAIDERLIN ESPITIA CASTRO",
@@ -978,7 +1238,31 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 51.6,
     "ingles": 40.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 38.1,
+    "fisica": 80.0
+  },
+  {
+    "nombre": "ISABELLA VALENTINA HERRERA CAMAÑO",
+    "icfes": 301.0,
+    "matematicas": 60.0,
+    "lectura_critica": 81.2,
+    "ciencias_naturales": 54.8,
+    "ingles": 40.0,
+    "sociales": 65.0,
+    "quimica": 52.4,
+    "fisica": 60.0
+  },
+  {
+    "nombre": "ORNELLA HEREDIA MORENO",
+    "icfes": 299.5,
+    "matematicas": 50.0,
+    "lectura_critica": 90.6,
+    "ciencias_naturales": 41.9,
+    "ingles": 32.0,
+    "sociales": 85.0,
+    "quimica": 28.6,
+    "fisica": 70.0
   },
   {
     "nombre": "PATRICIA DEL CARMEN RODRIGUEZ VERTEL",
@@ -987,7 +1271,20 @@
     "lectura_critica": 71.9,
     "ciencias_naturales": 58.1,
     "ingles": 64.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 42.9,
+    "fisica": 90.0
+  },
+  {
+    "nombre": "GABRIELA CORONADO OJEDA",
+    "icfes": 298.3,
+    "matematicas": 30.0,
+    "lectura_critica": 93.8,
+    "ciencias_naturales": 64.5,
+    "ingles": 40.0,
+    "sociales": 70.0,
+    "quimica": 61.9,
+    "fisica": 70.0
   },
   {
     "nombre": "ESTEBAN DAVID CORONADO PALENCIA",
@@ -996,7 +1293,9 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 61.3,
     "ingles": 40.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 57.1,
+    "fisica": 70.0
   },
   {
     "nombre": "CARLOS DANIEL MARCHENA BARRERO",
@@ -1005,7 +1304,20 @@
     "lectura_critica": 75.0,
     "ciencias_naturales": 61.3,
     "ingles": 36.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 61.9,
+    "fisica": 60.0
+  },
+  {
+    "nombre": "HECTOR LUIS FUENTES MENDOZA",
+    "icfes": 294.5,
+    "matematicas": 55.0,
+    "lectura_critica": 59.4,
+    "ciencias_naturales": 58.1,
+    "ingles": 52.0,
+    "sociales": 70.0,
+    "quimica": 47.6,
+    "fisica": 80.0
   },
   {
     "nombre": "ESTHER MARIA LONDOÑO BARRIOS",
@@ -1014,7 +1326,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 48.4,
     "ingles": 40.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 42.9,
+    "fisica": 60.0
   },
   {
     "nombre": "YURIS PAOLA RODRIGUEZ FLOREZ",
@@ -1023,7 +1337,9 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 58.1,
     "ingles": 48.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 61.9,
+    "fisica": 50.0
   },
   {
     "nombre": "EDITH NATALIA MADERA PEREIRA",
@@ -1032,7 +1348,9 @@
     "lectura_critica": 68.8,
     "ciencias_naturales": 58.1,
     "ingles": 40.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 47.6,
+    "fisica": 80.0
   },
   {
     "nombre": "MELANI PEÑATES GARAVITO",
@@ -1041,7 +1359,9 @@
     "lectura_critica": 75.0,
     "ciencias_naturales": 45.2,
     "ingles": 36.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 42.9,
+    "fisica": 50.0
   },
   {
     "nombre": "KELLY JOHANA ROMERO CASARRUBIA",
@@ -1050,7 +1370,9 @@
     "lectura_critica": 87.5,
     "ciencias_naturales": 64.5,
     "ingles": 28.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 52.4,
+    "fisica": 90.0
   },
   {
     "nombre": "GABRIELA HERNANDEZ DIAZ",
@@ -1059,7 +1381,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 45.2,
     "ingles": 40.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 38.1,
+    "fisica": 60.0
   },
   {
     "nombre": "JIMENA ANDREA HOLGUIN CARDEÑO",
@@ -1068,7 +1392,9 @@
     "lectura_critica": 68.8,
     "ciencias_naturales": 58.1,
     "ingles": 36.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 66.7,
+    "fisica": 40.0
   },
   {
     "nombre": "GENESIS ROMERO ACOSTA",
@@ -1077,7 +1403,9 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 51.6,
     "ingles": 40.0,
-    "sociales": 90.0
+    "sociales": 90.0,
+    "quimica": 47.6,
+    "fisica": 60.0
   },
   {
     "nombre": "BRESLY QUINTERO ROSARIO",
@@ -1086,7 +1414,9 @@
     "lectura_critica": 78.1,
     "ciencias_naturales": 67.7,
     "ingles": 36.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 66.7,
+    "fisica": 70.0
   },
   {
     "nombre": "MARIA ALEJANDRA RAMOS CALLE",
@@ -1095,7 +1425,9 @@
     "lectura_critica": 78.1,
     "ciencias_naturales": 58.1,
     "ingles": 44.0,
-    "sociales": 60.0
+    "sociales": 60.0,
+    "quimica": 57.1,
+    "fisica": 60.0
   },
   {
     "nombre": "VALERI CORREA DOMINGUEZ",
@@ -1104,7 +1436,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 54.8,
     "ingles": 32.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 47.6,
+    "fisica": 70.0
   },
   {
     "nombre": "SOFIA MARTINEZ HERNANDEZ",
@@ -1113,7 +1447,20 @@
     "lectura_critica": 75.0,
     "ciencias_naturales": 45.2,
     "ingles": 36.0,
-    "sociales": 70.0
+    "sociales": 70.0,
+    "quimica": 42.9,
+    "fisica": 50.0
+  },
+  {
+    "nombre": "TAILIN MARIA GOMEZ HOYOS",
+    "icfes": 278.6,
+    "matematicas": 35.0,
+    "lectura_critica": 65.6,
+    "ciencias_naturales": 71.0,
+    "ingles": 32.0,
+    "sociales": 75.0,
+    "quimica": 57.1,
+    "fisica": 100.0
   },
   {
     "nombre": "JAIDER DAVID MEZA AVILES",
@@ -1122,7 +1469,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 58.1,
     "ingles": 40.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 57.1,
+    "fisica": 60.0
   },
   {
     "nombre": "KELLY JOHANA MONTERROZA CASARRUBIA",
@@ -1131,7 +1480,9 @@
     "lectura_critica": 78.1,
     "ciencias_naturales": 54.8,
     "ingles": 44.0,
-    "sociales": 60.0
+    "sociales": 60.0,
+    "quimica": 52.4,
+    "fisica": 60.0
   },
   {
     "nombre": "KATY MILENA SALGADO VERONA",
@@ -1140,7 +1491,9 @@
     "lectura_critica": 71.9,
     "ciencias_naturales": 54.8,
     "ingles": 44.0,
-    "sociales": 70.0
+    "sociales": 70.0,
+    "quimica": 47.6,
+    "fisica": 70.0
   },
   {
     "nombre": "LUIS EDUARDO SALGADO QUINTERO",
@@ -1149,7 +1502,9 @@
     "lectura_critica": 78.1,
     "ciencias_naturales": 51.6,
     "ingles": 20.0,
-    "sociales": 55.0
+    "sociales": 55.0,
+    "quimica": 33.3,
+    "fisica": 90.0
   },
   {
     "nombre": "VICTOR MANUEL TEJADA ZUÑIGA",
@@ -1158,7 +1513,9 @@
     "lectura_critica": 68.8,
     "ciencias_naturales": 61.3,
     "ingles": 44.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 57.1,
+    "fisica": 70.0
   },
   {
     "nombre": "MARIANGEL SALGADO MAZO",
@@ -1167,7 +1524,9 @@
     "lectura_critica": 93.8,
     "ciencias_naturales": 45.2,
     "ingles": 40.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 23.8,
+    "fisica": 90.0
   },
   {
     "nombre": "STEFANY RUIZ MARTINEZ",
@@ -1176,7 +1535,9 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 51.6,
     "ingles": 36.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 52.4,
+    "fisica": 50.0
   },
   {
     "nombre": "DIDIEN MATIAS ROMERO SIERRA",
@@ -1185,7 +1546,9 @@
     "lectura_critica": 90.6,
     "ciencias_naturales": 29.0,
     "ingles": 36.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 23.8,
+    "fisica": 40.0
   },
   {
     "nombre": "ENIS YULISA HERNANDEZ PEÑATES",
@@ -1194,7 +1557,20 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 41.9,
     "ingles": 40.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 52.4,
+    "fisica": 20.0
+  },
+  {
+    "nombre": "JOHN ESTEBAN FLOREZ LONDOÑO",
+    "icfes": 267.9,
+    "matematicas": 40.0,
+    "lectura_critica": 53.1,
+    "ciencias_naturales": 54.8,
+    "ingles": 40.0,
+    "sociales": 80.0,
+    "quimica": 47.6,
+    "fisica": 70.0
   },
   {
     "nombre": "SAMARA ARIZA ECHAVARRIA",
@@ -1203,7 +1579,9 @@
     "lectura_critica": 78.1,
     "ciencias_naturales": 45.2,
     "ingles": 44.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 42.9,
+    "fisica": 50.0
   },
   {
     "nombre": "LORENA LORETH MONTES CORDERO",
@@ -1212,7 +1590,9 @@
     "lectura_critica": 65.6,
     "ciencias_naturales": 48.4,
     "ingles": 52.0,
-    "sociales": 60.0
+    "sociales": 60.0,
+    "quimica": 47.6,
+    "fisica": 50.0
   },
   {
     "nombre": "JUAN DAVID MESTRA AVILA",
@@ -1221,7 +1601,9 @@
     "lectura_critica": 81.2,
     "ciencias_naturales": 41.9,
     "ingles": 40.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 38.1,
+    "fisica": 50.0
   },
   {
     "nombre": "TALIANA CORREA OVIEDO",
@@ -1230,7 +1612,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 51.6,
     "ingles": 32.0,
-    "sociales": 70.0
+    "sociales": 70.0,
+    "quimica": 42.9,
+    "fisica": 70.0
   },
   {
     "nombre": "TALIANA BERRIO MENDOZA",
@@ -1239,7 +1623,9 @@
     "lectura_critica": 68.8,
     "ciencias_naturales": 48.4,
     "ingles": 44.0,
-    "sociales": 85.0
+    "sociales": 85.0,
+    "quimica": 42.9,
+    "fisica": 60.0
   },
   {
     "nombre": "JESUS DAVID VERGARA OCAMPO",
@@ -1248,7 +1634,9 @@
     "lectura_critica": 71.9,
     "ciencias_naturales": 61.3,
     "ingles": 36.0,
-    "sociales": 60.0
+    "sociales": 60.0,
+    "quimica": 71.4,
+    "fisica": 40.0
   },
   {
     "nombre": "JOSE JULIAN PATERNINA ARCIA",
@@ -1257,7 +1645,9 @@
     "lectura_critica": 71.9,
     "ciencias_naturales": 41.9,
     "ingles": 28.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 47.6,
+    "fisica": 30.0
   },
   {
     "nombre": "JHON FREED QUINTERO SUAREZ",
@@ -1266,7 +1656,9 @@
     "lectura_critica": 62.5,
     "ciencias_naturales": 61.3,
     "ingles": 40.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 47.6,
+    "fisica": 90.0
   },
   {
     "nombre": "VICTOR ANDRES ESPITIA MORALES",
@@ -1275,7 +1667,9 @@
     "lectura_critica": 84.4,
     "ciencias_naturales": 51.6,
     "ingles": 36.0,
-    "sociales": 60.0
+    "sociales": 60.0,
+    "quimica": 38.1,
+    "fisica": 80.0
   },
   {
     "nombre": "JULIANA ANDREA PASTRANA ROMERO",
@@ -1284,7 +1678,9 @@
     "lectura_critica": 68.8,
     "ciencias_naturales": 41.9,
     "ingles": 36.0,
-    "sociales": 80.0
+    "sociales": 80.0,
+    "quimica": 47.6,
+    "fisica": 30.0
   },
   {
     "nombre": "YAIRA ANDREA TORRES CADRASCO",
@@ -1293,7 +1689,9 @@
     "lectura_critica": 62.5,
     "ciencias_naturales": 41.9,
     "ingles": 52.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 38.1,
+    "fisica": 50.0
   },
   {
     "nombre": "JAIVER VILLADIEGO JIMENEZ",
@@ -1302,7 +1700,9 @@
     "lectura_critica": 62.5,
     "ciencias_naturales": 51.6,
     "ingles": 52.0,
-    "sociales": 50.0
+    "sociales": 50.0,
+    "quimica": 42.9,
+    "fisica": 70.0
   },
   {
     "nombre": "HITA FERNANDA REYES CORDOBA",
@@ -1311,7 +1711,9 @@
     "lectura_critica": 78.1,
     "ciencias_naturales": 38.7,
     "ingles": 32.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 33.3,
+    "fisica": 50.0
   },
   {
     "nombre": "JUAN CAMILO GAMARRA LOPEZ",
@@ -1320,7 +1722,9 @@
     "lectura_critica": 78.1,
     "ciencias_naturales": 32.3,
     "ingles": 48.0,
-    "sociales": 70.0
+    "sociales": 70.0,
+    "quimica": 23.8,
+    "fisica": 50.0
   },
   {
     "nombre": "MARIA ANGEL JULIO HERNANDEZ",
@@ -1329,7 +1733,9 @@
     "lectura_critica": 75.0,
     "ciencias_naturales": 38.7,
     "ingles": 44.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 42.9,
+    "fisica": 30.0
   },
   {
     "nombre": "KEVIN ANDRES RUIZ PEREZ",
@@ -1338,7 +1744,9 @@
     "lectura_critica": 68.8,
     "ciencias_naturales": 54.8,
     "ingles": 16.0,
-    "sociales": 70.0
+    "sociales": 70.0,
+    "quimica": 52.4,
+    "fisica": 60.0
   },
   {
     "nombre": "JUAN DAVID JULIO VILLORINA",
@@ -1347,7 +1755,9 @@
     "lectura_critica": 56.2,
     "ciencias_naturales": 54.8,
     "ingles": 40.0,
-    "sociales": 75.0
+    "sociales": 75.0,
+    "quimica": 57.1,
+    "fisica": 50.0
   },
   {
     "nombre": "DIEGO PADILLA MORA",
@@ -1356,7 +1766,20 @@
     "lectura_critica": 43.8,
     "ciencias_naturales": 58.1,
     "ingles": 48.0,
-    "sociales": 60.0
+    "sociales": 60.0,
+    "quimica": 52.4,
+    "fisica": 70.0
+  },
+  {
+    "nombre": "MARIA JOSE GARCIA GUERRA",
+    "icfes": 232.9,
+    "matematicas": 20.0,
+    "lectura_critica": 53.1,
+    "ciencias_naturales": 54.8,
+    "ingles": 40.0,
+    "sociales": 65.0,
+    "quimica": 52.4,
+    "fisica": 60.0
   },
   {
     "nombre": "YONIER ANDRES SALA SOLIS",
@@ -1365,7 +1788,9 @@
     "lectura_critica": 56.2,
     "ciencias_naturales": 35.5,
     "ingles": 44.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 28.6,
+    "fisica": 50.0
   },
   {
     "nombre": "NIKOL MICHELL AVILA GARCIA",
@@ -1374,7 +1799,20 @@
     "lectura_critica": 71.9,
     "ciencias_naturales": 41.9,
     "ingles": 36.0,
-    "sociales": 60.0
+    "sociales": 60.0,
+    "quimica": 42.9,
+    "fisica": 40.0
+  },
+  {
+    "nombre": "MARIA CAROLINA GOMEZ MUÑOZ",
+    "icfes": 226.5,
+    "matematicas": 15.0,
+    "lectura_critica": 71.9,
+    "ciencias_naturales": 51.6,
+    "ingles": 48.0,
+    "sociales": 40.0,
+    "quimica": 42.9,
+    "fisica": 70.0
   },
   {
     "nombre": "ANGIE PAOLA ALARCON MENDEZ",
@@ -1383,7 +1821,9 @@
     "lectura_critica": 62.5,
     "ciencias_naturales": 45.2,
     "ingles": 36.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 38.1,
+    "fisica": 60.0
   },
   {
     "nombre": "KEINER GONZALEZ RAMOS",
@@ -1392,7 +1832,20 @@
     "lectura_critica": 31.2,
     "ciencias_naturales": 45.2,
     "ingles": 36.0,
-    "sociales": 65.0
+    "sociales": 65.0,
+    "quimica": 42.9,
+    "fisica": 50.0
+  },
+  {
+    "nombre": "MARIANA FLOREZ HERNANDEZ",
+    "icfes": 219.3,
+    "matematicas": 10.0,
+    "lectura_critica": 59.4,
+    "ciencias_naturales": 41.9,
+    "ingles": 28.0,
+    "sociales": 80.0,
+    "quimica": 47.6,
+    "fisica": 30.0
   },
   {
     "nombre": "CRISTIAN DAVID MONTALVO PACHECO",
@@ -1401,7 +1854,9 @@
     "lectura_critica": 68.8,
     "ciencias_naturales": 48.4,
     "ingles": 20.0,
-    "sociales": 60.0
+    "sociales": 60.0,
+    "quimica": 38.1,
+    "fisica": 70.0
   },
   {
     "nombre": "SARA IBAÑEZ CAUSIL",
@@ -1410,7 +1865,9 @@
     "lectura_critica": 71.9,
     "ciencias_naturales": 51.6,
     "ingles": 20.0,
-    "sociales": 50.0
+    "sociales": 50.0,
+    "quimica": 42.9,
+    "fisica": 70.0
   },
   {
     "nombre": "JHONEIDER LONDOÑO VASQUEZ",
@@ -1419,7 +1876,9 @@
     "lectura_critica": 62.5,
     "ciencias_naturales": 38.7,
     "ingles": 24.0,
-    "sociales": 70.0
+    "sociales": 70.0,
+    "quimica": 33.3,
+    "fisica": 50.0
   },
   {
     "nombre": "DANNA CAROLINA SCHELEGUEL CORREA",
@@ -1428,6 +1887,8 @@
     "lectura_critica": 34.4,
     "ciencias_naturales": 51.6,
     "ingles": 36.0,
-    "sociales": 45.0
+    "sociales": 45.0,
+    "quimica": 57.1,
+    "fisica": 40.0
   }
 ]
