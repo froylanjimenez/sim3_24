@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Física — Tercer Simulacro CESUM 2026</title>
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;min-height:100vh;padding:24px}
+.container{max-width:1200px;margin:0 auto}
+.header{background:white;border-radius:20px;padding:36px;margin-bottom:20px;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,.15)}
+.header h1{font-size:2em;font-weight:900;margin-bottom:4px}
+.header h2{font-size:1.2em;font-weight:600;margin-bottom:6px;opacity:.85}
+.header .sub{color:#7f8c8d;font-size:.92em;margin-bottom:3px}
+.card{background:white;border-radius:16px;padding:24px;margin-bottom:20px;box-shadow:0 4px 16px rgba(0,0,0,.08)}
+.card-title{font-size:1.15em;font-weight:800;margin-bottom:16px;padding-bottom:10px;border-bottom:3px solid #f0f0f0}
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px}
+.stat-box{border-radius:12px;padding:16px;text-align:center}
+.stat-num{font-size:2.4em;font-weight:900;line-height:1}
+.stat-lbl{font-size:.75em;color:#555;margin-top:5px;font-weight:600;text-transform:uppercase}
+table{width:100%;border-collapse:collapse;font-size:.9em}
+th{padding:10px 12px;text-align:left;color:white;font-weight:700}
+td{padding:9px 12px;border-bottom:1px solid #f5f5f5}
+tr:hover td{background:#fafafa}
+.bar-wrap{background:#eee;border-radius:6px;height:13px;overflow:hidden;display:inline-block;width:100%}
+.bar-fill{height:13px;border-radius:6px}
+.badge{display:inline-block;padding:3px 10px;border-radius:10px;font-size:.8em;font-weight:700;color:white}
+.badge-ok{background:#27ae60}.badge-med{background:#f39c12}.badge-low{background:#e74c3c}
+.group-header{border-radius:12px;padding:13px 18px;margin:18px 0 8px;color:white;font-weight:800;font-size:1em}
+
+body{background:linear-gradient(135deg,#4A148C,#6A1B9A)}
+.header h1{color:#4A148C}
+.header h2{color:#4A148C}
+th{background:#4A148C}
+.card-title{color:#4A148C}
+.group-header{background:#4A148C}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h2>CIENCIAS NATURALES</h2>
+  <h1>Física</h1>
+  <div class="sub">Concentración Educativa del Sur de Montelíbano · CESUM · Grado 11°</div>
+  <div class="sub" style="color:#4A148C;font-weight:700">Tercer Simulacro SABER 11° · PEFA 2026 · Abril 2026</div>
+  <div class="sub" style="margin-top:6px">Preguntas: 12–16, 25–29 · Sonido como onda · Velocidad del sonido &nbsp;|&nbsp; <strong>10 preguntas</strong></div>
+</div>
+
+<!-- RESUMEN GENERAL -->
+<div class="card">
+  <div class="card-title">Resumen General</div>
+  <div class="stat-grid">
+    <div class="stat-box" style="background:#EEF2FF">
+      <div class="stat-num" style="color:#4A148C">172</div>
+      <div class="stat-lbl">Estudiantes</div>
+    </div>
+    <div class="stat-box" style="background:#EEF2FF">
+      <div class="stat-num" style="color:#4A148C">10</div>
+      <div class="stat-lbl">Preguntas</div>
+    </div>
+    <div class="stat-box" style="background:#E8F5E9">
+      <div class="stat-num" style="color:#27ae60">74.2%</div>
+      <div class="stat-lbl">Promedio General</div>
+    </div>
+    <div class="stat-box" style="background:#FFF8E1">
+      <div class="stat-num" style="color:#f39c12">83.7%</div>
+      <div class="stat-lbl">Aprobados ≥60%</div>
+    </div>
+    <div class="stat-box" style="background:#E8F5E9">
+      <div class="stat-num" style="color:#27ae60">7.4</div>
+      <div class="stat-lbl">Prom. Correctas</div>
+    </div>
+    <div class="stat-box" style="background:#E8F5E9">
+      <div class="stat-num" style="color:#27ae60">P26</div>
+      <div class="stat-lbl">Más fácil (90.7%)</div>
+    </div>
+    <div class="stat-box" style="background:#FDEAEA">
+      <div class="stat-num" style="color:#e74c3c">P29</div>
+      <div class="stat-lbl">Más difícil (50.6%)</div>
+    </div>
+  </div>
+</div>
+
+<!-- DESEMPEÑO POR PREGUNTA -->
+<div class="card">
+  <div class="card-title">Desempeño por Pregunta</div>
+  <table>
+    <thead><tr><th style="width:55px">#</th><th>Aciertos</th><th>% Correcto</th><th>Barra</th><th>Nivel</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>P12</strong></td>
+        <td>132 / 172</td>
+        <td style="font-weight:700;color:#27ae60">76.7%</td>
+        <td><div class="bar-wrap"><div class="bar-fill" style="width:76.7%;background:#27ae60"></div></div></td>
+        <td><span class="badge badge-ok">Fácil</span></td>
+      </tr>
+      <tr>
+        <td><strong>P13</strong></td>
+        <td>102 / 172</td>
+        <td style="font-weight:700;color:#f39c12">59.3%</td>
+        <td><div class="bar-wrap"><div class="bar-fill" style="width:59.3%;background:#f39c12"></div></div></td>
+        <td><span class="badge badge-med">Medio</span></td>
+      </tr>
+      <tr>
+        <td><strong>P14</strong></td>
+        <td>153 / 172</td>
+        <td style="font-weight:700;color:#27ae60">89.0%</td>
+        <td><div class="bar-wrap"><div class="bar-fill" style="width:89.0%;background:#27ae60"></div></div></td>
+        <td><span class="badge badge-ok">Fácil</span></td>
+      </tr>
+      <tr>
+        <td><strong>P15</strong></td>
+        <td>129 / 172</td>
+        <td style="font-weight:700;color:#27ae60">75.0%</td>
+        <td><div class="bar-wrap"><div class="bar-fill" style="width:75.0%;background:#27ae60"></div></div></td>
+        <td><span class="badge badge-ok">Fácil</span></td>
+      </tr>
+      <tr>
+        <td><strong>P16</strong></td>
+        <td>136 / 172</td>
+        <td style="font-weight:700;color:#27ae60">79.1%</td>
+        <td><div class="bar-wrap"><div class="bar-fill" style="width:79.1%;background:#27ae60"></div></div></td>
+        <td><span class="badge badge-ok">Fácil</span></td>
+      </tr>
+      <tr>
+        <td><strong>P25</strong></td>
+        <td>111 / 172</td>
+        <td style="font-weight:700;color:#f39c12">64.5%</td>
+        <td><div class="bar-wrap"><div class="bar-fill" style="width:64.5%;background:#f39c12"></div></div></td>
+        <td><span class="badge badge-med">Medio</span></td>
+      </tr>
+      <tr>
+        <td><strong>P26</strong></td>
+        <td>156 / 172</td>
+        <td style="font-weight:700;color:#27ae60">90.7%</td>
+        <td><div class="bar-wrap"><div class="bar-fill" style="width:90.7%;background:#27ae60"></div></div></td>
+        <td><span class="badge badge-ok">Fácil</span></td>
+      </tr>
+      <tr>
+        <td><strong>P27</strong></td>
+        <td>117 / 172</td>
+        <td style="font-weight:700;color:#f39c12">68.0%</td>
+        <td><div class="bar-wrap"><div class="bar-fill" style="width:68.0%;background:#f39c12"></div></div></td>
+        <td><span class="badge badge-med">Medio</span></td>
+      </tr>
+      <tr>
+        <td><strong>P28</strong></td>
+        <td>154 / 172</td>
+        <td style="font-weight:700;color:#27ae60">89.5%</td>
+        <td><div class="bar-wrap"><div class="bar-fill" style="width:89.5%;background:#27ae60"></div></div></td>
+        <td><span class="badge badge-ok">Fácil</span></td>
+      </tr>
+      <tr>
+        <td><strong>P29</strong></td>
+        <td>87 / 172</td>
+        <td style="font-weight:700;color:#f39c12">50.6%</td>
+        <td><div class="bar-wrap"><div class="bar-fill" style="width:50.6%;background:#f39c12"></div></div></td>
+        <td><span class="badge badge-med">Medio</span></td>
+      </tr>
+    </tbody></table></div>
+
+<!-- RANKING DE DIFICULTAD -->
+<div class="card">
+  <div class="card-title">Preguntas por Dificultad (de menor a mayor acierto)</div>
+  <table>
+    <thead><tr><th>Rank</th><th>Pregunta</th><th>Aciertos</th><th>%</th><th>Barra</th></tr></thead>
+    <tbody>
+      <tr><td><strong>1</strong></td><td><strong>P29</strong></td><td>87/172</td><td style='font-weight:700;color:#f39c12'>50.6%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.6%;background:#f39c12"></div></div></td></tr>
+      <tr><td><strong>2</strong></td><td><strong>P13</strong></td><td>102/172</td><td style='font-weight:700;color:#f39c12'>59.3%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:59.3%;background:#f39c12"></div></div></td></tr>
+      <tr><td><strong>3</strong></td><td><strong>P25</strong></td><td>111/172</td><td style='font-weight:700;color:#f39c12'>64.5%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:64.5%;background:#f39c12"></div></div></td></tr>
+      <tr><td><strong>4</strong></td><td><strong>P27</strong></td><td>117/172</td><td style='font-weight:700;color:#f39c12'>68.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:68.0%;background:#f39c12"></div></div></td></tr>
+      <tr><td><strong>5</strong></td><td><strong>P15</strong></td><td>129/172</td><td style='font-weight:700;color:#27ae60'>75.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:75.0%;background:#27ae60"></div></div></td></tr>
+      <tr><td><strong>6</strong></td><td><strong>P12</strong></td><td>132/172</td><td style='font-weight:700;color:#27ae60'>76.7%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:76.7%;background:#27ae60"></div></div></td></tr>
+      <tr><td><strong>7</strong></td><td><strong>P16</strong></td><td>136/172</td><td style='font-weight:700;color:#27ae60'>79.1%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:79.1%;background:#27ae60"></div></div></td></tr>
+      <tr><td><strong>8</strong></td><td><strong>P14</strong></td><td>153/172</td><td style='font-weight:700;color:#27ae60'>89.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:89.0%;background:#27ae60"></div></div></td></tr>
+      <tr><td><strong>9</strong></td><td><strong>P28</strong></td><td>154/172</td><td style='font-weight:700;color:#27ae60'>89.5%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:89.5%;background:#27ae60"></div></div></td></tr>
+      <tr><td><strong>10</strong></td><td><strong>P26</strong></td><td>156/172</td><td style='font-weight:700;color:#27ae60'>90.7%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.7%;background:#27ae60"></div></div></td></tr>
+    </tbody></table></div>
+
+<!-- DISTRIBUCIÓN DE PUNTAJES -->
+<div class="card">
+  <div class="card-title">Distribución de Puntajes</div>
+  <table>
+    <thead><tr><th>Puntaje</th><th>% Logro</th><th>Estudiantes</th><th>Barra</th></tr></thead>
+    <tbody>
+      <tr><td><strong>10/10</strong></td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><strong>21</strong></td><td><div class="bar-wrap"><div class="bar-fill" style="width:58.333333333333336%;background:#27ae60"></div></div></td></tr>
+      <tr><td><strong>9/10</strong></td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><strong>36</strong></td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td></tr>
+      <tr><td><strong>8/10</strong></td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><strong>33</strong></td><td><div class="bar-wrap"><div class="bar-fill" style="width:91.66666666666666%;background:#27ae60"></div></div></td></tr>
+      <tr><td><strong>7/10</strong></td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><strong>31</strong></td><td><div class="bar-wrap"><div class="bar-fill" style="width:86.11111111111111%;background:#27ae60"></div></div></td></tr>
+      <tr><td><strong>6/10</strong></td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><strong>23</strong></td><td><div class="bar-wrap"><div class="bar-fill" style="width:63.888888888888886%;background:#f39c12"></div></div></td></tr>
+      <tr><td><strong>5/10</strong></td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><strong>18</strong></td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td></tr>
+      <tr><td><strong>4/10</strong></td><td style='font-weight:700;color:#e74c3c'>40.0%</td><td><strong>5</strong></td><td><div class="bar-wrap"><div class="bar-fill" style="width:13.88888888888889%;background:#e74c3c"></div></div></td></tr>
+      <tr><td><strong>3/10</strong></td><td style='font-weight:700;color:#e74c3c'>30.0%</td><td><strong>4</strong></td><td><div class="bar-wrap"><div class="bar-fill" style="width:11.11111111111111%;background:#e74c3c"></div></div></td></tr>
+      <tr><td><strong>2/10</strong></td><td style='font-weight:700;color:#e74c3c'>20.0%</td><td><strong>1</strong></td><td><div class="bar-wrap"><div class="bar-fill" style="width:2.7777777777777777%;background:#e74c3c"></div></div></td></tr>
+    </tbody></table></div>
+
+<!-- RESUMEN POR SALÓN -->
+<div class="card">
+  <div class="card-title">Resumen por Salón</div>
+  <table>
+    <thead><tr><th>Salón</th><th>Docente</th><th>N°</th><th>Prom.</th><th>%</th><th>Barra</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Salón 301</strong></td><td>Nelson Reyes</td><td>33</td><td>8.18</td><td style='font-weight:700;color:#27ae60'>81.8%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:81.8%;background:#27ae60"></div></div></td></tr>
+      <tr><td><strong>Salón 303</strong></td><td>Elizabeth Restrepo</td><td>34</td><td>7.62</td><td style='font-weight:700;color:#27ae60'>76.2%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:76.2%;background:#27ae60"></div></div></td></tr>
+      <tr><td><strong>Salón 304</strong></td><td>Barbara Mosquera</td><td>35</td><td>7.11</td><td style='font-weight:700;color:#27ae60'>71.1%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:71.1%;background:#27ae60"></div></div></td></tr>
+      <tr><td><strong>Salón 305</strong></td><td>Rafael Mejía</td><td>37</td><td>7.0</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td></tr>
+      <tr><td><strong>Salón 306</strong></td><td>Jorge Molina</td><td>33</td><td>7.27</td><td style='font-weight:700;color:#27ae60'>72.7%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:72.7%;background:#27ae60"></div></div></td></tr>
+    </tbody></table></div>
+
+<!-- LISTA POR GRUPOS -->
+<div class="card">
+  <div class="card-title">Lista por Grupos — Puntaje Individual</div>
+
+  <div class="group-header">Grupo 1 — Salón 301 | Nelson Reyes | 33 est. | Prom: 81.8%</div>
+  <table>
+    <thead><tr><th>#</th><th>Nombre</th><th>Correctas</th><th>%</th><th>Barra</th><th>Nivel</th></tr></thead>
+    <tbody>
+      <tr><td style='text-align:center'>🥇</td><td>Nicolas Elias Agamez Zabala</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>🥈</td><td>Samuel Alean Zapata</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>🥉</td><td>Juliana Arrieta Gomez</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>4</td><td>Valentina Arrieta Sierra</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>5</td><td>Yojan David Benitez Barrios</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>6</td><td>Stiven Dario Cali Estrada</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>7</td><td>Juan Andres Carvajal Diaz</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>8</td><td>Santiago Ceballos Zabala</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>9</td><td>Keiner Acosta Bueno</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>10</td><td>Daily Alejandra Argumedo Salas</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>11</td><td>Yoiner Arrieta Jaramillo</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>12</td><td>Nicol Stefany Baquero Diaz</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>13</td><td>Diego Armando Campo Salazar</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>14</td><td>Nicolas Elias Canole Vasquez</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>15</td><td>Didier Esneider Castillo Camargo</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>16</td><td>Biana Liceth Castro Rivera</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>17</td><td>Valentina Aguas Atencia</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>18</td><td>Juliana Banquet Mendoza</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>19</td><td>Jose Albeiro Calle Moreno</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>20</td><td>Andrea Liseth Camargo Urango</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>21</td><td>Madeline Campo Rivera</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>22</td><td>Taliana Cardenas Mansilla</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>23</td><td>Yennifer Castillo Suarez</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>24</td><td>Luisa Fernanda Colon Serrano</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>25</td><td>Juliana Alvarado Martinez</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>26</td><td>Jhojan Stiven Alzate Carmona</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>27</td><td>Luisa Fernanda Benitez Baltazar</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>28</td><td>Kevin David Carrasco Montiel</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>29</td><td>Angie Paola Alarcon Mendez</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>30</td><td>Taliana Berrio Mendoza</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>31</td><td>Samara Ariza Echavarria</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>32</td><td>Matias Andres Barrios Sotelo</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>33</td><td>Nikol Michell Avila Garcia</td><td>4/10</td><td style='font-weight:700;color:#e74c3c'>40.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:40.0%;background:#e74c3c"></div></div></td><td><span class='badge badge-low'>Por mejorar</span></td></tr>
+    </tbody></table>
+
+  <div class="group-header">Grupo 2 — Salón 303 | Elizabeth Restrepo | 34 est. | Prom: 76.2%</div>
+  <table>
+    <thead><tr><th>#</th><th>Nombre</th><th>Correctas</th><th>%</th><th>Barra</th><th>Nivel</th></tr></thead>
+    <tbody>
+      <tr><td style='text-align:center'>🥇</td><td>Diego David Duque Herrera</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>🥈</td><td>Juan Esteban Florez Martinez</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>🥉</td><td>Sheryl Andrea Fuentes Mendez</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>4</td><td>Tailin Maria Gomez Hoyos</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>5</td><td>Ossa Polo Alex Jose De La</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>6</td><td>Syara Sofia Diaz Hernandez</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>7</td><td>Lauren Vanessa Estrada Garces</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>8</td><td>Valentina Estremor Perez</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>9</td><td>Ana Sofia Fernandez Madrid</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>10</td><td>Isabella Florez Cano</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>11</td><td>Samahara Florez Oviedo</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>12</td><td>Karol Dayana Escobar Vargas</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>13</td><td>Naiderlin Espitia Castro</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>14</td><td>Victor Andres Espitia Morales</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>15</td><td>Jesus Orlando Fino Ricardo</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>16</td><td>Hector Luis Fuentes Mendoza</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>17</td><td>Stefania Guerra Villa</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>18</td><td>Anys Andrea Gutierrez Arrieta</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>19</td><td>Gabriela Coronado Ojeda</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>20</td><td>Esteban David Coronado Palencia</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>21</td><td>Valeri Correa Dominguez</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>22</td><td>Taliana Correa Oviedo</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>23</td><td>Pertuz Eliecer De Jesus De Leon</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>24</td><td>Samuel David Fabra Vazquez</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>25</td><td>John Esteban Florez Londoño</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>26</td><td>Maria Carolina Gomez Muñoz</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>27</td><td>Ornella Heredia Moreno</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>28</td><td>Elemi Hernandez Alvarez</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>29</td><td>Maria Jose Garcia Guerra</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>30</td><td>Ana Sofia Gonzalez Calao</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>31</td><td>Juliana Contreras Garcia</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>32</td><td>Juan Camilo Gamarra Lopez</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>33</td><td>Keiner Gonzalez Ramos</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>34</td><td>Mariana Florez Hernandez</td><td>3/10</td><td style='font-weight:700;color:#e74c3c'>30.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:30.0%;background:#e74c3c"></div></div></td><td><span class='badge badge-low'>Por mejorar</span></td></tr>
+    </tbody></table>
+
+  <div class="group-header">Grupo 3 — Salón 304 | Barbara Mosquera | 35 est. | Prom: 71.1%</div>
+  <table>
+    <thead><tr><th>#</th><th>Nombre</th><th>Correctas</th><th>%</th><th>Barra</th><th>Nivel</th></tr></thead>
+    <tbody>
+      <tr><td style='text-align:center'>🥇</td><td>Maria Angel Hernandez Hoyos</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>🥈</td><td>Steven Andres Hoyos Navarro</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>🥉</td><td>Melani Alejandra Maldonado Villalba</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>4</td><td>Angelica Martinez Balbera</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>5</td><td>Kevin David Mejia Heredia</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>6</td><td>Yasmila Mendez Hernandez</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>7</td><td>David Mendoza Hoyos</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>8</td><td>Andy Paola Mantilla Espitia</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>9</td><td>Marisol Martinez Salas</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>10</td><td>Juan Felipe Mercado Perez</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>11</td><td>Michell Andrea Mesa Rivera</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>12</td><td>Edith Natalia Madera Pereira</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>13</td><td>Angelica Madrid Sierra</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>14</td><td>Andres Felipe Martinez Pacheco</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>15</td><td>Danilsa Mercado Tirado</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>16</td><td>Ariathna Mestra Ardila</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>17</td><td>Sara Ibañez Causil</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>18</td><td>Ivan David Marcelo Serpa</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>19</td><td>Gabriela Hernandez Diaz</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>20</td><td>Keilly Michelle Hernandez Hoyos</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>21</td><td>Alys Patricia Hernandez Pastrana</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>22</td><td>Isabella Valentina Herrera Camaño</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>23</td><td>Skarlit Yhiret Herrera Gil</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>24</td><td>Esther Maria Londoño Barrios</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>25</td><td>Eliseo Luna Perez</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>26</td><td>Carlos Daniel Marchena Barrero</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>27</td><td>Carlos Enrique Mendoza Feria</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>28</td><td>Junior Enrique Mercado Rohenes</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>29</td><td>Juan David Julio Villorina</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>30</td><td>Jhoneider Londoño Vasquez</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>31</td><td>Sofia Martinez Hernandez</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>32</td><td>Juan David Mestra Avila</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>33</td><td>Jimena Andrea Holguin Cardeño</td><td>4/10</td><td style='font-weight:700;color:#e74c3c'>40.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:40.0%;background:#e74c3c"></div></div></td><td><span class='badge badge-low'>Por mejorar</span></td></tr>
+      <tr><td style='text-align:center'>34</td><td>Maria Angel Julio Hernandez</td><td>3/10</td><td style='font-weight:700;color:#e74c3c'>30.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:30.0%;background:#e74c3c"></div></div></td><td><span class='badge badge-low'>Por mejorar</span></td></tr>
+      <tr><td style='text-align:center'>35</td><td>Enis Yulisa Hernandez Peñates</td><td>2/10</td><td style='font-weight:700;color:#e74c3c'>20.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:20.0%;background:#e74c3c"></div></div></td><td><span class='badge badge-low'>Por mejorar</span></td></tr>
+    </tbody></table>
+
+  <div class="group-header">Grupo 4 — Salón 305 | Rafael Mejía | 37 est. | Prom: 70.0%</div>
+  <table>
+    <thead><tr><th>#</th><th>Nombre</th><th>Correctas</th><th>%</th><th>Barra</th><th>Nivel</th></tr></thead>
+    <tbody>
+      <tr><td style='text-align:center'>🥇</td><td>Camilo Andres Murillo Buelvas</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>🥈</td><td>Maria De Los Angeles Pasos Sotelo</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>🥉</td><td>Hoyos Luz Elena Perez De</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>4</td><td>Daylis Perez Padilla</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>5</td><td>Jhon Freed Quintero Suarez</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>6</td><td>Juan Camilo Ricardo Vega</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>7</td><td>Patricia Del Carmen Rodriguez Vertel</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>8</td><td>Maria Jose Perez Cantero</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>9</td><td>Juliana Perez Vergara</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>10</td><td>Saray Camila Pimienta Soto</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>11</td><td>Jose Jose Portacio Montes</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>12</td><td>Yady Isabel Ramirez Morales</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>13</td><td>Yisel Karolina Ramos Beleño</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>14</td><td>Fredy Jose Rodiño Vallejo</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>15</td><td>Sharon Lishell Rodriguez Osorio</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>16</td><td>Cristian David Montalvo Pacheco</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>17</td><td>Monica Paola Montalvo Soto</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>18</td><td>Jose Daniel Ortega Jimenez</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>19</td><td>Diego Padilla Mora</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>20</td><td>Maria Angelica Pastrana Rodriguez</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>21</td><td>Juan Pablo Paternina Hincapie</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>22</td><td>Michell Andrea Perez Choles</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>23</td><td>Katalina Perez Moreno</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>24</td><td>Bresly Quintero Rosario</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>25</td><td>Leonel Andres Rivera Silva</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>26</td><td>Jaider David Meza Aviles</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>27</td><td>Kelly Johana Monterroza Casarrubia</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>28</td><td>Elizabeth Pereira Lopez</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>29</td><td>Maria Alejandra Ramos Calle</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>30</td><td>Samuel Alexander Rodriguez Velasquez</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>31</td><td>Genesis Romero Acosta</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>32</td><td>Lorena Loreth Montes Cordero</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>33</td><td>Melani Peñates Garavito</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>34</td><td>Hita Fernanda Reyes Cordoba</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>35</td><td>Yuris Paola Rodriguez Florez</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>36</td><td>Juliana Andrea Pastrana Romero</td><td>3/10</td><td style='font-weight:700;color:#e74c3c'>30.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:30.0%;background:#e74c3c"></div></div></td><td><span class='badge badge-low'>Por mejorar</span></td></tr>
+      <tr><td style='text-align:center'>37</td><td>Jose Julian Paternina Arcia</td><td>3/10</td><td style='font-weight:700;color:#e74c3c'>30.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:30.0%;background:#e74c3c"></div></div></td><td><span class='badge badge-low'>Por mejorar</span></td></tr>
+    </tbody></table>
+
+  <div class="group-header">Grupo 5 — Salón 306 | Jorge Molina | 33 est. | Prom: 72.7%</div>
+  <table>
+    <thead><tr><th>#</th><th>Nombre</th><th>Correctas</th><th>%</th><th>Barra</th><th>Nivel</th></tr></thead>
+    <tbody>
+      <tr><td style='text-align:center'>🥇</td><td>Luis Mario Trujillo Urango</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>🥈</td><td>Samuel Vargas Vides</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>🥉</td><td>Kelly Johana Romero Casarrubia</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>4</td><td>Yerman Yair Ruiz Granados</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>5</td><td>Sebastian Ruiz Monterroza</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>6</td><td>Mariangel Salgado Mazo</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>7</td><td>Luis Eduardo Salgado Quintero</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>8</td><td>Dioni Sola Martinez</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>9</td><td>Justin Tirado Garay</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>10</td><td>Maria Jose Villegas Herrera</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>11</td><td>Alejandro Zarza Hoyos</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>12</td><td>Yesid Andres Zea Camaño</td><td>9/10</td><td style='font-weight:700;color:#27ae60'>90.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:90.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>13</td><td>Cristiano Ronaldo Romero Zuñiga</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>14</td><td>Pamela Denise Ruiz Villadiego</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>15</td><td>Yalena Sofia Salazar Oyola</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>16</td><td>Natalia Sanchez Monterroza</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>17</td><td>Luis Fernando Tejada Guerrero</td><td>8/10</td><td style='font-weight:700;color:#27ae60'>80.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>18</td><td>Katy Milena Salgado Verona</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>19</td><td>Victor Manuel Tejada Zuñiga</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>20</td><td>Enan Joaquin Tuiran Moreno</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>21</td><td>Ana Sofia Vergara Martinez</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>22</td><td>Jaiver Villadiego Jimenez</td><td>7/10</td><td style='font-weight:700;color:#27ae60'>70.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:70.0%;background:#27ae60"></div></div></td><td><span class='badge badge-ok'>Logrado</span></td></tr>
+      <tr><td style='text-align:center'>23</td><td>Kevin Andres Ruiz Perez</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>24</td><td>Ronald Sampayo Alvis</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>25</td><td>Liz Emily Zuñiga Osorio</td><td>6/10</td><td style='font-weight:700;color:#f39c12'>60.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:60.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>26</td><td>Stefany Ruiz Martinez</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>27</td><td>Yonier Andres Sala Solis</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>28</td><td>Camila Andrea Sotelo Torres</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>29</td><td>Yaira Andrea Torres Cadrasco</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>30</td><td>Sara Marcela Torrez Mendoza</td><td>5/10</td><td style='font-weight:700;color:#f39c12'>50.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:50.0%;background:#f39c12"></div></div></td><td><span class='badge badge-med'>En proceso</span></td></tr>
+      <tr><td style='text-align:center'>31</td><td>Didien Matias Romero Sierra</td><td>4/10</td><td style='font-weight:700;color:#e74c3c'>40.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:40.0%;background:#e74c3c"></div></div></td><td><span class='badge badge-low'>Por mejorar</span></td></tr>
+      <tr><td style='text-align:center'>32</td><td>Danna Carolina Scheleguel Correa</td><td>4/10</td><td style='font-weight:700;color:#e74c3c'>40.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:40.0%;background:#e74c3c"></div></div></td><td><span class='badge badge-low'>Por mejorar</span></td></tr>
+      <tr><td style='text-align:center'>33</td><td>Jesus David Vergara Ocampo</td><td>4/10</td><td style='font-weight:700;color:#e74c3c'>40.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:40.0%;background:#e74c3c"></div></div></td><td><span class='badge badge-low'>Por mejorar</span></td></tr>
+    </tbody></table>
+</div>
+
+<div class="card">
+  <div class="card-title">Top 10 Estudiantes</div>
+  <table>
+    <thead><tr><th>Pos.</th><th>Nombre</th><th>Salón</th><th>Correctas</th><th>%</th><th>Barra</th></tr></thead>
+    <tbody>
+      <tr><td style='font-size:1.1em;text-align:center'>🥇</td><td><strong>Nicolas Elias Agamez Zabala</strong></td><td>Salón 301</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td></tr>
+      <tr><td style='font-size:1.1em;text-align:center'>🥈</td><td><strong>Samuel Alean Zapata</strong></td><td>Salón 301</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td></tr>
+      <tr><td style='font-size:1.1em;text-align:center'>🥉</td><td><strong>Juliana Arrieta Gomez</strong></td><td>Salón 301</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td></tr>
+      <tr><td style='font-size:1.1em;text-align:center'>4°</td><td><strong>Valentina Arrieta Sierra</strong></td><td>Salón 301</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td></tr>
+      <tr><td style='font-size:1.1em;text-align:center'>5°</td><td><strong>Yojan David Benitez Barrios</strong></td><td>Salón 301</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td></tr>
+      <tr><td style='font-size:1.1em;text-align:center'>6°</td><td><strong>Stiven Dario Cali Estrada</strong></td><td>Salón 301</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td></tr>
+      <tr><td style='font-size:1.1em;text-align:center'>7°</td><td><strong>Juan Andres Carvajal Diaz</strong></td><td>Salón 301</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td></tr>
+      <tr><td style='font-size:1.1em;text-align:center'>8°</td><td><strong>Santiago Ceballos Zabala</strong></td><td>Salón 301</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td></tr>
+      <tr><td style='font-size:1.1em;text-align:center'>9°</td><td><strong>Diego David Duque Herrera</strong></td><td>Salón 303</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td></tr>
+      <tr><td style='font-size:1.1em;text-align:center'>10°</td><td><strong>Juan Esteban Florez Martinez</strong></td><td>Salón 303</td><td>10/10</td><td style='font-weight:700;color:#27ae60'>100.0%</td><td><div class="bar-wrap"><div class="bar-fill" style="width:100.0%;background:#27ae60"></div></div></td></tr>
+    </tbody></table>
+</div>
+
+<div style="text-align:center;color:white;opacity:.7;padding:16px;font-size:.82em">
+  CESUM 2026 · Tercer Simulacro SABER 11° · Ciencias Naturales — Física · Abril 2026
+</div>
+</div></body></html>
